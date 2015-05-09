@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{BPM_CBOK}
+Tony Benedict, Nancy Bilodeau, Phil Vitkus, Emmett Powell, Dan Morris, Marc
+  Scarsig, Denis Lee, Gabrielle Field, Todd Lohr, Raju Saxena, Michael Fuller,
+  and Jose Furlan.
+\newblock {\em BPM CBOK Version 3.0: Guide to the Business Process Management
+  Common Body of Knowledge}.
+\newblock CreateSpace / ABPMP -- Association of Business Process Management
+  Professionals, 3 edition, 2013.
+
+\bibitem{Disco}
+Christian~W G{\"u}nther and Anne Rozinat.
+\newblock Disco: Discover your processes.
+\newblock In {\em BPM (Demos)}, pages 40--44. Citeseer, 2012.
+
+\bibitem{PM_form}
+Michal Radeck{\`y} and Ivo Vondr{\'a}k.
+\newblock Formalization of business process modeling.
+\newblock {\em ISIM 2005}, pages 235--242, 2005.
+
+\bibitem{PM_book}
+Wil Van Der~Aalst.
+\newblock {\em Process mining: discovery, conformance and enhancement of
+  business processes}.
+\newblock Springer Science \& Business Media, 2011.
+
+\bibitem{ProM}
+Boudewijn~F van Dongen, Ana Karla~A de~Medeiros, HMW Verbeek, AJMM Weijters,
+  and Wil~MP Van Der~Aalst.
+\newblock The prom framework: A new era in process mining tool support.
+\newblock In {\em Applications and Theory of Petri Nets 2005}, pages 444--454.
+  Springer, 2005.
+
+\end{thebibliography}
