@@ -17,9 +17,9 @@
 \contentsline {section}{\numberline {4}Process Mining}{14}
 \contentsline {subsection}{\numberline {4.1}Hist\IeC {\'o}rico}{15}
 \contentsline {subsection}{\numberline {4.2}Formaliza\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {subsubsection}{\numberline {4.2.1}Process Discovery}{17}
-\contentsline {subsubsection}{\numberline {4.2.2}Process Conformance}{18}
-\contentsline {subsubsection}{\numberline {4.2.3}Process Enhancement}{19}
+\contentsline {subsubsection}{\numberline {4.2.1}Process Discovery}{18}
+\contentsline {subsubsection}{\numberline {4.2.2}Process Conformance}{19}
+\contentsline {subsubsection}{\numberline {4.2.3}Process Enhancement}{20}
 \contentsline {subsection}{\numberline {4.3}Ferramentas}{21}
 \contentsline {subsubsection}{\numberline {4.3.1}ProM}{21}
 \contentsline {subsubsection}{\numberline {4.3.2}Disco}{22}
