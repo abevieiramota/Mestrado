@@ -5,10 +5,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{lipsum}
 \usepackage{todonotes}
-%\usepackage{hyperref}
 \usepackage{natbib}
 
-\title{Currículo na perspectiva de processo de negócio: process mining auxiliando a revisão de currículos}
+\title{Graduação como processo de negócio: contribuições de data mining}
 
 \author{Abelardo Vieira Mota}
 
@@ -18,9 +17,6 @@
 \maketitle
 
 \begin{abstract}
-\todo{TODO}
-\lipsum[1]
-\lipsum[2]
 \end{abstract}
 
 \tableofcontents
@@ -28,361 +24,132 @@
 \section{Introdução}
 
 \subsection{Contextualização}
-
-\todo{TODO}
-\todo{motivação para revisão de currículo}
-\lipsum[3]
-\todo{business process}
-\lipsum[30]
-\todo{currículo sob a perspectiva de processo de negócio - process mining}
-\# falar sobre prática de reduzir problemas - que permite aplicar técnicas de um domínio em outro
-Abstrair, como um processo de negócio, o conjunto de fenômenos relacionados a um discente desde seu ingresso a sua desvinculação do curso apresenta-se como \# vantagens dessa abstração - aplicar BPM, process mining: currículo como fluxo de controle; discentes, docentes, coordenação de curso etc como atores; conclusão do curso pelo discente como resultado a ser alcançado. 
-\todo{oportunidade por conta da revisão do currículo da computação}
-\lipsum[5]
-\lipsum[6]
-\lipsum[7]
+\begin{itemize}
+\item administração gerencial
+\item graduação como processo de negócio
+\item gerenciamento
+\item oportunidade pela revisão de currículo da graduação da computação
+\end{itemize}
 
 \subsection{Objetivos}
-
-\# pq O escopo do trabalho ser a computação UFC e não todos os cursos.
-\# falar mais sobre o fluxo modelar as entidades - modelar o processo de negócio - aplicar técnicas de business process/process mining
-O presente trabalho possui como objetivos:
-
 \begin{itemize}
-\item para o curso Computação, da UFC:
-
+\item aplicando ferramentas de mineração de processos:
 \begin{itemize}
-\item modelar seu currículo como um processo de negócio;
-\item extrair, a partir dos dados de históricos de seus alunos, e com técnicas de process mining, informações que possam auxiliar o processo de revisão de seu currículo;
-\item desenvolver indicadores que possam auxiliar na avaliação da efetividade da revisão de seu currículo.
+\item modelar a graduação na UFC como um processo de negócio
+\item descobrir informações relevantes para a melhoria da graduação na UFC
 \end{itemize}
-
+\item desenvolver um processo de modelagem de processos de negócio auxiliado por mineração de processos
 \end{itemize}
-\todo{TODO}
-\lipsum[12]
-\lipsum[13]
-
-\subsection{Organização do trabalho}
-
-\todo{TODO}
-\lipsum[15]
 
 \subsection{Proposta de trabalho}
+\begin{itemize}
+\item modelar a graduação como processo de negócio
+\item aplicar BPM
+\item suportar com process mining
+\end{itemize}
 
-\todo{TODO}
-\lipsum[14]
-\lipsum[17]
-\lipsum[80]
-
-\section{Currículos de graduação}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
+\subsection{Desafios}
+\begin{itemize}
+\item estrutura de dados
+\item resistência do orientador a trabalhar com administração rs
+\item dados sensíveis
+\item baixa qualidade dos dados
+\end{itemize}
+\subsection{Organização do trabalho}
+\todo{apenas no fim}
+\section{Graduação}
 
 \subsection{Definições}
-\todo{TODO}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+\todo{what}
 
-\subsection{Estruturas de dados}
+\subsection{Fontes de informações}
+\begin{itemize}
+\item documentos normativos
+\item pessoas
+\item bases de dados
+\end{itemize}
 
-On the Fragmentation of Process Information: Challenges, Solutions, and Outlook ----- sem bibtex 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
-\subsection{Modelagem}
-
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
-\section{Processos de negócio}
-
-\cite{BPM_CBOK}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
+\section{Processo de negócio}
 \subsection{Definição}
+Dentro de uma organização, entendida como \todo{definição}, um conjunto de atividades são executadas a fim de que alguns resultados sejam alcançados.\todo{exemplo}
+ 
+De acordo com \cite{BPM_CBOK}, um processo de negócio é ``uma agregação de atividades e comportamentos executados por humanos ou máquinas para alcançar um ou mais resultados'', sendo negócio definido como ``pessoas que interagem para executar um conjunto de atividades de entrega de valor para os clientes e gerar retorno às partes interessadas''. 
 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+Da definição de processo de negócio, os seguintes elementos podem ser extraídos:
+\begin{itemize}
+\item atividades
+\item comportamentos
+\item humanos
+\item máquinas
+\item resultados
+\end{itemize}
+
+\todo{processo de negócio é uma visão sobre como o trabalho ocorre em um negócio}
+\todo{benefícios da visão de processos de negócio}
+\begin{itemize}
+\item corpo de conhecimento já desenvolvido(BPM, BPMN, Process Mining)
+\item organização entender como funciona
+\item ponto de partida para melhorias/ajustes a alterações impostas
+\item identificação de causas de problemas
+\item facilidade de especificação para soluções de software de suporte ao trabalho
+\end{itemize}
 
 \subsection{Formalização}
-
 \cite{PM_form}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
-\subsection{Modelagem}
-
-\cite{PM_book}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+\subsection{Linguagens de modelagem}
 
 \subsubsection{Petri Net}
-
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+\cite{PM_book}
 
 \subsubsection{BPMN}
-
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+\begin{itemize}
+\item sobre BPMN
+\item BPMN pallete level 1
+\item metodologia de modelagem do BPMN Method and Style
+\end{itemize}
 
 \section{Process Mining}
 
 \cite{PM_book}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
 \subsection{Histórico}
 
-necessidada de visão como processo de negócio - data mining x process mining - process mining manifesto - BPIC
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
 \subsection{Formalização}
-
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
 \subsubsection{Process Discovery}
 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
 \subsubsection{Process Conformance}
-
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
 \subsubsection{Process Enhancement}
 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
 \subsection{Ferramentas}
-
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
 \subsubsection{ProM}
 
 \cite{ProM}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
 \subsubsection{Disco}
 
 \cite{Disco}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
-\section{Currículo como processo de negócio}
+\section{Graduação como processo de negócio}
 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+\subsection{Modelagem}
+\subsubsection{Informações de documentos normativos}
+\subsubsection{Informações de especialistas/atores do processo}
+\subsubsection{Informações extraídas das bases de dados}
 
-\subsection{Proposta}
+\section{Análise do curso Computação da UFC}
 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+\subsection{Contexto}
 
-\subsection{Formalização}
+\subsection{Hipóteses}
 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
+\subsection{Análise da retenção de discentes}
 
-\section{Aplicação de Process Mining}
-
-\cite{PM_book}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
-\subsection{Process Discovery}
-
-\todo{TODO}
-\lipsum[10]
-
-\subsubsection{Hipóteses}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\subsubsection{Análise}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\subsubsection{Resultados}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
-\subsection{Process Conformance}
-
-\todo{TODO}
-\lipsum[10]
-
-\subsubsection{Hipóteses}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\subsubsection{Análise}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\subsubsection{Resultados}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-
-\subsection{Process Enhancement}
-
-\todo{TODO}
-\lipsum[10]
-
-\subsubsection{Hipóteses}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\subsubsection{Análise}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\subsubsection{Resultados}
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
 \section{Conclusão e trabalhos futuros}
 
-\todo{TODO}
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
-\lipsum[10]
 
 \bibliographystyle{plain}
 \bibliography{dissertacao}
