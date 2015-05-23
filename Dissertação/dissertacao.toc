@@ -1,9 +1,9 @@
 \select@language {brazilian}
 \contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
 \contentsline {subsection}{\numberline {1.1}Contextualiza\IeC {\c c}\IeC {\~a}o}{1}
-\contentsline {subsection}{\numberline {1.2}Objetivos}{2}
-\contentsline {subsection}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{2}
-\contentsline {section}{\numberline {2}Minera\IeC {\c c}\IeC {\~a}o de dados}{2}
-\contentsline {subsection}{\numberline {2.1}Identifica\IeC {\c c}\IeC {\~a}o de padr\IeC {\~o}es}{2}
-\contentsline {subsection}{\numberline {2.2}Predi\IeC {\c c}\IeC {\~a}o}{2}
-\contentsline {section}{\numberline {3}Evas\IeC {\~a}o de estudantes}{2}
+\contentsline {subsection}{\numberline {1.2}Objetivos}{3}
+\contentsline {subsection}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{3}
+\contentsline {section}{\numberline {2}Minera\IeC {\c c}\IeC {\~a}o de dados}{3}
+\contentsline {subsection}{\numberline {2.1}Identifica\IeC {\c c}\IeC {\~a}o de padr\IeC {\~o}es}{3}
+\contentsline {subsection}{\numberline {2.2}Predi\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {3}Evas\IeC {\~a}o de estudantes}{3}

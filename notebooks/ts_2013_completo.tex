@@ -1,37 +1,3 @@
-\documentclass[a4paper]{article}
-
-\usepackage[brazilian]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lipsum}
-\usepackage{todonotes}
-\usepackage{natbib}
-\usepackage{booktabs}
-
-\title{Aplicação de mineração de dados ao problema de evasão de estudantes na UFC}
-
-\author{Abelardo Vieira Mota}
-
-\date{\today}
-
-\begin{document}
-\maketitle
-
-\begin{abstract}
-é o abstract!!!!!!!!
-\end{abstract}
-
-\tableofcontents
-
-\section{Introdução}
-
-\subsection{Contextualização}
-O problema de evasão de estudantes refere-se ao abandono do curso pelo estudante antes de sua conclusão. De acordo com o Anuário estatístico da UFC de 2014, ano base 2013, o indicador "Taxa de Sucesso na Graduação"(TS) \todo{figura}, definido como a proporção entre número de diplomados e número de ingressantes da graduação, esteve em 2013 com o menor valor desde que passou a ser monitorado. Já o indicador "Taxa de sucesso da graduação por curso" \todo{figura} possui valor médio \todo{calcular} e mínimo \todo{analisar} para o curso \todo{analisar}. Esses indicadores apontam para que o problema da evasão de estudantes é uma realidade na UFC. 
-
-Os dados gerenciados pelos sistemas de informação da UFC podem conter informações que auxiliem o entendimento das causas desse problema e permitam que melhor sejam planejadas ações para solucioná-lo ou que estudantes com maior risco de evasão sejam identificados e recebam apoio da instituição. É nesse sentido, que a área de pesquisa denominada mineração de dados(data mining, em inglês), que estuda como extrair informações sobre dados, pode contribuir, fornecendo meios para a descoberta de informações relevantes a partir dos dados registrados pela UFC.
-
-A grande tabela que ocupa mais de uma página!!!!!!
-\begin{table}
 \begin{tabular}{llll}
 \toprule
 {} &                               Curso &  Período & TS 2013 \\
@@ -119,32 +85,3 @@ A grande tabela que ocupa mais de uma página!!!!!!
 0  &            Filosofia - Licenciatura &  Noturno &  223.1\% \\
 \bottomrule
 \end{tabular}
-\end{table}
-
-
-\todo{falar sobre os estudos sobre drop-out+data mining}
-
-\subsection{Objetivos}
-O presente trabalho objetiva estudar o problema de evasão de estudantes na UFC a partir dos dados que seus sistemas de informação gerenciam, avaliando a aplicabilidade de técnicas de mineração de dados. 
-
-Para tanto é necessário que seja feito uma análise sobre a estrutura e qualidade dos dados disponíveis.
-
-Também serão levantadas hipóteses sobre causas para o problema e será analisado se os dados as corroboram ou não.
-
-\subsection{Organização do trabalho}
-
-\section{Mineração de dados}
-\subsection{Identificação de padrões}
-\todo{sobre data mining - qual o super artigo básico?}
-\todo{clustering, visualização}
-\subsection{Predição}
-\cite{Tom_mitchell} \cite{ML_debt} \cite{ML_know}
-\todo{machine learning}
-\bibliographystyle{plain}
-
-\section{Evasão de estudantes}
-\cite{EDM_pred_dropout} \cite{EDM_review_and_soa} \cite{EDM_retention} \cite{EDM_education}
-
-\bibliography{dissertacao}
-
-\end{document}
