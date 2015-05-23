@@ -6,8 +6,9 @@
 \usepackage{lipsum}
 \usepackage{todonotes}
 \usepackage{natbib}
+\usepackage{booktabs}
 
-\title{Graduação como processo de negócio: contribuições de data mining}
+\title{Aplicação de mineração de dados ao problema de evasão de estudantes na UFC}
 
 \author{Abelardo Vieira Mota}
 
@@ -17,6 +18,7 @@
 \maketitle
 
 \begin{abstract}
+é o abstract!!!!!!!!
 \end{abstract}
 
 \tableofcontents
@@ -24,134 +26,50 @@
 \section{Introdução}
 
 \subsection{Contextualização}
-\begin{itemize}
-\item administração gerencial
-\item graduação como processo de negócio
-\item gerenciamento
-\item oportunidade pela revisão de currículo da graduação da computação
-\end{itemize}
+O problema de evasão de estudantes refere-se ao abandono do curso pelo estudante antes de sua conclusão. De acordo com o Anuário estatístico da UFC de 2014, ano base 2013, o indicador "Taxa de Sucesso na Graduação"(TS) \todo{figura}, definido como a proporção entre número de diplomados e número de ingressantes da graduação, esteve em 2013 com o menor valor desde que passou a ser monitorado. Já o indicador "Taxa de sucesso da graduação por curso" \todo{figura} possui valor médio \todo{calcular} e mínimo \todo{analisar} para o curso \todo{analisar}. Esses indicadores apontam para que o problema da evasão de estudantes é uma realidade na UFC. 
+
+Os dados gerenciados pelos sistemas de informação da UFC podem conter informações que auxiliem o entendimento das causas desse problema e permitam que melhor sejam planejadas ações para solucioná-lo ou que estudantes com maior risco de evasão sejam identificados e recebam apoio da instituição. É nesse sentido, que a área de pesquisa denominada mineração de dados(data mining, em inglês), que estuda como extrair informações sobre dados, pode contribuir, fornecendo meios para a descoberta de informações relevantes a partir dos dados registrados pela UFC.
+
+\begin{tabular}{llll}
+\toprule
+{} &                             Curso &  Período & TS 2013 \\
+\midrule
+80 &   Ciências Sociais - Licenciatura &  Noturno &    6.8\% \\
+79 &   Redes de Computadores - Quixadá &  Noturno &   13.3\% \\
+78 &           Geografia - Bacharelado &   Diurno &   15.3\% \\
+77 &         Letras - Português-Alemão &   Diurno &   17.6\% \\
+76 &            Engenharia Metalúrgica &   Diurno &   18.3\% \\
+75 &      Ciências Econômicas - Sobral &  Noturno &   20.9\% \\
+74 &  Sistemas de Informação - Quixadá &   Diurno &   22.0\% \\
+73 &           Filosofia - Bacharelado &  Noturno &   24.3\% \\
+72 &          Matemática - Bacharelado &   Diurno &   24.4\% \\
+71 &      Engenharia Elétrica - Sobral &   Diurno &   25.0\% \\
+\bottomrule
+\end{tabular}
+
+\todo{falar sobre os estudos sobre drop-out+data mining}
 
 \subsection{Objetivos}
-\begin{itemize}
-\item aplicando ferramentas de mineração de processos:
-\begin{itemize}
-\item modelar a graduação na UFC como um processo de negócio
-\item descobrir informações relevantes para a melhoria da graduação na UFC
-\end{itemize}
-\item desenvolver um processo de modelagem de processos de negócio auxiliado por mineração de processos
-\end{itemize}
+O presente trabalho objetiva estudar o problema de evasão de estudantes na UFC a partir dos dados que seus sistemas de informação gerenciam, avaliando a aplicabilidade de técnicas de mineração de dados. 
 
-\subsection{Proposta de trabalho}
-\begin{itemize}
-\item modelar a graduação como processo de negócio
-\item aplicar BPM
-\item suportar com process mining
-\end{itemize}
+Para tanto é necessário que seja feito uma análise sobre a estrutura e qualidade dos dados disponíveis.
 
-\subsection{Desafios}
-\begin{itemize}
-\item estrutura de dados
-\item resistência do orientador a trabalhar com administração rs
-\item dados sensíveis
-\item baixa qualidade dos dados
-\end{itemize}
+Também serão levantadas hipóteses sobre causas para o problema e será analisado se os dados as corroboram ou não.
+
 \subsection{Organização do trabalho}
-\todo{apenas no fim}
-\section{Graduação}
 
-\subsection{Definições}
-\todo{what}
-
-\subsection{Fontes de informações}
-\begin{itemize}
-\item documentos normativos
-\item pessoas
-\item bases de dados
-\end{itemize}
-
-\section{Processo de negócio}
-\subsection{Definição}
-Dentro de uma organização, entendida como \todo{definição}, um conjunto de atividades são executadas a fim de que alguns resultados sejam alcançados.\todo{exemplo}
- 
-De acordo com \cite{BPM_CBOK}, um processo de negócio é ``uma agregação de atividades e comportamentos executados por humanos ou máquinas para alcançar um ou mais resultados'', sendo negócio definido como ``pessoas que interagem para executar um conjunto de atividades de entrega de valor para os clientes e gerar retorno às partes interessadas''. 
-
-Da definição de processo de negócio, os seguintes elementos podem ser extraídos:
-\begin{itemize}
-\item atividades
-\item comportamentos
-\item humanos
-\item máquinas
-\item resultados
-\end{itemize}
-
-\todo{processo de negócio é uma visão sobre como o trabalho ocorre em um negócio}
-\todo{benefícios da visão de processos de negócio}
-\begin{itemize}
-\item corpo de conhecimento já desenvolvido(BPM, BPMN, Process Mining)
-\item organização entender como funciona
-\item ponto de partida para melhorias/ajustes a alterações impostas
-\item identificação de causas de problemas
-\item facilidade de especificação para soluções de software de suporte ao trabalho
-\end{itemize}
-
-\subsection{Formalização}
-\cite{PM_form}
-\subsection{Linguagens de modelagem}
-
-\subsubsection{Petri Net}
-\cite{PM_book}
-
-\subsubsection{BPMN}
-\begin{itemize}
-\item sobre BPMN
-\item BPMN pallete level 1
-\item metodologia de modelagem do BPMN Method and Style
-\end{itemize}
-
-\section{Process Mining}
-
-\cite{PM_book}
-
-\subsection{Histórico}
-
-\subsection{Formalização}
-
-\subsubsection{Process Discovery}
-
-\subsubsection{Process Conformance}
-
-\subsubsection{Process Enhancement}
-
-\subsection{Ferramentas}
-
-\subsubsection{ProM}
-
-\cite{ProM}
-
-\subsubsection{Disco}
-
-\cite{Disco}
-
-\section{Graduação como processo de negócio}
-
-\subsection{Modelagem}
-\subsubsection{Informações de documentos normativos}
-\subsubsection{Informações de especialistas/atores do processo}
-\subsubsection{Informações extraídas das bases de dados}
-
-\section{Análise do curso Computação da UFC}
-
-\subsection{Contexto}
-
-\subsection{Hipóteses}
-
-\subsection{Análise da retenção de discentes}
-
-
-\section{Conclusão e trabalhos futuros}
-
-
+\section{Mineração de dados}
+\subsection{Identificação de padrões}
+\todo{sobre data mining - qual o super artigo básico?}
+\todo{clustering, visualização}
+\subsection{Predição}
+\cite{Tom_mitchell} \cite{ML_debt} \cite{ML_know}
+\todo{machine learning}
 \bibliographystyle{plain}
+
+\section{Evasão de estudantes}
+\cite{EDM_pred_dropout} \cite{EDM_review_and_soa} \cite{EDM_retention} \cite{EDM_education}
+
 \bibliography{dissertacao}
 
 \end{document}

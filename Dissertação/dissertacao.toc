@@ -1,35 +1,9 @@
 \select@language {brazilian}
-\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}
-\contentsline {subsection}{\numberline {1.1}Contextualiza\IeC {\c c}\IeC {\~a}o}{2}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {subsection}{\numberline {1.1}Contextualiza\IeC {\c c}\IeC {\~a}o}{1}
 \contentsline {subsection}{\numberline {1.2}Objetivos}{2}
-\contentsline {subsection}{\numberline {1.3}Proposta de trabalho}{2}
-\contentsline {subsection}{\numberline {1.4}Desafios}{2}
-\contentsline {subsection}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{3}
-\contentsline {section}{\numberline {2}Gradua\IeC {\c c}\IeC {\~a}o}{3}
-\contentsline {subsection}{\numberline {2.1}Defini\IeC {\c c}\IeC {\~o}es}{3}
-\contentsline {subsection}{\numberline {2.2}Fontes de informa\IeC {\c c}\IeC {\~o}es}{3}
-\contentsline {section}{\numberline {3}Processo de neg\IeC {\'o}cio}{3}
-\contentsline {subsection}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o}{3}
-\contentsline {subsection}{\numberline {3.2}Formaliza\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {subsection}{\numberline {3.3}Linguagens de modelagem}{4}
-\contentsline {subsubsection}{\numberline {3.3.1}Petri Net}{4}
-\contentsline {subsubsection}{\numberline {3.3.2}BPMN}{4}
-\contentsline {section}{\numberline {4}Process Mining}{4}
-\contentsline {subsection}{\numberline {4.1}Hist\IeC {\'o}rico}{4}
-\contentsline {subsection}{\numberline {4.2}Formaliza\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {subsubsection}{\numberline {4.2.1}Process Discovery}{4}
-\contentsline {subsubsection}{\numberline {4.2.2}Process Conformance}{4}
-\contentsline {subsubsection}{\numberline {4.2.3}Process Enhancement}{4}
-\contentsline {subsection}{\numberline {4.3}Ferramentas}{4}
-\contentsline {subsubsection}{\numberline {4.3.1}ProM}{4}
-\contentsline {subsubsection}{\numberline {4.3.2}Disco}{4}
-\contentsline {section}{\numberline {5}Gradua\IeC {\c c}\IeC {\~a}o como processo de neg\IeC {\'o}cio}{5}
-\contentsline {subsection}{\numberline {5.1}Modelagem}{5}
-\contentsline {subsubsection}{\numberline {5.1.1}Informa\IeC {\c c}\IeC {\~o}es de documentos normativos}{5}
-\contentsline {subsubsection}{\numberline {5.1.2}Informa\IeC {\c c}\IeC {\~o}es de especialistas/atores do processo}{5}
-\contentsline {subsubsection}{\numberline {5.1.3}Informa\IeC {\c c}\IeC {\~o}es extra\IeC {\'\i }das das bases de dados}{5}
-\contentsline {section}{\numberline {6}An\IeC {\'a}lise do curso Computa\IeC {\c c}\IeC {\~a}o da UFC}{5}
-\contentsline {subsection}{\numberline {6.1}Contexto}{5}
-\contentsline {subsection}{\numberline {6.2}Hip\IeC {\'o}teses}{5}
-\contentsline {subsection}{\numberline {6.3}An\IeC {\'a}lise da reten\IeC {\c c}\IeC {\~a}o de discentes}{5}
-\contentsline {section}{\numberline {7}Conclus\IeC {\~a}o e trabalhos futuros}{5}
+\contentsline {subsection}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{2}
+\contentsline {section}{\numberline {2}Minera\IeC {\c c}\IeC {\~a}o de dados}{2}
+\contentsline {subsection}{\numberline {2.1}Identifica\IeC {\c c}\IeC {\~a}o de padr\IeC {\~o}es}{2}
+\contentsline {subsection}{\numberline {2.2}Predi\IeC {\c c}\IeC {\~a}o}{2}
+\contentsline {section}{\numberline {3}Evas\IeC {\~a}o de estudantes}{2}

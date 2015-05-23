@@ -1,35 +1,41 @@
 \begin{thebibliography}{1}
 
-\bibitem{BPM_CBOK}
-Tony Benedict, Nancy Bilodeau, Phil Vitkus, Emmett Powell, Dan Morris, Marc
-  Scarsig, Denis Lee, Gabrielle Field, Todd Lohr, Raju Saxena, Michael Fuller,
-  and Jose Furlan.
-\newblock {\em BPM CBOK Version 3.0: Guide to the Business Process Management
-  Common Body of Knowledge}.
-\newblock CreateSpace / ABPMP -- Association of Business Process Management
-  Professionals, 3 edition, 2013.
+\bibitem{EDM_education}
+RSJD Baker et~al.
+\newblock Data mining for education.
+\newblock {\em International encyclopedia of education}, 7:112--118, 2010.
 
-\bibitem{Disco}
-Christian~W G{\"u}nther and Anne Rozinat.
-\newblock Disco: Discover your processes.
-\newblock In {\em BPM (Demos)}, pages 40--44. Citeseer, 2012.
+\bibitem{EDM_pred_dropout}
+Gerben~W Dekker, Mykola Pechenizkiy, and Jan~M Vleeshouwers.
+\newblock Predicting students drop out: A case study.
+\newblock {\em International Working Group on Educational Data Mining}, 2009.
 
-\bibitem{PM_form}
-Michal Radeck{\`y} and Ivo Vondr{\'a}k.
-\newblock Formalization of business process modeling.
-\newblock {\em ISIM 2005}, pages 235--242, 2005.
+\bibitem{ML_know}
+Pedro Domingos.
+\newblock A few useful things to know about machine learning.
+\newblock {\em Communications of the ACM}, 55(10):78--87, 2012.
 
-\bibitem{PM_book}
-Wil Van Der~Aalst.
-\newblock {\em Process mining: discovery, conformance and enhancement of
-  business processes}.
-\newblock Springer Science \& Business Media, 2011.
+\bibitem{Tom_mitchell}
+Thomas~M. Mitchell.
+\newblock {\em Machine Learning}.
+\newblock McGraw-Hill, Inc., New York, NY, USA, 1 edition, 1997.
 
-\bibitem{ProM}
-Boudewijn~F van Dongen, Ana Karla~A de~Medeiros, HMW Verbeek, AJMM Weijters,
-  and Wil~MP Van Der~Aalst.
-\newblock The prom framework: A new era in process mining tool support.
-\newblock In {\em Applications and Theory of Petri Nets 2005}, pages 444--454.
-  Springer, 2005.
+\bibitem{EDM_review_and_soa}
+Crist{\'o}bal Romero and Sebasti{\'a}n Ventura.
+\newblock Educational data mining: a review of the state of the art.
+\newblock {\em Systems, Man, and Cybernetics, Part C: Applications and Reviews,
+  IEEE Transactions on}, 40(6):601--618, 2010.
+
+\bibitem{ML_debt}
+D.~Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar
+  Ebner, Vinay Chaudhary, and Michael Young.
+\newblock Machine learning: The high interest credit card of technical debt.
+\newblock In {\em SE4ML: Software Engineering for Machine Learning (NIPS 2014
+  Workshop)}, 2014.
+
+\bibitem{EDM_retention}
+Brandon Sherrill, William Eberle, and Doug Talbert.
+\newblock Analysis of student data for retention using data mining techniques.
+\newblock 2011.
 
 \end{thebibliography}
