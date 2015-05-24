@@ -1,9 +1,15 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{EDM_education}
 RSJD Baker et~al.
 \newblock Data mining for education.
 \newblock {\em International encyclopedia of education}, 7:112--118, 2010.
+
+\bibitem{EDM_brasil}
+Ryan Shaun~Joazeiro de~Baker, Seiji Isotani, and Adriana Maria Joazeiro~Baker
+  de~Carvalho.
+\newblock Minera{\c{c}}ao de dados educacionais: Oportunidades para o brasil.
+\newblock 2011.
 
 \bibitem{EDM_pred_dropout}
 Gerben~W Dekker, Mykola Pechenizkiy, and Jan~M Vleeshouwers.
@@ -14,6 +20,21 @@ Gerben~W Dekker, Mykola Pechenizkiy, and Jan~M Vleeshouwers.
 Pedro Domingos.
 \newblock A few useful things to know about machine learning.
 \newblock {\em Communications of the ACM}, 55(10):78--87, 2012.
+
+\bibitem{EDM_ufrj2}
+Laci Mary~Barbosa Manh{\~a}es, SMS Cruz, Raimundo J~Mac{\'a}rio Costa, Jorge
+  Zavaleta, and Geraldo Zimbr{\~a}o.
+\newblock Identifica{\c{c}}ao dos fatores que influenciam a evasao em cursos de
+  gradua{\c{c}}ao atrav{\'e}s de sistemas baseados em minera{\c{c}}ao de dados:
+  Uma abordagem quantitativa.
+\newblock {\em Anais do VIII Simp{\'o}sio Brasileiro de Sistemas de
+  Informa{\c{c}}{\~a}o, S{\~a}o Paulo}, 2012.
+
+\bibitem{EDM_ufrj}
+Laci Mary~Barbosa Manh{\~a}es, S{\'e}rgio Manuel~Serra da~Cruz, and Geraldo
+  Zimbr{\~a}o.
+\newblock Evaluating performance and dropouts of undergraduates using
+  educational data mining.
 
 \bibitem{Tom_mitchell}
 Thomas~M. Mitchell.
@@ -37,5 +58,11 @@ D.~Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar
 Brandon Sherrill, William Eberle, and Doug Talbert.
 \newblock Analysis of student data for retention using data mining techniques.
 \newblock 2011.
+
+\bibitem{EDM_dropout_rates}
+Rosangela Villwock, Andressa Appio, and Aldioni~Adaiani Andreta.
+\newblock Educational data mining with focus on dropout rates.
+\newblock {\em International Journal of Computer Science and Network Security
+  (IJCSNS)}, 15(3):17, 2015.
 
 \end{thebibliography}

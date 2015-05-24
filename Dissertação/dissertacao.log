@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.16)  23 MAY 2015 23:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.16)  24 MAY 2015 18:43
 entering extended mode
 **dissertacao.tex
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.tex
@@ -647,18 +647,18 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisrulewidth=\dimen166
 )
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
@@ -674,11 +674,11 @@ LaTeX Font Info:    ... okay on input line 17.
 \everyMPtoPDFconversion=\toks31
 ) ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 19.
 
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -688,24 +688,50 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 \tf@toc=\write4
 
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 33--33
+Overfull \hbox (3.7632pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/10 necessidade, 
+ []
+
+
+Overfull \hbox (3.7632pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/10 necessidade, 
+ []
+
+
+Overfull \hbox (3.7632pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/10 necessidade, 
+ []
+
+
+Overfull \hbox (3.7632pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/10 necessidade, 
+ []
+
+
+LaTeX Warning: Marginpar on page 1 moved.
+
+
+Overfull \hbox (1.70815pt too wide) in paragraph at lines 35--35
 [][][][]\T1/cmr/m/n/10 DECRETO 
  []
 
 
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 33--33
+Overfull \hbox (1.70815pt too wide) in paragraph at lines 35--35
 [][][][]\T1/cmr/m/n/10 DECRETO 
  []
 
 
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 33--33
+Overfull \hbox (1.70815pt too wide) in paragraph at lines 35--35
 [][][][]\T1/cmr/m/n/10 DECRETO 
  []
 
 
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 33--33
+Overfull \hbox (1.70815pt too wide) in paragraph at lines 35--35
 [][][][]\T1/cmr/m/n/10 DECRETO 
  []
+
+
+LaTeX Warning: Marginpar on page 1 moved.
 
 
 LaTeX Warning: Marginpar on page 1 moved.
@@ -725,24 +751,64 @@ LaTeX Warning: Marginpar on page 1 moved.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<taxa-de-sucesso-ufc-hist.png, id=17, 1300.86pt x 433.62pt>
+File: taxa-de-sucesso-ufc-hist.png Graphic file (type png)
 
-LaTeX Warning: Marginpar on page 2 moved.
+<use taxa-de-sucesso-ufc-hist.png>
+Package pdftex.def Info: taxa-de-sucesso-ufc-hist.png used on input line 47.
+(pdftex.def)             Requested size: 452.0494pt x 173.44492pt.
+
+Overfull \hbox (122.0494pt too wide) in paragraph at lines 47--48
+[][] 
+ []
+
+[2 <C:/Users/abelardomota/Documents/GitHub/Mestrado/Dissertação/taxa-de-suces
+so-ufc-hist.png>]
+
+LaTeX Warning: Marginpar on page 3 moved.
 
 
-LaTeX Warning: Marginpar on page 2 moved.
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
 
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.bbl
-[2]) [3]
+[3]) [4]
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.aux)
  ) 
 Here is how much of TeX's memory you used:
- 12930 strings out of 493921
- 251701 string characters out of 3147261
- 409921 words of memory out of 3000000
- 15976 multiletter control sequences out of 15000+200000
+ 13013 strings out of 493921
+ 253929 string characters out of 3147261
+ 436773 words of memory out of 3000000
+ 16057 multiletter control sequences out of 15000+200000
  14761 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,11n,76p,728b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,76p,1230b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
 dpi600\ecti1000.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\lj
 four\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\abelardomota\AppData\Local\MiKTe
@@ -756,9 +822,9 @@ en\ec\dpi600\ecbx1440.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts
 ota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C
 :\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ecrm1728.pk>
-Output written on dissertacao.pdf (3 pages, 100771 bytes).
+Output written on dissertacao.pdf (4 pages, 128415 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
+ 334 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
