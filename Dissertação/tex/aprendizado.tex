@@ -1,26 +1,7 @@
-\todo{sobre data mining - qual o super artigo básico?}
-Aprendizado de máquina é uma subárea de inteligência artificial que agrupa conhecimentos sobre algoritmos e técnicas que permitam que um programa melhore sua performance a partir de dados. Mais formalmente, \cite{Tom_mitchell} define o aprendizado de um programa por\todo{como por a definition?}
+Aprendizado de máquina é uma subárea de inteligência artificial que agrupa conhecimentos sobre algoritmos e técnicas que permitam que um programa melhore sua performance a partir de dados. Mais formalmente, \cite{Tom_mitchell} define que um programa aprende a partir de uma experiência E, com relação a uma classe de tarefas T e a uma medida de performance P, se sua performance em tarefas da classe T, medida por P, melhora com a experiência E.
 
-Definition: A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E. 
+Seja, por exemplo, o problema de autoria de textos, que consiste na identificação automatizada do autor de um texto. Uma das soluções desenvolvidas é a verificação da similaridade entre o texto em análise e um conjunto de textos cujos autores já sejam conhecidos, denominado conjunto de treino, sendo reportado como o autor aquele cujos textos contidos no conjunto de treino sejam mais similares ao texto em análise. Nesse exemplo, o elemento experiência é um conjunto de textos rotulados com seus respectivos autores; o elemento tarefa é a identificação do autor de um dado texto; o elemento medida de performance a proporção de textos cujos autores são corretamente identificados.
 
-Para a aplicação dos conhecimentos de aprendizado de máquina para solucionar um problema, esses três elementos, tarefa(task), medida de performance(performance measure) e experiência(experience) devem ser identificados.
-\todo{por que não aplicar outras técnicas?}
-\todo{exemplos}
-Reconhecimento de dígito manualmente escrito
-
-O problema de reconhecimento de dígito manualmente escrito consiste na identificação automatizada do valor de um dígito manualmente escrito contido em uma imagem.
-
-Tarefa: dada uma imagem contendo um dígito manualmente escrito, identificar qual o valor do dígito nela contido.
-Experiência: arquivo de imagem contendo um dígito manualmente escrito e o valor do dígito nele contido.
-Medida de performance: a proporção de dígitos corretamente identificados. 
-
-Identificação de autoria de textos
-
-O problema de identificação de autoria de textos consiste na identificação automatizada do autor de um texto.
-
-Tarefa: dado um texto, identificar qual seu autor.
-Experiência: texto e respectivo autor.
-Medida de performance: a proporção de autores corretamente identificados.
 
 \todo{problemas com tarefa, medida de performance, experiencia menos comuns}
 

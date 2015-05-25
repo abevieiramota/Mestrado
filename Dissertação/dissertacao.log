@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.16)  25 MAY 2015 09:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.16)  25 MAY 2015 13:31
 entering extended mode
 **dissertacao.tex
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.tex
@@ -682,68 +682,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\tex\abstract.tex
 )
-(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.lof
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-)
+(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.lof)
 \tf@lof=\write4
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.toc)
 \tf@toc=\write5
 
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\tex\introducao.t
 ex
-Overfull \hbox (3.7632pt too wide) in paragraph at lines 1--1
-[][][][]\T1/cmr/m/n/10 necessidade, 
- []
-
-
-Overfull \hbox (3.7632pt too wide) in paragraph at lines 1--1
-[][][][]\T1/cmr/m/n/10 necessidade, 
- []
-
-
-Overfull \hbox (3.7632pt too wide) in paragraph at lines 1--1
-[][][][]\T1/cmr/m/n/10 necessidade, 
- []
-
-
-Overfull \hbox (3.7632pt too wide) in paragraph at lines 1--1
-[][][][]\T1/cmr/m/n/10 necessidade, 
- []
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 6--6
-[][][][]\T1/cmr/m/n/10 DECRETO 
- []
-
-
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 6--6
-[][][][]\T1/cmr/m/n/10 DECRETO 
- []
-
-
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 6--6
-[][][][]\T1/cmr/m/n/10 DECRETO 
- []
-
-
-Overfull \hbox (1.70815pt too wide) in paragraph at lines 6--6
-[][][][]\T1/cmr/m/n/10 DECRETO 
- []
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
 
 
 LaTeX Warning: Marginpar on page 1 moved.
@@ -757,28 +706,15 @@ LaTeX Warning: Marginpar on page 1 moved.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<img/taxa-de-sucesso-ufc-hist.png, id=16, 1300.86pt x 433.62pt>
-File: img/taxa-de-sucesso-ufc-hist.png Graphic file (type png)
 
-<use img/taxa-de-sucesso-ufc-hist.png>
-Package pdftex.def Info: img/taxa-de-sucesso-ufc-hist.png used on input line 20
-.
-(pdftex.def)             Requested size: 452.0494pt x 173.44492pt.
+LaTeX Warning: Marginpar on page 2 moved.
 
-Overfull \hbox (107.0494pt too wide) in paragraph at lines 20--21
-[][] 
- []
 
-[2 <C:/Users/abelardomota/Documents/GitHub/Mestrado/Dissertação/img/taxa-de-s
-ucesso-ufc-hist.png>])
+LaTeX Warning: Marginpar on page 2 moved.
+
+)
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\tex\aprendizado.
-tex
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-
-LaTeX Warning: Marginpar on page 3 moved.
-
+tex [2]
 
 LaTeX Warning: Marginpar on page 3 moved.
 
@@ -811,35 +747,33 @@ LaTeX Warning: Marginpar on page 3 moved.
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-[3])
-(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.bbl)
-[4]
+)
+(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.bbl
+[3]) [4]
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.aux)
  ) 
 Here is how much of TeX's memory you used:
- 13045 strings out of 493921
- 255271 string characters out of 3147261
- 446588 words of memory out of 3000000
- 16072 multiletter control sequences out of 15000+200000
- 14761 words of font info for 34 fonts, out of 3000000 for 9000
+ 13001 strings out of 493921
+ 254050 string characters out of 3147261
+ 431144 words of memory out of 3000000
+ 16032 multiletter control sequences out of 15000+200000
+ 13985 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,11n,76p,1259b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,76p,1091b,699s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
 dpi600\ecti1000.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\abelardomota\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\abelardomota\Ap
+four\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\abelardomota\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\abelardomota\Ap
 pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\User
-s\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm
-1000.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecbx1440.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\abelardomota\AppData\Local
-\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\abelardom
-ota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C
-:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm1728.pk>
-Output written on dissertacao.pdf (4 pages, 136393 bytes).
+s\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
+1440.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ecrm0900.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\abelardomota\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\abelardom
+ota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
+Output written on dissertacao.pdf (4 pages, 112176 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
+ 328 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
