@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.16)  24 MAY 2015 21:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.16)  25 MAY 2015 09:51
 entering extended mode
 **dissertacao.tex
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.tex
@@ -751,6 +751,9 @@ LaTeX Warning: Marginpar on page 1 moved.
 
 LaTeX Warning: Marginpar on page 1 moved.
 
+
+LaTeX Warning: Marginpar on page 1 moved.
+
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -768,8 +771,8 @@ Overfull \hbox (107.0494pt too wide) in paragraph at lines 20--21
 
 [2 <C:/Users/abelardomota/Documents/GitHub/Mestrado/Dissertação/img/taxa-de-s
 ucesso-ufc-hist.png>])
-(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\tex\mineracao.te
-x
+(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\tex\aprendizado.
+tex
 
 LaTeX Warning: Marginpar on page 3 moved.
 
@@ -802,20 +805,22 @@ LaTeX Warning: Marginpar on page 3 moved.
 LaTeX Warning: Marginpar on page 3 moved.
 
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\tex\evasao.tex
-[3]
 
-LaTeX Warning: Marginpar on page 4 moved.
+LaTeX Warning: Marginpar on page 3 moved.
 
-)
-(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.bbl
-[4]) [5]
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+[3])
+(C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.bbl)
+[4]
 (C:\Users\abelardomota\Documents\GitHub\Mestrado\Dissertação\dissertacao.aux)
  ) 
 Here is how much of TeX's memory you used:
- 13050 strings out of 493921
- 255410 string characters out of 3147261
- 450428 words of memory out of 3000000
- 16077 multiletter control sequences out of 15000+200000
+ 13045 strings out of 493921
+ 255271 string characters out of 3147261
+ 446588 words of memory out of 3000000
+ 16072 multiletter control sequences out of 15000+200000
  14761 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,11n,76p,1259b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -832,9 +837,9 @@ en\ec\dpi600\ecbx1440.pk> <C:\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts
 ota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C
 :\Users\abelardomota\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ecrm1728.pk>
-Output written on dissertacao.pdf (5 pages, 130813 bytes).
+Output written on dissertacao.pdf (4 pages, 136393 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
+ 356 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
