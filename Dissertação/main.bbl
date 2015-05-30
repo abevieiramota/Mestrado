@@ -1,0 +1,84 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.5 }
+
+\bibitem[Baker et al. 2010]{EDM_education}
+\abntrefinfo{Baker et al.}{BAKER et al.}{2010}
+{BAKER, R. et al. Data mining for education.
+\emph{International encyclopedia of education}, Oxford, UK: Elsevier, v.~7, p.
+  112--118, 2010.}
+
+\bibitem[Baker, Isotani e Carvalho 2011]{EDM_brasil}
+\abntrefinfo{Baker, Isotani e Carvalho}{BAKER; ISOTANI; CARVALHO}{2011}
+{BAKER, R. S.~J. de; ISOTANI, S.; CARVALHO, A. M. J.~B. de. Minera{\c{c}}ao de
+  dados educacionais: Oportunidades para o brasil.
+2011.}
+
+\bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{EDM_pred_dropout}
+\abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;
+  VLEESHOUWERS}{2009}
+{DEKKER, G.~W.; PECHENIZKIY, M.; VLEESHOUWERS, J.~M. Predicting students drop
+  out: A case study.
+\emph{International Working Group on Educational Data Mining}, ERIC, 2009.}
+
+\bibitem[Domingos 2012]{ML_know}
+\abntrefinfo{Domingos}{DOMINGOS}{2012}
+{DOMINGOS, P. A few useful things to know about machine learning.
+\emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
+
+\bibitem[Manh{\~a}es et al. 2012]{EDM_ufrj2}
+\abntrefinfo{Manh{\~a}es et al.}{MANH{\~A}ES et al.}{2012}
+{MANH{\~A}ES, L. M.~B. et al. Identifica{\c{c}}ao dos fatores que influenciam a
+  evasao em cursos de gradua{\c{c}}ao atrav{\'e}s de sistemas baseados em
+  minera{\c{c}}ao de dados: Uma abordagem quantitativa.
+\emph{Anais do VIII Simp{\'o}sio Brasileiro de Sistemas de
+  Informa{\c{c}}{\~a}o, S{\~a}o Paulo}, 2012.}
+
+\bibitem[Manh{\~a}es, Cruz e Zimbr{\~a}o]{EDM_ufrj}
+\abntrefinfo{Manh{\~a}es, Cruz e Zimbr{\~a}o}{MANH{\~A}ES; CRUZ; ZIMBR{\~A}O}{}
+{MANH{\~A}ES, L. M.~B.; CRUZ, S. M.~S. da; ZIMBR{\~A}O, G. Evaluating
+  performance and dropouts of undergraduates using educational data mining.}
+
+\bibitem[Mitchell 1997]{Tom_mitchell}
+\abntrefinfo{Mitchell}{MITCHELL}{1997}
+{MITCHELL, T.~M. \emph{Machine Learning}. 1. ed. New York, NY, USA:
+  McGraw-Hill, Inc., 1997.
+ISBN 0070428077, 9780070428072.}
+
+\bibitem[Mitchell 2006]{Mitchell_discipline}
+\abntrefinfo{Mitchell}{MITCHELL}{2006}
+{MITCHELL, T.~M. \emph{The discipline of machine learning}. [S.l.]: Carnegie
+  Mellon University, School of Computer Science, Machine Learning Department,
+  2006.}
+
+\bibitem[Romero e Ventura 2010]{EDM_review_and_soa}
+\abntrefinfo{Romero e Ventura}{ROMERO; VENTURA}{2010}
+{ROMERO, C.; VENTURA, S. Educational data mining: a review of the state of the
+  art.
+\emph{Systems, Man, and Cybernetics, Part C: Applications and Reviews, IEEE
+  Transactions on}, IEEE, v.~40, n.~6, p. 601--618, 2010.}
+
+\bibitem[Sculley et al. 2014]{ML_debt}
+\abntrefinfo{Sculley et al.}{SCULLEY et al.}{2014}
+{SCULLEY, D. et al. Machine learning: The high interest credit card of
+  technical debt. In:  \emph{SE4ML: Software Engineering for Machine Learning
+  (NIPS 2014 Workshop)}. [S.l.: s.n.], 2014.}
+
+\bibitem[Sherrill, Eberle e Talbert 2011]{EDM_retention}
+\abntrefinfo{Sherrill, Eberle e Talbert}{SHERRILL; EBERLE; TALBERT}{2011}
+{SHERRILL, B.; EBERLE, W.; TALBERT, D. Analysis of student data for retention
+  using data mining techniques.
+2011.}
+
+\bibitem[Villwock, Appio e Andreta 2015]{EDM_dropout_rates}
+\abntrefinfo{Villwock, Appio e Andreta}{VILLWOCK; APPIO; ANDRETA}{2015}
+{VILLWOCK, R.; APPIO, A.; ANDRETA, A.~A. Educational data mining with focus on
+  dropout rates.
+\emph{International Journal of Computer Science and Network Security (IJCSNS)},
+  International Journal of Computer Science and Network Security, v.~15, n.~3,
+  p.~17, 2015.}
+
+\end{thebibliography}
