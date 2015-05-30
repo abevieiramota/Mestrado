@@ -1,0 +1,44 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.5 }
+
+\bibitem[Baker, Isotani e Carvalho 2011]{EDM_brasil}
+\abntrefinfo{Baker, Isotani e Carvalho}{BAKER; ISOTANI; CARVALHO}{2011}
+{BAKER, R. S.~J. de; ISOTANI, S.; CARVALHO, A. M. J.~B. de. Minera{\c{c}}ao de
+  dados educacionais: Oportunidades para o brasil.
+2011.}
+
+\bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{Predicting_Students}
+\abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;
+  VLEESHOUWERS}{2009}
+{DEKKER, G.~W.; PECHENIZKIY, M.; VLEESHOUWERS, J.~M. Predicting students drop
+  out: A case study.
+\emph{International Working Group on Educational Data Mining}, ERIC, 2009.}
+
+\bibitem[Domingos 2012]{ML_know}
+\abntrefinfo{Domingos}{DOMINGOS}{2012}
+{DOMINGOS, P. A few useful things to know about machine learning.
+\emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
+
+\bibitem[Mitchell 1997]{Tom_mitchell}
+\abntrefinfo{Mitchell}{MITCHELL}{1997}
+{MITCHELL, T.~M. \emph{Machine Learning}. 1. ed. New York, NY, USA:
+  McGraw-Hill, Inc., 1997.
+ISBN 0070428077, 9780070428072.}
+
+\bibitem[Mitchell 2006]{Mitchell_discipline}
+\abntrefinfo{Mitchell}{MITCHELL}{2006}
+{MITCHELL, T.~M. \emph{The discipline of machine learning}. [S.l.]: Carnegie
+  Mellon University, School of Computer Science, Machine Learning Department,
+  2006.}
+
+\bibitem[Sculley et al. 2014]{ML_debt}
+\abntrefinfo{Sculley et al.}{SCULLEY et al.}{2014}
+{SCULLEY, D. et al. Machine learning: The high interest credit card of
+  technical debt. In:  \emph{SE4ML: Software Engineering for Machine Learning
+  (NIPS 2014 Workshop)}. [S.l.: s.n.], 2014.}
+
+\end{thebibliography}

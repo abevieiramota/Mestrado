@@ -1,0 +1,20 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: build/main.aux
+I couldn't open auxiliary file pretextuais.aux
+---line 23 of file build/main.aux
+ : \@input{pretextuais.aux
+ :                        }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file popstextuais.aux
+---line 146 of file build/main.aux
+ : \@input{popstextuais.aux
+ :                         }
+I'm skipping whatever remains of this command
+The style file: abntex2-alf.bst
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.5           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+(There were 2 error messages)
