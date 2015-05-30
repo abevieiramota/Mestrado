@@ -1,4 +1,0 @@
-\select@language {brazilian}
-\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
-\contentsline {section}{\numberline {2}Aprendizado de m\IeC {\'a}quina}{3}
-\contentsline {section}{\numberline {3}Evas\IeC {\~a}o de estudantes}{3}
