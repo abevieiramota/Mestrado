@@ -23,6 +23,11 @@
 {DOMINGOS, P. A few useful things to know about machine learning.
 \emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
 
+\bibitem[Manh{\~a}es, Cruz e Zimbr{\~a}o]{EDM_ufrj}
+\abntrefinfo{Manh{\~a}es, Cruz e Zimbr{\~a}o}{MANH{\~A}ES; CRUZ; ZIMBR{\~A}O}{}
+{MANH{\~A}ES, L. M.~B.; CRUZ, S. M.~S. da; ZIMBR{\~A}O, G. Evaluating
+  performance and dropouts of undergraduates using educational data mining.}
+
 \bibitem[Mitchell 1997]{Tom_mitchell}
 \abntrefinfo{Mitchell}{MITCHELL}{1997}
 {MITCHELL, T.~M. \emph{Machine Learning}. 1. ed. New York, NY, USA:

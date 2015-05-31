@@ -3,12 +3,13 @@
 % avaliação sobre todos os estudos
 % TODO
 
-% Predicting Students Drop Out: A Case Study \cite{Predicting_Students_Drop_Out}
+% Predicting Students Drop Out: A Case Study \cite{Predicting_Students}
 
-Em \cite{Predicting_Students} são aplicados algoritmos de aprendizado de máquina a dados de discentes do Electrical Engineering department, Eindhoven University of Technology, com o objetivo de identificar discentes em grupos de risco de evasão. É relatado que esse departamento já avaliava os discentes com relação ao risco de evasão, mas de forma subjetiva. O estudo ressalta o maior custo da ocorrência de falsos negativos que de falsos positivos na identificação de discentes com risco de evasão. Ocorre que, argumenta-se, há prejuízo maior em não oferecer apoio a um discente com risco de evasão do que oferecer, desnecessariamente, apoio a um discente sem tal risco. O estudo faz uso então de uma matriz de custo, com o classificador CostSensitiveClassifier, do Weka, obtendo melhores resultados, com relação a ocorrência de falsos negativos, mas com perdas de acurácia. 
+Em \cite{Predicting_Students} são aplicados algoritmos de aprendizado de máquina a dados de discentes do Electrical Engineering department, Eindhoven University of Technology, considerando o período de 2000 a 2009, com o objetivo de identificar discentes em grupos de risco de evasão. É relatado que esse departamento já avaliava os discentes com relação ao risco de evasão, mas de forma subjetiva. O estudo ressalta o maior custo da ocorrência de falsos negativos que de falsos positivos na identificação de discentes com risco de evasão. Ocorre que, argumenta-se, há prejuízo maior em não oferecer apoio a um discente com risco de evasão do que oferecer, desnecessariamente, apoio a um discente sem tal risco. O estudo faz uso então de uma matriz de custo, com o classificador CostSensitiveClassifier, do Weka, obtendo melhores resultados, com relação a ocorrência de falsos negativos, mas com perdas de acurácia. 
 
 % Evaluating performance and dropouts of undergraduates using educational data mining \cite{EDM_ufrj}
-% TODO
+
+Em \cite{EDM_ufrj} são aplicados algoritmos de aprendizado de máquina a dados de discentes de seis cursos da Universidade Federal do Rio de Janeiro, com o objetivo de identificar discentes que não terão pelo menos uma aprovação no segundo semestre de seus cursos. Os cursos considerados foram: Direito, Farmácia, Física, Engenharia Civil, Engenharia Mecânica, Engenharia de Produção. É indicado que esses cursos foram escolhidos por pertencerem a departamentos distintos, com perfis de discentes distintos. É observado também que tais cursos diferem com relação à quantidade de discentes ingressantes, à taxa de evasão registrada e à efetividade de certas práticas de ensino. Para cada curso são desenvolvidas uma base de dados de treinamento e uma base de dados de teste, composta pelos dados de seus discentes de primeiro semestre. Para a base de dados de treinamento foram utilizados os dados dos anos pares(de 1994.1 a 2008.1), já para a de teste foram utilizados os dados dos anos ímpares(de 1995.1 a 2009.1). Foram utilizados os algoritmos Naive Bayes, Multilayer Perceptron, Support Vector Machine e Decision Tree.
 
 % Educational Data Mining with Focus on Dropout Rates \cite{EDM_dropout_rates}
 % TODO
@@ -20,4 +21,55 @@ Em \cite{Predicting_Students} são aplicados algoritmos de aprendizado de máqui
 % TODO
 
 % Tabelas por atributos
-% TODO
+% Definição de evasão
+
+Definições de evasão:
+
+\begin{itemize}
+\item após prazo T conseguiu performance P
+\end{itemize}
+
+\begin{table}
+\begin{tabular}{p{0.5\linewidth}m{0.2\linewidth}p{0.3\linewidth}}
+\toprule
+                            Artigo &  Período(em semestres) & Medida de performance\\
+\midrule
+  \cite{Predicting_Students} &  6 & Se conseguiu a propedeusa \\
+\bottomrule
+\end{tabular}
+\caption{Definição de evasão}
+\label{table:study_attributes_definicao}
+\end{table}
+
+% Base de dados
+
+Características da base de dados:
+
+\begin{table}
+\begin{tabular}{p{0.5\linewidth}p{0.2\linewidth}c}
+\toprule
+                            Artigo &  Quantidade de instâncias & Período\\
+\midrule
+  \cite{Predicting_Students} &  648 & 2000-2009\\
+  &  495 & 2000-2009\\
+  &  516 & 2000-2009\\
+  &  516 & 2000-2009\\
+\bottomrule
+\end{tabular}
+\caption{Tamanho do dataset}
+\label{table:study_attributes_dataset}
+\end{table}
+
+% Features
+% TODO taxonomia de features
+
+% Algorithms
+% TODO ver como faz o tabelão do mal
+
+% Evaluation
+
+% Ferramentas
+
+% Resultados
+
+% Conclusões
