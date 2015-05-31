@@ -46,4 +46,12 @@ ISBN 0070428077, 9780070428072.}
   technical debt. In:  \emph{SE4ML: Software Engineering for Machine Learning
   (NIPS 2014 Workshop)}. [S.l.: s.n.], 2014.}
 
+\bibitem[Villwock, Appio e Andreta 2015]{unioeste}
+\abntrefinfo{Villwock, Appio e Andreta}{VILLWOCK; APPIO; ANDRETA}{2015}
+{VILLWOCK, R.; APPIO, A.; ANDRETA, A.~A. Educational data mining with focus on
+  dropout rates.
+\emph{International Journal of Computer Science and Network Security (IJCSNS)},
+  International Journal of Computer Science and Network Security, v.~15, n.~3,
+  p.~17, 2015.}
+
 \end{thebibliography}

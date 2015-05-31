@@ -13,4 +13,4 @@
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Pontos de partida}}{23}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{25}{section*.26}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{25}{section*.9}

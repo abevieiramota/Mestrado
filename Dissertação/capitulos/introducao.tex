@@ -1,20 +1,31 @@
 \chapter{Introdução}
 
-O Programa de Apoio a Planos de Reestruturação e Expansão das Universidades Federais(REUNI) foi instituído pelo DECRETO Nº 6.096, DE 24 DE ABRIL DE 2007 \todo{como cita isso?} possui como uma de suas diretrizes:
+% [O problema]
+% todo: sobre o problema de evasão
+
+\cite{EDM_brasil}
+Em estudo realizado no departamento de engenharia elétrica da Eindhoven University of Technology\cite{Predicting_Students}, é relatado que em dezembro os discentes desse departamente recebem um aviso informando se são ou não aconselhados a continuarem no curso. Esse aviso é baseado na performance do discente no curso e em informações obtidas de professores do primeiro semestre e de discentes monitores. É relatado que o aviso parece ter bastante acurácia: geralmente discentes aconselhados a continuarem têm sucesso no próximo ano do curso, enquanto aqueles desaconselhados geralmente não continuam no curso. Nesse estudo foram utilizados diversos algoritmos de aprendizado de máquina com o objetivo de tentar detectar que um estudante irá abandonar seu curso. Foram utilizadas informações de discente referentes tanto ao período anterior ao seu ingresso na universidade, quanto ao posterior. \todo{outros estudos}
+
+Uma das estratégias adotadas para diminuir as taxas de evasão é a identificação precoce de discentes com grande tendência para abandonarem seus cursos e a execução de ações que minimizem tal tendência. A identificação pode ser conduzida por observação do comportamento e resultados dos discentes, de forma subjetiva, pelos docentes e coordenadores de cursos, por exemplo. Dois problemas decorrem dessa forma de identificação: sendo conduzida por pessoas, essa forma de identificação é limitada pelo conjunto de observações as quais o observador tem acesso; sendo subjetiva, seus resultados podem sofrer resistência para serem aceitos. A utilização de técnicas de aprendizado de máquina como forma de identificação pode contornar esses problemas, por, primeiro, fazer uso de dados registrados por sistemas de informação, provavelmente contendo informações mais amplas que as que uma pessoa pode observar; segundo, por fazer maior uso de dados registrados, sendo aceita mais facilmente como identificação objetiva. 
+
+% [Justificativa]
+O Programa de Apoio a Planos de Reestruturação e Expansão das Universidades Federais(REUNI), instituído pelo DECRETO Nº 6.096, DE 24 DE ABRIL DE 2007 \todo{como cita isso?}, possui como uma de suas diretrizes:
 
 \begin{quote}
 I - redução das taxas de evasão, ocupação de vagas ociosas e aumento de vagas de ingresso, especialmente no período noturno;
 \end{quote}
 
-Na UFC(Universidade Federal do Ceará), de acordo com o último Anuário estatístico\todo{quando sai o próximo?}, de 2014, ano base 2013, o indicador "Taxa de Sucesso na Graduação", definido como a proporção entre número de discentes diplomados e número de discentes ingressantes da graduação\todo{manual de indicadores do TCU, p.5}, esteve em 2013 com o menor valor desde 2008\ref{img:taxa-de-sucesso-ufc}. Já o indicador "Taxa de sucesso da graduação por curso", em 2013\todo{qual a definição?}, possuiu valor médio igual a 64\% e valor mínimo igual a 6.8\%(Tabela \ref{table:ts_2013}).
+\todo{sobre definições de evasão}
 
-\begin{figure}
+Na Universidade Federal do Ceará(UFC), de acordo com o Anuário estatístico \todo{quando sai o próximo?}de 2014, ano base 2013\todo{referenciar}, o indicador "Taxa de sucesso na graduação", definido como a proporção entre número de discentes diplomados e número de discentes ingressantes da graduação\todo{manual de indicadores do TCU, p.5}, esteve em 2013 com o menor valor desde 2008(Figura \ref{img:taxa-de-sucesso-ufc}). Já o indicador "Taxa de sucesso da graduação por curso", em 2013\todo{qual a definição?}, possuiu valor mínimo igual a 6.8\%, referente ao curso Ciências Sociais, habilitação em licenciatura(Tabela \ref{table:ts_2013}).
+
+\begin{figure}[H]
 	\includegraphics[scale=0.8]{img/taxa-de-sucesso-ufc.png}
 	\caption{Taxa de Sucesso na Graduação - UFC}
 	\label{img:taxa-de-sucesso-ufc}
 \end{figure}
 
-\begin{table}
+\begin{table}[H]
 \begin{tabular}{llc}
 \toprule
                             Curso &  Período & Taxa de Sucesso \\
@@ -31,24 +42,22 @@ Na UFC(Universidade Federal do Ceará), de acordo com o último Anuário estatí
      Engenharia Elétrica - Sobral &   Diurno &           25.0\% \\
 \bottomrule
 \end{tabular}
-\caption{Taxa de sucesso da graduação por curso na UFC em 2013 - 10 piores resultados}
+\caption{Taxa de sucesso da graduação por curso na UFC em 2013 - 10 piores resultados, em ordem crescente}
 \label{table:ts_2013}
 \end{table}
 
-\todo{como resolve}
-Uma das estratégias adotadas para diminuir as taxas de evasão é a identificação precoce de discentes com grande tendência para abandonarem seus cursos e a execução de ações que minimizem tal tendência. A identificação pode ser conduzida por observação do comportamento e resultados dos discentes, de forma subjetiva, pelos docentes e coordenadores de cursos, por exemplo. Dois problemas decorrem dessa forma de identificação: sendo conduzida por pessoas, essa forma de identificação é limitada pelo conjunto de observações as quais o observador tem acesso; sendo subjetiva, seus resultados podem sofrer resistência para serem aceitos. A utilização de técnicas de aprendizado de máquina como forma de identificação pode contornar esses problemas, por, primeiro, fazer uso de dados registrados por sistemas de informação, provavelmente contendo informações mais amplas que as que uma pessoa pode observar; segundo, por fazer maior uso de dados registrados, sendo aceita mais facilmente como identificação objetiva. 
+Em DIRETRIZES GERAIS DO PROGRAMA DE APOIO A PLANOS DE REESTRUTURAÇÃO E EXPANSÃO DAS UNIVERSIDADES FEDERAIS REUNI p.4 \todo{referenciar}é ressaltado que o indicador "Taxa de conclusão dos cursos de graduação", cuja definição é igual à do "Taxa de Sucesso na graduação":
 
-Em estudo realizado no departamento de engenharia elétrica da Eindhoven University of Technology\cite{Predicting_Students}, é relatado que em dezembro os discentes desse departamente recebem um aviso informando se são ou não aconselhados a continuarem no curso. Esse aviso é baseado na performance do discente no curso e em informações obtidas de professores do primeiro semestre e de discentes monitores. É relatado que o aviso parece ter bastante acurácia: geralmente discentes aconselhados a continuarem têm sucesso no próximo ano do curso, enquanto aqueles desaconselhados geralmente não continuam no curso. Nesse estudo foram utilizados diversos algoritmos de aprendizado de máquina com o objetivo de tentar detectar que um estudante irá abandonar seu curso. Foram utilizadas informações de discente referentes tanto ao período anterior ao seu ingresso na universidade, quanto ao posterior. \todo{outros estudos}
+\begin{quote}
+(...) não expressa diretamente as taxas de sucesso observadas nos cursos da universidade, ainda que haja uma relação estreita com fenômenos de retenção e evasão.
+\end{quote}
 
-\todo{dados na ufc}
-A UFC possui uma base de dados de informações sobre seus discentes gerada e mantida pelo sistema SIGAA(Sistema Integrado de Gestão de Atividades Acadêmicas)\todo{referencia}
+Esse indicador não é sensível, por exemplo, à ocorrência de uma greve, fenômeno que causa atraso na formação dos discentes, podendo diminuir relevantemente a quantidade de diplomados em determinado ano. Funciona bem considerando o modelo em que, necessariamente, após a diplomação de uma turma de discentes, turma de igual tamanho irá ingressar. A realidade mostra que o processo de diplomação, iniciado com o ingresso do discente e finalizado com a emissão e recebimento de seu diploma, é mais complexo. Se adicionarmos o indivíduo que assume o papel de discente, a análise das causas da evasão torna-se mais complexa, trazendo à tona dimensões como a social e a econômica, além da vida pré universidade do indivíduo. Em \cite{unioeste}, por exemplo, informações sobre o trabalho do discente e se ele é casado foram os fatores mais relevantes na classificação dos discentes analisados com relação à evasão do curso. 
 
-O presente trabalho objetiva avaliar a aplicabilidade de técnicas de mineração de dados sobre o problema de evasão de discentes na UFC a partir dos dados que seus sistemas de informação gerenciam.  
+% [Objetivo]
 
-Para tanto é necessário que seja feito uma análise sobre a estrutura e qualidade dos dados disponíveis.
+O presente trabalho objetiva avaliar a aplicabilidade de técnicas de aprendizado de máquina ao problema de evasão de discentes na UFC a partir dos dados que seus sistemas de informação gerenciam. A UFC possui uma base de dados de informações sobre seus discentes gerada e mantida pelo sistema SIGAA(Sistema Integrado de Gestão de Atividades Acadêmicas). Para tanto é necessário que seja feito uma análise sobre a estrutura e qualidade dos dados disponíveis.
 
-Também serão levantadas hipóteses sobre causas para o problema e será analisado se os dados as corroboram ou não.
+% [Definição de termos]
 
-hipótese sobre a estrutura do curriculo -> métricas com relação às turmas! por exemplo, distância de horário entre disciplinas do mesmo semestre -> no caso do aluno, para cada semestre calcular
-
-\cite{EDM_brasil}
+% [Importância]
