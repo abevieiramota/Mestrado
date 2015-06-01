@@ -5,11 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
-\bibitem[Baker, Isotani e Carvalho 2011]{EDM_brasil}
-\abntrefinfo{Baker, Isotani e Carvalho}{BAKER; ISOTANI; CARVALHO}{2011}
-{BAKER, R. S.~J. de; ISOTANI, S.; CARVALHO, A. M. J.~B. de. Minera{\c{c}}ao de
-  dados educacionais: Oportunidades para o brasil.
-2011.}
+\bibitem[Andriola, Andriola e Moura 2006]{andriola}
+\abntrefinfo{Andriola, Andriola e Moura}{ANDRIOLA; ANDRIOLA; MOURA}{2006}
+{ANDRIOLA, W.~B.; ANDRIOLA, C.~G.; MOURA, C.~P. Opini{\~o}es de docentes e de
+  coordenadores acerca do fen{\^o}meno da evas{\~a}o discente dos cursos de
+  gradua{\c{c}}{\~a}o da universidade federal do cear{\'a} (ufc).
+\emph{Ensaio: aval. pol. p{\'u}bl. Educ}, SciELO Brasil, 2006.}
 
 \bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{Predicting_Students}
 \abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;

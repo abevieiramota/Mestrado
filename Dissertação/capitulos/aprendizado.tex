@@ -9,24 +9,69 @@ Um programa aprende a partir de uma experiência E, com relação a uma classe d
 % todo: adaptar para o problema de evasão?
 Seja, por exemplo, o problema de identificação de autoria de textos. Uma das abordagens utilizada para resolvê-lo é verificar a similaridade entre o texto em análise e um conjunto de textos cujos autores já sejam conhecidos, denominado conjunto de treino, sendo reportado como o autor aquele cujos textos contidos no conjunto de treino sejam mais similares ao texto em análise. Nesse exemplo, o elemento experiência é representado por um conjunto de textos rotulados com seus respectivos autores; o elemento tarefa é a identificação do autor de um texto; o elemento medida de performance é a proporção de textos cujos autores são corretamente identificados.
 
-\cite{Tom_mitchell}, para detalhar a modelagem de um programa com uma abordagem de aprendizado de máquina, apresenta uma sequência de passos para desenvolver um programa que aprenda a jogar xadrez, que aqui adaptamos para o problema de evasão de discentes.
-
-% Escolha da medida de performance
-
-O primeiro passo é a escolha da medida de performance. Um exemplo é a quantidade de discentes identificados que efetivamente abandonarem seus cursos. Uma questão surge: se o programa a ser desenvolvido for ser utilizado para identificar discentes que potencialmente abandonarão seus cursos, para os quais serão realizadas atividades para diminuição desse potencial, como contar precisamente quantos deles foram corretamente identificados? Como verificar que um discente que tinha a pretenção de abandonar o curso no momento da identificação pelo programa foi corretamente identificado se, após ações realizadas com a finalidade de diminuir seu potencial de evasão, ele concluiu o curso? A identificação pelo programa, seguido das ações, torna-se mais uma variável concorrente para o resultado do discente no curso. Outra questão relevante é o custo dos erros na identificação: considerando que identificar corretamente um discente com potencial de evasão implica em diminuição desse potencial, e que identificar incorretamente um discente sem potencial de evasão não implica em aumento desse potencial, concluímos que a performance do programa deve levar em consideração a diferença entre os custos de seus erros. 
-% todo: evoluir sobre medidas de performance
+\cite{Tom_mitchell}, para detalhar a modelagem de um programa com uma abordagem de aprendizado de máquina, apresenta uma sequência de passos para desenvolver um programa que aprenda a jogar xadrez, a ser utilizado para disputar um campeonato mundial de xadrez. É escolhida como medida de performance a quantidade de vitórias do programa nesse campeonato.
 
 % Escolha da experiência
-% todo
+
+O primeiro passo é a escolha da experiência a partir da qual o programa irá aprender, denominada experiência de treinamento. \cite{Tom_mitchell} classifica os tipos de experiência a partir de três atributos: feedback da experiência, se direto ou indireto com relação a como o programa será utilizado; nível de controle que há sobre a experiência; e quão bem a experiência reflete a realidade. Ressalta que o tipo de experiência utilizada pelo programa pode ter impacto significativo no sucesso ou falha em seu aprendizado. 
+
+Com relação ao feeedback, o elemento experiência pode ser classificado em experiência de feedback direto e experiência de feedback indireto. Por exemplo, a tupla estado do tabuleiro e melhor movimento possível é classificada como experiência de feedback direto: o programa irá atuar realizando jogadas e esse tipo de experiência informa diretamente se uma jogada é boa ou não. Já a tupla sequência de jogadas de uma partida e seu resultado final é classificada como experiência de feedback indireto: o programa deverá inferir a qualidade de uma jogada a partir do resultado de uma partida da experiência em que ela apareça e de seu resultado. À atividade de determinar o grau de influência que elementos de uma experiência de feedback indireto têm sobre o resultado é denominada credit assignment.
+
+Com relação ao nível de controle, o elemento experiência pode ser classificado em experiência selecionada por especialista, experiência sugerida pelo programa e analisada por um especialista e experiência selecionada e analisada pelo programa. Por exemplo, a experiência será do tipo selecionada por especialista se houve um jogador experiente de xadrez que selecione estados de tabuleiro e indique que melhores jogadas poderão ser feitas; será do tipo sugerida pelo programa e analisada por um especialista se o próprio programa selecionar estados de tabuleiro para serem analisadas por um jogador experiente de xadrez; será do tipo selecionada e analisada pelo programa se o programa utilizar o resultado de partidas que disputar consigo mesmo.
+
+Com relação a quão bem reflete a realidade, o elemento experiência pode ser classificado se sua distribuição representa a distribuição dos exemplos com os quais o programa efetivamente será utilizado. Por exemplo, a experiência não irá refletir a realidade caso esteja limitada ao conjunto de partidas de apenas um jogador: considerando que o programa será utilizado em um campeonato mundial, do qual participam jogadores diversos, com estilos de jogo diversos, é capaz de o programa, com essa experiência treinado, depare com estados de tabuleiro que não encontrou no treinamento. \cite{Tom_mitchell} ressalta que muito da teoria de aprendizado de máquina depende da assunção de que a experiência utilizada no treinamento reflete a realidade.
 
 % Escolha da função alvo/target function
-% todo
+
+O próximo passo é a escolha do tipo de conhecimento que deverá ser aprendido, representado por uma função denominada função alvo, e como ele será utilizado pelo programa. Considerando que o programa irá ser utilizado como um jogador de xadrez, um tipo de conhecimento que pode ser escolhido é uma função que tenha como domínio o conjunto de estados de tabuleiro e retorne a melhor jogada a partir de um dado estado de tabuleiro informado. O programa irá jogar realizando a jogada que essa função retornar, a partir do estado atual do tabuleiro. Esse tipo de conhecimento, apesar de atraente, é tão difícil de ser adquirido quão difícil for determinar quanto uma jogada influencia no resultado final de uma partida. Outro tipo de conhecimento é uma função que tenha como domínio o conjunto de estados de tabuleiro e retorne um número real, indicando quão bom o estado de tabuleiro informado é. O programa irá jogar verificando qual estado de tabuleiro maximiza o valor da função, considerando o conjunto de estados de tabuleiro que podem ser alcançados a partir do estado atual do tabuleiro e de todas jogadas válidas.
 
 % Escolha de uma representação para a função alvo
-% todo
+
+Após a escolha do tipo de conhecimento que deverá ser aprendido, é necessário definir como esse conhecimento será representado. A função que associa um estado de tabuleiro a um número real pode assumir diversas formas: pode ser uma matriz contendo uma célula com um número real para cada estado de tabuleiro possível; pode ser um conjunto de regras que associe atributos do estado do tabuleiro a números reais; pode ser uma função polinomial de atributos do estado do tabuleiro em números reais etc. Para darmos continuidade ao detalhamento dos passos, escolhemos aqui uma representação de função simples: denominaremos por V a função que associa um estado de tabuleiro a um número real, calculada como combinação linear dos seguintes atributos do estado do tabuleiro:
+
+\begin{itemize}
+\item $x_1$: número de peças pretas no tabuleiro
+\item $x_2$: número de peças brancas no tabuleiro
+\item $x_3$: número de reis pretos no tabuleiro
+\item $x_4$: número de reis brancos no tabuleiro
+\item $x_5$: número de peças pretas ameaçadas por peças brancas no tabuleiro
+\item $x_6$: número de peças brancas ameaçadas por peças pretas no tabuleiro
+\end{itemize}
+
+A função V pode ser representada então por:
+\\
+$V(t) = w_0 + w_1 x_1 + w_2 x_2 + w_3 x_3 + w_4 x_4 + w_5 x_5 + w_6 x_6$
+\\
+Os coeficientes $w_0$ a $w_6$ são parâmetros do programa, a serem ajustados no aprendizado.
+\\
+Resumindo os passos até aqui realizados, temos:
+
+\begin{itemize}
+\item Tarefa: jogar xadrez
+\item Medida de performance: proporção de jogos do campeonato mundial de xadrez ganhos
+\item Experiência de treinamento: partidas disputadas pelo programa contra ele mesmo
+\item Função alvo: $V:EstadosDeTabuleiro \rightarrow \mathbb{R}$
+\item Representação da função alvo: $V(t) = w_0 + w_1 x_1 + w_2 x_2 + w_3 x_3 + w_4 x_4 + w_5 x_5 + w_6 x_6$
+\end{itemize}
 
 % Escolha de um algoritmo de aproximação 
-% todo
+
+O próximo passo consiste na escolha de um algoritmo que, a partir de um conjunto de experiências, irá ajustar os parâmetros da representação da função a fim de aproximá-la da função alvo. Para tanto, é necessário um conjunto de dados de treinamento, composto por um par de estado de tabuleiro e o valor que a função deverá atribuir. Denotamos por $\langle b, V_{treino}(b) \rangle $ um dado para treinamento: $b$ é uma tupla contendo os atributos de um estado de tabuleiro e $V_{treino}(b)$ o valor a ele atribuído. Por exemplo:
+
+$\langle \langle x_1 = 3, x_2 = 0, x_3 = 1, x_4 = 0, x_5 = 0, x_6 = 0 \rangle, +100\rangle$
+
+Determinar os valores dos estados de tabuleiros utilizados no treinamento é tarefa fácil para os estados finais: pode-se definir dois valores, $max < min$, e atribuir aos estados finais de vitória o valor $max$ e aos de derrota o valor $min$. Já a determinação dos valores dos tabuleiros intermediários não é tão simples. O fato de uma partida ter sido ganha não implica necessariamente que todos os estados de tabuleiro nela percorridos devem receber um valor alto. Para definir tais valores pode-se utilizar uma regra de estimação. Por exemplo:
+
+$V_{treino}(b) \leftarrow V(sucessor(b))$
+
+Essa regra atribui a um estado de tabuleiro de treinamento o valor que a função alvo estimada retorna para o estado de tabuleiro após a próxima jogada do oponente. Apesar de parecer estranho fazer uso de $V$, a função que se está estimando, para determinar os valores a serem utilizados para refiná-la, intuitivamente essa abordagem parece fazer sentido, por atribuir a um estado de tabuleiro um valor que é função de um estado que foi possível alcançar a partir dele. 
+
+Após a determinação dos valores dos estados de tabuleiros contidos na experiência de treinamento, o conjunto de dados de treinamento pode ser utilizado. Para estimar a função alvo a partir dos dados de treinamento, dada a representação da função escolhida, é necessário agora determinarmos seus pesos, $w_0$ a $w_6$. Para tanto, primeiro definimos como mensurar quão bem a função estimada se adequa aos dados de treinamento. Uma medida comum é o erro quadrático, assim definido:
+
+$E = \sum\limits_{\langle b, V_{treino}(b) \rangle \in \ dados\ de\ treinamento} {(V_{treino}(b) - V(b))}^2$
+
+O problema de estimar a função alvo pode ser modelado então como o problema de encontrar os pesos $w_0$ a $w_6$ que minimizem o erro quadrático sobre os dados de treinamento. Um dos algoritmos que incrementalmente ajusta os pesos aos dados de treinamento, minimizando o erro quadrático é o Método dos Mínimos Quadrados. Esse algoritmo funciona ajustando, para cada dado de treinamento, os pesos da função na direção que minimiza o erro quadrático. Para tanto, atualiza iterativamente, para cada dado de treinamento, os pesos da função, incrementando com um valor proporcional a $(V_{treino}(b) - V(b))$: se o valor da função aplicado ao dado de treinamento, $V(b)$, é igual ao valor do dado de treinamento, $V_{treino}(b)$, o incremento será nulo; se o valor da função é maior que o do dado de treinamento, o incremento será negativo, fazendo com que, para o dado de treinamento em questão, o valor da função diminua; se o valor da função é menor que o do dado de treinamento, o incremento será positivo, fazendo com que, para o dado de treinamento em questão, o valor da função aumente.
+
 \todo{algoritmos}
 \todo{evaluating}
 
