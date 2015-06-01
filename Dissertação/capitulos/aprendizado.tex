@@ -6,18 +6,34 @@ Aprendizado de máquina é uma subárea de Inteligência Artificial que agrupa c
 Um programa aprende a partir de uma experiência E, com relação a uma classe de tarefas T e a uma medida de performance P, se sua performance em tarefas da classe T, medida por P, melhora com a experiência E.
 \end{quote}
 
-Seja, por exemplo, o problema de identificação de autoria de textos. Uma das soluções desenvolvidas é a verificação da similaridade entre o texto em análise e um conjunto de textos cujos autores já sejam conhecidos, denominado conjunto de treino, sendo reportado como o autor aquele cujos textos contidos no conjunto de treino sejam mais similares ao texto em análise. Nesse exemplo, o elemento experiência é representado por um conjunto de textos rotulados com seus respectivos autores; o elemento tarefa é a identificação do autor de um texto; o elemento medida de performance é a proporção de textos cujos autores são corretamente identificados.
+% todo: adaptar para o problema de evasão?
+Seja, por exemplo, o problema de identificação de autoria de textos. Uma das abordagens utilizada para resolvê-lo é verificar a similaridade entre o texto em análise e um conjunto de textos cujos autores já sejam conhecidos, denominado conjunto de treino, sendo reportado como o autor aquele cujos textos contidos no conjunto de treino sejam mais similares ao texto em análise. Nesse exemplo, o elemento experiência é representado por um conjunto de textos rotulados com seus respectivos autores; o elemento tarefa é a identificação do autor de um texto; o elemento medida de performance é a proporção de textos cujos autores são corretamente identificados.
 
+\cite{Tom_mitchell}, para detalhar a modelagem de um programa com uma abordagem de aprendizado de máquina, apresenta uma sequência de passos para desenvolver um programa que aprenda a jogar xadrez, que aqui adaptamos para o problema de evasão de discentes.
 
+% Escolha da medida de performance
 
-\cite{Mitchell_discipline}
-\todo{bla bla bla de machine learning do Mitchell}
+O primeiro passo é a escolha da medida de performance. Um exemplo é a quantidade de discentes identificados que efetivamente abandonarem seus cursos. Uma questão surge: se o programa a ser desenvolvido for ser utilizado para identificar discentes que potencialmente abandonarão seus cursos, para os quais serão realizadas atividades para diminuição desse potencial, como contar precisamente quantos deles foram corretamente identificados? Como verificar que um discente que tinha a pretenção de abandonar o curso no momento da identificação pelo programa foi corretamente identificado se, após ações realizadas com a finalidade de diminuir seu potencial de evasão, ele concluiu o curso? A identificação pelo programa, seguido das ações, torna-se mais uma variável concorrente para o resultado do discente no curso. Outra questão relevante é o custo dos erros na identificação: considerando que identificar corretamente um discente com potencial de evasão implica em diminuição desse potencial, e que identificar incorretamente um discente sem potencial de evasão não implica em aumento desse potencial, concluímos que a performance do programa deve levar em consideração a diferença entre os custos de seus erros. 
+% todo: evoluir sobre medidas de performance
 
-\todo{problemas com tarefa, medida de performance, experiencia menos comuns}
+% Escolha da experiência
+% todo
 
-\todo{métricas}
+% Escolha da função alvo/target function
+% todo
+
+% Escolha de uma representação para a função alvo
+% todo
+
+% Escolha de um algoritmo de aproximação 
+% todo
 \todo{algoritmos}
-\todo{métodos de teste}
-\todo{aplicação}
+\todo{evaluating}
+
+% Aplicação de aprendizado de máquina
+% todo: melhorar
+
+De acordo com \cite{Mitchell_discipline}, o conhecimento sobre aprendizado de máquina pode ser aplicado a diversas áreas, como, por exemplo, a reconhecimento de voz; a visão computacional, sendo utilizado no desenvolvimento de sistemas de reconhecimento facial; a controle de robôs.
+
 \cite{ML_debt} 
 \cite{ML_know}
