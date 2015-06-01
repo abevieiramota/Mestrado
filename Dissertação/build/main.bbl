@@ -19,11 +19,6 @@
   out: A case study.
 \emph{International Working Group on Educational Data Mining}, ERIC, 2009.}
 
-\bibitem[Domingos 2012]{ML_know}
-\abntrefinfo{Domingos}{DOMINGOS}{2012}
-{DOMINGOS, P. A few useful things to know about machine learning.
-\emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
-
 \bibitem[Manh{\~a}es, Cruz e Zimbr{\~a}o]{EDM_ufrj}
 \abntrefinfo{Manh{\~a}es, Cruz e Zimbr{\~a}o}{MANH{\~A}ES; CRUZ; ZIMBR{\~A}O}{}
 {MANH{\~A}ES, L. M.~B.; CRUZ, S. M.~S. da; ZIMBR{\~A}O, G. Evaluating
@@ -40,12 +35,6 @@ ISBN 0070428077, 9780070428072.}
 {MITCHELL, T.~M. \emph{The discipline of machine learning}. [S.l.]: Carnegie
   Mellon University, School of Computer Science, Machine Learning Department,
   2006.}
-
-\bibitem[Sculley et al. 2014]{ML_debt}
-\abntrefinfo{Sculley et al.}{SCULLEY et al.}{2014}
-{SCULLEY, D. et al. Machine learning: The high interest credit card of
-  technical debt. In:  \emph{SE4ML: Software Engineering for Machine Learning
-  (NIPS 2014 Workshop)}. [S.l.: s.n.], 2014.}
 
 \bibitem[Villwock, Appio e Andreta 2015]{unioeste}
 \abntrefinfo{Villwock, Appio e Andreta}{VILLWOCK; APPIO; ANDRETA}{2015}
