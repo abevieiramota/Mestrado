@@ -5,12 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
-\bibitem[Andriola, Andriola e Moura 2006]{andriola}
-\abntrefinfo{Andriola, Andriola e Moura}{ANDRIOLA; ANDRIOLA; MOURA}{2006}
-{ANDRIOLA, W.~B.; ANDRIOLA, C.~G.; MOURA, C.~P. Opini{\~o}es de docentes e de
-  coordenadores acerca do fen{\^o}meno da evas{\~a}o discente dos cursos de
-  gradua{\c{c}}{\~a}o da universidade federal do cear{\'a} (ufc).
-\emph{Ensaio: aval. pol. p{\'u}bl. Educ}, SciELO Brasil, 2006.}
+\bibitem[ANDRIOLA 2003]{andriola_2003}
+\abntrefinfo{ANDRIOLA}{ANDRIOLA}{2003}
+{ANDRIOLA, W.~B. Evas{\~a}o discente no {\^a}mbito da universidade federal do
+  cear{\'a} (ufc): proposta para identificar suas causas e implantar um
+  servi{\c{c}}o de orienta{\c{c}}{\~a}o e informa{\c{c}}{\~a}o (soi) para os
+  egressos do ensino m{\'e}dio.
+\emph{ENCONTRO DE PESQUISA EDUCACIONAL DO NORTE E NORDESTE}, Universidade
+  Federal de Sergipe S{\~a}o Crist{\'o}v{\~a}o, v.~16, p.~483, 2003.}
 
 \bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{Predicting_Students}
 \abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;
