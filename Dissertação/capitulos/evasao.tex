@@ -4,11 +4,15 @@
 
 % Predicting Students Drop Out: A Case Study \cite{Predicting_Students}
 
-Em \cite{Predicting_Students} são aplicados algoritmos de aprendizado de máquina a dados de discentes do Electrical Engineering department, Eindhoven University of Technology, considerando o período de 2000 a 2009, com o objetivo de identificar discentes em grupos de risco de evasão. É relatado que esse departamento já avaliava os discentes com relação ao risco de evasão, mas de forma subjetiva. O estudo ressalta o maior custo da ocorrência de falsos negativos que de falsos positivos na identificação de discentes com risco de evasão. Ocorre que, argumenta-se, há prejuízo maior em não oferecer apoio a um discente com risco de evasão do que oferecer, desnecessariamente, apoio a um discente sem tal risco. O estudo faz uso então de uma matriz de custo, com o classificador CostSensitiveClassifier, do Weka, obtendo melhores resultados, com relação a ocorrência de falsos negativos, mas com perdas de acurácia. 
+Em \cite{Predicting_Students} são aplicados algoritmos de aprendizado de máquina a dados de discentes do Electrical Engineering department, Eindhoven University of Technology, considerando o período de 2000 a 2009, com o objetivo de identificar discentes em grupos de risco de evasão. É relatado que esse departamento já avaliava os discentes com relação ao risco de evasão, mas de forma subjetiva. Os dados dos discentes são particionados em pré universidade e pós universidade, gerando três bases de dados de treinamento, a primeira consistindo nos dados pré universidade, a segunda nos dados pós universidade e a terceira com todos os dados. São utilizados os algoritmos OneRule, CART, C4.5, BayesNet, SimpleLogistic, JRip e Random Forest. É apresentado um resultado de 68\% de acurácia com o algoritmo OneRule aplicado à primeira base de dados, sem diferença significante na performance dos demais algoritmos. O mesmo resultado repete-se com as demais bases, mudando apenas o valor da acurácia alcançada, sendo igual a 76\% para a segunda base de dados e 75\% para a terceira. O estudo ressalta o maior custo da ocorrência de falsos negativos que de falsos positivos na identificação de discentes com risco de evasão. Ocorre que, argumenta-se, há prejuízo maior em não oferecer apoio a um discente com risco de evasão do que oferecer, desnecessariamente, apoio a um discente sem tal risco. O estudo faz uso então de uma matriz de custo, com o algoritmo CostSensitiveClassifier, obtendo melhores diminuição na ocorrência de falsos negativos, mas com perdas de acurácia. 
 
 % Evaluating performance and dropouts of undergraduates using educational data mining \cite{EDM_ufrj}
 
-Em \cite{EDM_ufrj} são aplicados algoritmos de aprendizado de máquina a dados de discentes de seis cursos da Universidade Federal do Rio de Janeiro, com o objetivo de identificar discentes que não terão pelo menos uma aprovação no segundo semestre de seus cursos. Os cursos considerados foram: Direito, Farmácia, Física, Engenharia Civil, Engenharia Mecânica, Engenharia de Produção. É indicado que esses cursos foram escolhidos por pertencerem a departamentos distintos, com perfis de discentes distintos. É observado também que tais cursos diferem com relação à quantidade de discentes ingressantes, à taxa de evasão registrada e à efetividade de certas práticas de ensino. Para cada curso são desenvolvidas uma base de dados de treinamento e uma base de dados de teste, composta pelos dados de seus discentes de primeiro semestre. Para a base de dados de treinamento foram utilizados os dados dos anos pares(de 1994.1 a 2008.1), já para a de teste foram utilizados os dados dos anos ímpares(de 1995.1 a 2009.1). Foram utilizados os algoritmos Naive Bayes, Multilayer Perceptron, Support Vector Machine e Decision Tree.
+Em \cite{EDM_ufrj} são aplicados algoritmos de aprendizado de máquina a dados de discentes de seis cursos da Universidade Federal do Rio de Janeiro(UFRJ), com o objetivo de identificar discentes que não terão pelo menos uma aprovação no segundo semestre de seus cursos. Os cursos considerados foram: Direito, Farmácia, Física, Engenharia Civil, Engenharia Mecânica, Engenharia de Produção. É indicado que esses cursos foram escolhidos por pertencerem a departamentos distintos, com perfis de discentes distintos. É observado também que tais cursos diferem com relação à quantidade de discentes ingressantes, à taxa de evasão registrada e à efetividade de certas práticas de ensino. Para cada curso são desenvolvidas uma base de dados de treinamento e uma base de dados de teste, composta pelos dados de seus discentes de primeiro semestre. Para a base de dados de treinamento foram utilizados os dados dos anos pares(de 1994.1 a 2008.1), já para a de teste foram utilizados os dados dos anos ímpares(de 1995.1 a 2009.1). O algoritmo de aprendizado utilizado foi o Naïve Bayes. São apresentados os resultados utilizando as medidas acurácia, taxa de verdadeiros positivos, taxa de verdadeiros negativos e Kappa\todo{citar a coefficient for agreement for nominal scale}. A acurácia, por exemplo, varia de 70\% a 100\% entre as bases nas quais o modelo desenvolvido foi testado.
+
+Os estudos analisados fizeram uso de apenas uma definição de evasão, a evasão do curso, utilizando experiência de feedback indireto. O uso de experiência de feedback direto, considerando a definição de evasão no curso, torna mais complexa a coleta de dados para treinamento: considerando que um curso possa ser concluído com uma duração máxima de 10 anos, por exemplo, apenas após 10 anos do ingresso de um discente é que seus dados poderão ser utilizados. Outros fatores podem afetar esse prazo, como o trancamento do curso, a ocorrência de greves etc.
+
+Considero que os estudos analisados não realizaram um estudo mais criterioso sobre o problema em questão, focando os esforços mais na utilização de algoritmos de aprendizado de máquina que na análise do problema, de suas diversas definições, dos atributos utilizados, de como utilizar os resultados obtidos para diminuir o problema etc.
 
 % Educational Data Mining with Focus on Dropout Rates \cite{EDM_dropout_rates}
 \todo{Educational Data Mining with Focus on Dropout Rates}
@@ -20,48 +24,8 @@ Em \cite{EDM_ufrj} são aplicados algoritmos de aprendizado de máquina a dados 
 \todo{Analysis of Student Data for Retention Using Data Mining Techniques}
 
 % Tabelas por atributos
-\todo{remover as tabelas}
-
-Definições de evasão:
-
-\begin{itemize}
-\item após prazo T conseguiu performance P
-\end{itemize}
-
-\begin{table}
-\begin{tabular}{p{0.5\linewidth}m{0.2\linewidth}p{0.3\linewidth}}
-\toprule
-                            Artigo &  Período(em semestres) & Medida de performance\\
-\midrule
-  \cite{Predicting_Students} &  6 & Se conseguiu a propedeusa \\
-\bottomrule
-\end{tabular}
-\caption{Definição de evasão}
-\label{table:study_attributes_definicao}
-\end{table}
-
-% Base de dados
-
-Características da base de dados:
-
-\begin{table}
-\begin{tabular}{p{0.5\linewidth}p{0.2\linewidth}c}
-\toprule
-                            Artigo &  Quantidade de instâncias & Período\\
-\midrule
-  \cite{Predicting_Students} &  648 & 2000-2009\\
-  &  495 & 2000-2009\\
-  &  516 & 2000-2009\\
-  &  516 & 2000-2009\\
-\bottomrule
-\end{tabular}
-\caption{Tamanho do dataset}
-\label{table:study_attributes_dataset}
-\end{table}
-
 \todo{apanhado dos estudos}
 
-\todo{diferencial desse trabalho com relação aos citados}
 % Features
 % TODO taxonomia de features
 

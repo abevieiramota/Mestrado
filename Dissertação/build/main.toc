@@ -4,13 +4,13 @@
 \changetocdepth {4}
 \select@language {brazil}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{15}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Aprendizado de m\IeC {\'a}quina}}{19}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Aprendizado de m\IeC {\'a}quina}}{13}{chapter.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Evas\IeC {\~a}o de discentes}}{25}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Evas\IeC {\~a}o de discentes}}{17}{chapter.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Pontos de partida}}{27}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Pontos de partida}}{19}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{29}{section*.9}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{21}{section*.6}
