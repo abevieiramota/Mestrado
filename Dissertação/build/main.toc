@@ -4,13 +4,37 @@
 \changetocdepth {4}
 \select@language {brazil}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}O que \IeC {\'e} o problema}{11}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Express\IeC {\~a}o do problema no mundo}{11}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Express\IeC {\~a}o do problema no Brasil}{11}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Express\IeC {\~a}o do problema na UFC}{11}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Por que deve ser resolvido}{11}{section.1.2}
+\contentsline {section}{\numberline {1.3}Como o problema pode ser resolvido}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Predi\IeC {\c c}\IeC {\~a}o}{13}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Identifica\IeC {\c c}\IeC {\~a}o das causas}{13}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Objetivo}{14}{section.1.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Aprendizado de m\IeC {\'a}quina}}{13}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Aprendizado de m\IeC {\'a}quina}}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Defini\IeC {\c c}\IeC {\~a}o}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Modelagem}{15}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Escolha da experi\IeC {\^e}ncia}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Escolha da fun\IeC {\c c}\IeC {\~a}o alvo}{16}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Escolha de uma representa\IeC {\c c}\IeC {\~a}o para a fun\IeC {\c c}\IeC {\~a}o alvo}{16}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Escolha de um algoritmo de aproxima\IeC {\c c}\IeC {\~a}o}{17}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Conclus\IeC {\~a}o}{18}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Modelos de aprendizado de m\IeC {\'a}quina}{19}{section.2.3}
+\contentsline {section}{\numberline {2.4}Aplica\IeC {\c c}\IeC {\~o}es}{19}{section.2.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Evas\IeC {\~a}o de discentes}}{17}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Evas\IeC {\~a}o de discentes}}{21}{chapter.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Pontos de partida}}{19}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Pontos de partida}}{23}{chapter.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Metodologia}}{25}{chapter.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados}}{27}{chapter.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclus\IeC {\~a}o}}{29}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{21}{section*.6}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{31}{section*.24}

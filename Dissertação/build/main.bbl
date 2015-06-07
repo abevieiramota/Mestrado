@@ -21,6 +21,11 @@
   out: A case study.
 \emph{International Working Group on Educational Data Mining}, ERIC, 2009.}
 
+\bibitem[Domingos 2012]{ML_know}
+\abntrefinfo{Domingos}{DOMINGOS}{2012}
+{DOMINGOS, P. A few useful things to know about machine learning.
+\emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
+
 \bibitem[Manh{\~a}es, Cruz e Zimbr{\~a}o]{EDM_ufrj}
 \abntrefinfo{Manh{\~a}es, Cruz e Zimbr{\~a}o}{MANH{\~A}ES; CRUZ; ZIMBR{\~A}O}{}
 {MANH{\~A}ES, L. M.~B.; CRUZ, S. M.~S. da; ZIMBR{\~A}O, G. Evaluating
