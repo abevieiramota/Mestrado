@@ -5,15 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
-\bibitem[ANDRIOLA 2003]{andriola_2003}
-\abntrefinfo{ANDRIOLA}{ANDRIOLA}{2003}
-{ANDRIOLA, W.~B. Evas{\~a}o discente no {\^a}mbito da universidade federal do
-  cear{\'a} (ufc): proposta para identificar suas causas e implantar um
-  servi{\c{c}}o de orienta{\c{c}}{\~a}o e informa{\c{c}}{\~a}o (soi) para os
-  egressos do ensino m{\'e}dio.
-\emph{ENCONTRO DE PESQUISA EDUCACIONAL DO NORTE E NORDESTE}, Universidade
-  Federal de Sergipe S{\~a}o Crist{\'o}v{\~a}o, v.~16, p.~483, 2003.}
-
 \bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{Predicting_Students}
 \abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;
   VLEESHOUWERS}{2009}
@@ -26,6 +17,14 @@
 {DOMINGOS, P. A few useful things to know about machine learning.
 \emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
 
+\bibitem[Manh{\~a}es et al. 2012]{EDM_ufrj2}
+\abntrefinfo{Manh{\~a}es et al.}{MANH{\~A}ES et al.}{2012}
+{MANH{\~A}ES, L. M.~B. et al. Identifica{\c{c}}ao dos fatores que influenciam a
+  evasao em cursos de gradua{\c{c}}ao atrav{\'e}s de sistemas baseados em
+  minera{\c{c}}ao de dados: Uma abordagem quantitativa.
+\emph{Anais do VIII Simp{\'o}sio Brasileiro de Sistemas de
+  Informa{\c{c}}{\~a}o, S{\~a}o Paulo}, 2012.}
+
 \bibitem[Manh{\~a}es, Cruz e Zimbr{\~a}o]{EDM_ufrj}
 \abntrefinfo{Manh{\~a}es, Cruz e Zimbr{\~a}o}{MANH{\~A}ES; CRUZ; ZIMBR{\~A}O}{}
 {MANH{\~A}ES, L. M.~B.; CRUZ, S. M.~S. da; ZIMBR{\~A}O, G. Evaluating
@@ -37,13 +36,13 @@
   McGraw-Hill, Inc., 1997.
 ISBN 0070428077, 9780070428072.}
 
-\bibitem[Mitchell 2006]{Mitchell_discipline}
-\abntrefinfo{Mitchell}{MITCHELL}{2006}
-{MITCHELL, T.~M. \emph{The discipline of machine learning}. [S.l.]: Carnegie
-  Mellon University, School of Computer Science, Machine Learning Department,
-  2006.}
+\bibitem[Sherrill, Eberle e Talbert 2011]{EDM_retention}
+\abntrefinfo{Sherrill, Eberle e Talbert}{SHERRILL; EBERLE; TALBERT}{2011}
+{SHERRILL, B.; EBERLE, W.; TALBERT, D. Analysis of student data for retention
+  using data mining techniques.
+2011.}
 
-\bibitem[Villwock, Appio e Andreta 2015]{unioeste}
+\bibitem[Villwock, Appio e Andreta 2015]{EDM_dropout_rates}
 \abntrefinfo{Villwock, Appio e Andreta}{VILLWOCK; APPIO; ANDRETA}{2015}
 {VILLWOCK, R.; APPIO, A.; ANDRETA, A.~A. Educational data mining with focus on
   dropout rates.
