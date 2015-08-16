@@ -1,6 +1,6 @@
 \chapter{Aprendizado de máquina}
 
-% [Definição]
+% Definição
 \section{Definição}
 
 Aprendizado de máquina é uma subárea de Inteligência Artificial que agrupa conhecimentos sobre algoritmos e técnicas que permitam que um programa melhore sua performance a partir de dados. Mais formalmente:
@@ -9,8 +9,8 @@ Aprendizado de máquina é uma subárea de Inteligência Artificial que agrupa c
 Um programa aprende a partir de uma experiência E, com relação a uma classe de tarefas T e a uma medida de performance P, se sua performance em tarefas da classe T, medida por P, melhora com a experiência E. \cite[p.2, tradução nossa]{Tom_mitchell}
 \end{citacao}
 
-\todo{expandir}
-% [Exemplo]
+\todo[inline]{expandir}
+% Exemplo
 \section{Modelagem}
 
 \cite{Tom_mitchell}, para exemplificar a modelagem de um programa com uma abordagem de aprendizado de máquina, apresenta uma sequência de passos para desenvolver um programa que aprenda a jogar xadrez, a ser utilizado para disputar um campeonato mundial de xadrez.
@@ -21,7 +21,7 @@ Um programa aprende a partir de uma experiência E, com relação a uma classe d
 O primeiro passo é escolher a experiência a partir da qual o programa irá aprender, denominada experiência de treinamento. \cite{Tom_mitchell} classifica os tipos de experiência a partir de três atributos: feedback, se direto ou indireto com relação a como o programa será utilizado; nível de controle que há sobre a experiência; e representatividade. É ressaltado que o tipo de experiência utilizada pelo programa pode ter impacto significativo no sucesso ou falha em seu aprendizado. 
 
 O atributo feedback representa quão direta é a informação fornecida pela experiência para o problema em questão. 
-Com relação a esse atributo, o elemento experiência pode ser classificado como experiência de feedback direto e experiência de feedback indireto. Por exemplo, a tupla estado do tabuleiro e melhor movimento possível a partir desse estado é classificada como experiência de feedback direto: o programa irá atuar realizando movimentos e esse tipo de experiência informa diretamente qual o melhor movimento. Já a tupla sequência de movimentos de uma partida e seu resultado final é classificada como experiência de feedback indireto: o resultado final da partida não fornece informação direta sobre a qualidade dos movimentos que nela foram executados. A atividade de determinar o grau de influência que elementos de uma experiência de feedback indireto têm sobre o resultado é denominada credit assignment. \todo{traduzir}
+Com relação a esse atributo, o elemento experiência pode ser classificado como experiência de feedback direto e experiência de feedback indireto. Por exemplo, a tupla estado do tabuleiro e melhor movimento possível a partir desse estado é classificada como experiência de feedback direto: o programa irá atuar realizando movimentos e esse tipo de experiência informa diretamente qual o melhor movimento. Já a tupla sequência de movimentos de uma partida e seu resultado final é classificada como experiência de feedback indireto: o resultado final da partida não fornece informação direta sobre a qualidade dos movimentos que nela foram executados. A atividade de determinar o grau de influência que elementos de uma experiência de feedback indireto têm sobre o resultado é denominada credit assignment. \todo[inline]{traduzir}
 
 O atributo nível de controle representa quanto de controle é possível ter sobre a captura da experiência. Com relação a esse atributo, o elemento experiência pode ser classificado como experiência selecionada por especialista, experiência sugerida pelo programa e analisada por um especialista e experiência selecionada e analisada pelo programa. Por exemplo, a experiência será do tipo selecionada por especialista se houve um jogador experiente de xadrez que selecionou estados de tabuleiro e indicou que melhores movimentos poderão ser feitos; será do tipo sugerida pelo programa e analisada por um especialista se o próprio programa selecionar estados de tabuleiro para serem analisadas por um jogador experiente de xadrez; será do tipo selecionada e analisada pelo programa se o programa utilizar o resultado de partidas que disputar consigo mesmo.
 
@@ -30,8 +30,8 @@ O atributo representatividade indica quão bem a experiência reflete a realidad
 % Escolha da função alvo/target function
 \subsection*{Escolha da função alvo}
 
-O próximo passo é a escolha do tipo de conhecimento que deverá ser aprendido, representado por uma função denominada função alvo, e como ele será utilizado pelo programa. Considerando que o programa irá atuar como um jogador de xadrez, uma possível função a ser considerada é uma cujo domínio seja o conjunto de estados de tabuleiro e que retorne o melhor movimento a partir do estado de tabuleiro informado. Esse tipo de conhecimento depende da assunção de que, dado um estado de tabuleiro, existe um melhor movimento a ser executado. O problema de aprendizado dessa função depende, portanto, do problema de determinar quão um movimento influencia no resultado final de uma partida. \todo{discutir}
-\todo{qual a escolhida no Mitchell? Lembrar de apresentar o exemplo}
+O próximo passo é a escolha do tipo de conhecimento que deverá ser aprendido, representado por uma função denominada função alvo, e como ele será utilizado pelo programa. Considerando que o programa irá atuar como um jogador de xadrez, uma possível função a ser considerada é uma cujo domínio seja o conjunto de estados de tabuleiro e que retorne o melhor movimento a partir do estado de tabuleiro informado. Esse tipo de conhecimento depende da assunção de que, dado um estado de tabuleiro, existe um melhor movimento a ser executado. O problema de aprendizado dessa função depende, portanto, do problema de determinar quão um movimento influencia no resultado final de uma partida. \todo[inline]{discutir}
+\todo[inline]{qual a escolhida no Mitchell? Lembrar de apresentar o exemplo}
 
 Outro tipo de conhecimento é uma função que tenha como domínio o conjunto de estados de tabuleiro e retorne um número real, indicando quão bom o estado de tabuleiro informado é. 
 
@@ -104,11 +104,11 @@ Nessa sequência de passos podem ser identificados quatro elementos de um progra
 Outras configurações para esses elementos foram desenvolvidas. Por exemplo, como representação da função alvo pode-se utilizar um grafo em estrutura de árvore, denominado árvore de decisão. Cada nó seu que não seja folha possui uma regra que associa um dado a um de seus nós filhos. Os nós folhas são associados a um valor. Seu funcionamento consiste em apresentar um dado à regra de um nó, inicialmente o nó raiz, e recursivamente aplicar esse procedimento ao nó filho ao qual a regra associa o dado, até que seja alcançado um nó folha, cujo resultado associado é então retornado como o valor da função.
 
 \section{Modelos}
-\todo{definir o que quer dizer por modelo}
+\todo[inline]{definir o que quer dizer por modelo}
 representation + evaluation + optimization \cite{ML_know}
 
 % [Aplicações]
 \section{Aplicações}
 
-\todo{melhorar}
+\todo[inline]{melhorar}
 De acordo com \cite{Mitchell_discipline}, o conhecimento sobre aprendizado de máquina pode ser aplicado a diversas áreas, como, por exemplo, a reconhecimento de voz; a visão computacional, sendo utilizado no desenvolvimento de sistemas de reconhecimento facial; a controle de robôs.

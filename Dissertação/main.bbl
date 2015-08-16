@@ -5,6 +5,16 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
+\bibitem[Azevedo 2008]{CRISP-DM-KDD-SEMMA}
+\abntrefinfo{Azevedo}{AZEVEDO}{2008}
+{AZEVEDO, A. I. R.~L. Kdd, semma and crisp-dm: a parallel overview.
+2008.}
+
+\bibitem[Chapman et al. 2000]{CRISP-DM}
+\abntrefinfo{Chapman et al.}{CHAPMAN et al.}{2000}
+{CHAPMAN, P. et al. Crisp-dm 1.0 step-by-step data mining guide.
+2000.}
+
 \bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{Predicting_Students}
 \abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;
   VLEESHOUWERS}{2009}
@@ -16,6 +26,18 @@
 \abntrefinfo{Domingos}{DOMINGOS}{2012}
 {DOMINGOS, P. A few useful things to know about machine learning.
 \emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
+
+\bibitem[Drummond 2008]{balance-anarchy}
+\abntrefinfo{Drummond}{DRUMMOND}{2008}
+{DRUMMOND, C. Finding a balance between anarchy and orthodoxy. In:
+  \emph{Proceedings of the Twenty-Fifth International Conference on Machine
+  Learning: Workshop on Evaluation Methods for Machine Learning III (4 pages)}.
+  [S.l.: s.n.], 2008.}
+
+\bibitem[Drummond 2009]{replicability}
+\abntrefinfo{Drummond}{DRUMMOND}{2009}
+{DRUMMOND, C. Replicability is not reproducibility: nor is it good science.
+2009.}
 
 \bibitem[Manh{\~a}es et al. 2012]{EDM_ufrj2}
 \abntrefinfo{Manh{\~a}es et al.}{MANH{\~A}ES et al.}{2012}
@@ -35,6 +57,12 @@
 {MITCHELL, T.~M. \emph{Machine Learning}. 1. ed. New York, NY, USA:
   McGraw-Hill, Inc., 1997.
 ISBN 0070428077, 9780070428072.}
+
+\bibitem[Sculley et al. 2014]{ML_debt}
+\abntrefinfo{Sculley et al.}{SCULLEY et al.}{2014}
+{SCULLEY, D. et al. Machine learning: The high interest credit card of
+  technical debt. In:  \emph{SE4ML: Software Engineering for Machine Learning
+  (NIPS 2014 Workshop)}. [S.l.: s.n.], 2014.}
 
 \bibitem[Sherrill, Eberle e Talbert 2011]{EDM_retention}
 \abntrefinfo{Sherrill, Eberle e Talbert}{SHERRILL; EBERLE; TALBERT}{2011}
