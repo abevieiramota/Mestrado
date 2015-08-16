@@ -1,18 +1,50 @@
 \chapter{Metodologia}
 
+\todo[inline]{O capítulo todo é um resumo do CRISP-DM 1.0... fico dando \cite em todo parágrafo?}
+
 \section{Processo CRISP-DM 1.0}
+
+% Por que seguir um processo?
 \todo[inline]{Por que um processo?}
+
 % Reproducibilidade/padronização/etc
 \cite{ML_know} \cite{balance-anarchy} \cite{ML_debt} \cite{replicability}
 
+% Por que CRISP-DM?
 \todo[inline]{Por que CRISP-DM?}
 \cite{CRISP-DM-KDD-SEMMA}
 
+% História do CRISP-DM
+%% p. 1-2
 \todo[inline]{História do CRISP-DM}
 CRISP-DM(CRoss-Industry Standard Process for Data Mining) é um processo de aplicação de Mineração de Dados, desenvolvido pelo CRISP-DM Special Interest Group e publicado em 2000. Foi concebido em 1996 por três empresas que utilizavam Mineração de Dados: DaimlerChrysler(à época Daimler-Benz), SPSS(à época ISL) e NCR; motivadas pela incerteza com relação à qualidade de seus trabalhos, pelo questionamento de se toda nova empresa que quiser aplicar Mineração de Dados terá que passar pelo aprendizado que passaram, baseado em tentativa e erro, e como garantir, para seus clientes, que Mineração de Dados era uma área suficientemente madura para ser incorporada a seus processos de negócio. Em 1999 foi publicado um draft do CRISP-DM versão 1.0, sendo aplicado pela DaimlerChrysler, SPSS e NCR a vários tipos de aplicações, indústrias e problemas de negócio, sendo considerado, então, validado suficientemente para ser publicado e distribuído\cite{CRISP-DM}.
 \todo[inline]{E hoje em dia?}
 
+% Overview do CRISP-DM
+%% p. 6
+\todo[inline]{figura com diagrama}
 \todo[inline]{Overview}
+CRISP-DM segue uma estrutura hierárquica, composta de quatro níveis de abstração(do mais genérico ao mais específico):\todo{traduzir ou não?} fase, tarefa genérica, tarefa especializada e instância de processo. Os dois primeiros níveis, fase e tarefa genérico, foram modelados a fim de serem genéricos o suficiente para atenderem às todas aplicações de Mineração de Dados; completos, abrangendo todo o processo de Mineração de Dados; e estáveis, sendo aplicáveis tanto para as técnicas de Mineração de Dados existentes, quanto às que venham a ser desenvolvidas. O terceiro nível, tarefa especializada, é composto pelas tarefas a serem executadas em situações específicas para alcançar os objetivos das tarefas genéricas. Exemplificando, seja a tarefa genérica Limpar dados: a ela relacionadas estão as tarefas especializadas Limpar dados numéricos e Limpar dados categóricos. O quarto nível, instância de processo, é composto pelos registros de ações, decisões e resultados de uma execução do processo.\cite{CRISP-DM}
+
+% Sobre não ser linear, mas interativo incremental
+Apesar de a representação do processo indicar que ele é composto por uma sequência fixa de fases, na prática as tarefas podem ser executadas seguindo outras ordens: é o caso de, por exemplo, na tarefa Avaliação do modelo ser verificado que são necessários mais dados, a serem adquiridos através de tarefas que, de acordo com o diagrama, já foram executadas.
+
+% Mapeamento modelo -> instância
+%% p. 7-8
+Para o mapeamento do modelo em uma instância do processo, a especificação do CRISP-DM 1.0 identifica como relevantes quatro dimensões do contexto de Mineração de Dados: domínio de aplicação, tipo de problema de Mineração de Dados, aspectos técnicos e ferramentas e técnicas. Os valores dessas dimensões são utilizados nas decisões sobre que tarefas específicas podem ou devem ser executadas.
+
+O processo de mapeamento do CRISP-DM a uma instância do processo é, de acordo com o CRISP-DM 1.0, composto pelas etapas:
+\begin{enumerate}
+\item Analisar o contexto, identificando os valores para as dimensões domínio de aplicação, tipo de problema de Mineração de Dados, aspectos técnicos e ferramentas e técnicas
+\item Remover do modelo CRISP-DM os detalhes não aplicáveis ao contexto analisado
+\item Adicionar detalhes específicos do contexto analisado
+\item Especializar(ou instanciar) elementos genéricos do modelo de acordo com características concretas do contexto
+\item Possivelmente renomear elementos genéricos do modelo a fim de tornar mais explícito seu significado, de acordo com o contexto
+\end{enumerate}
+
+\todo[inline]{tabela com exemplos de valores para as dimensões -> p.7}
+
+
 
 \subsection*{Business Understanding}
 \subsection*{Data Understanding}
