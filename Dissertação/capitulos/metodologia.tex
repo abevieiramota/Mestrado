@@ -27,7 +27,7 @@ CRISP-DM(CRoss-Industry Standard Process for Data Mining) é um processo de apli
 CRISP-DM segue uma estrutura hierárquica, composta de quatro níveis de abstração(do mais genérico ao mais específico):\todo{traduzir ou não?} fase, tarefa genérica, tarefa especializada e instância de processo. Os dois primeiros níveis, fase e tarefa genérico, foram modelados a fim de serem genéricos o suficiente para atenderem às todas aplicações de Mineração de Dados; completos, abrangendo todo o processo de Mineração de Dados; e estáveis, sendo aplicáveis tanto para as técnicas de Mineração de Dados existentes, quanto às que venham a ser desenvolvidas. O terceiro nível, tarefa especializada, é composto pelas tarefas a serem executadas em situações específicas para alcançar os objetivos das tarefas genéricas. Exemplificando, seja a tarefa genérica Limpar dados: a ela relacionadas estão as tarefas especializadas Limpar dados numéricos e Limpar dados categóricos. O quarto nível, instância de processo, é composto pelos registros de ações, decisões e resultados de uma execução do processo.\cite{CRISP-DM}
 
 % Sobre não ser linear, mas interativo incremental
-Apesar de a representação do processo indicar que ele é composto por uma sequência fixa de fases, na prática as tarefas podem ser executadas seguindo outras ordens: é o caso de, por exemplo, na tarefa Avaliação do modelo ser verificado que são necessários mais dados, a serem adquiridos através de tarefas que, de acordo com o diagrama, já foram executadas.
+Apesar de a representação do processo sugerir que ele é composto por uma sequência fixa de fases, na prática as tarefas podem ser executadas seguindo outras ordens: é o caso de, por exemplo, na tarefa Avaliação do modelo ser verificado que são necessários mais dados, a serem adquiridos através de tarefas que, de acordo com o diagrama, já foram executadas.
 
 % Mapeamento modelo -> instância
 %% p. 7-8
@@ -44,13 +44,39 @@ O processo de mapeamento do CRISP-DM a uma instância do processo é, de acordo 
 
 \todo[inline]{tabela com exemplos de valores para as dimensões -> p.7}
 
+\todo[inline]{figura com representação do processo}
 
+% Overview das fases 
+%% p. 10-11
+A seguir segue uma descrição breve de cada uma das fases:
 
-\subsection*{Business Understanding}
-\subsection*{Data Understanding}
-\subsection*{Data Preparation}
-\subsection*{Modeling}
-\subsection*{Evaluation}
-\subsection*{Deployment}
+\begin{enumerate}
+
+\item \textbf{Análise do negócio}:
+O objetivo desta fase é entender os requisitos e objetivos do projeto sob uma perspectiva de negócio, traduzí-los para requisitos e objetivos sob uma perspectiva de Mineração de Dados e então traçar um plano preliminar para alcançá-los.
+
+\item \textbf{Análise dos dados}:
+Esta fase inicia com uma coleta inicial de dados e segue para o estudo dos dados a fim de identificar problemas de qualidade, obter insights e detectar possíveis subconjuntos de dados que permitam desenvolver hipóteses sobre informações que não estejam presentes.
+
+\item \textbf{Preparação dos dados}:
+Esta fase é composta por atividades necessárias para gerar, a partir dos dados inicialmente coletados, um conjunto de dados a ser utilizado pelas ferramentas de modelagem. Inclui atividades como seleção de tabelas, registros, atributos, transformações e limpeza de dados.
+
+\item \textbf{Modelagem}:
+Nesta fase são aplicadas técnicas de modelagem e os modelos desenvolvidos são otimizados. Normalmente aplicam-se ao problema mais de uma técnicas de modelagem. Como algumas técnicas de modelagem podem exigir que os dados estejam em dado formato, pode ser necessário voltar para a fase Preparação dos dados.
+
+\item \textbf{Avaliação}:
+Esta fase é iniciada quando já foi desenvolvido um modelo com alta qualidade, do ponto de vista da Mineração de Dados. Nela são avaliados a adequação do modelo como ferramenta para alcançar o objetivo de negócio que motivou o projeto e a qualidade da instância do processo. Ela termina com a decisão pela utilização ou não dos resultados obtidos.
+
+\item \textbf{Instalação}:\todo{qual a tradução para deployment?}
+Após o desenvolvimento de um modelo, faz-se necessário que ele seja disponibilizado para os usuários finais, seja na forma de relatórios, seja na forma de sistemas de apoio à tomada de decisão, para que seja efetivamente utilizado, auxiliando no alcance dos objetivos de negócio que motivaram a criação do projeto.
+
+\end{enumerate}
+
+\subsection*{Análise do negócio}
+\subsection*{Análise dos dados}
+\subsection*{Preparação dos dados}
+\subsection*{Modelagem}
+\subsection*{Avaliação}
+\subsection*{Instalação}
 
 \section{Ferramentas utilizadas}
