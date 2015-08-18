@@ -28,11 +28,11 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Metodologia}}{31}{chapter.5}
 \contentsline {section}{\numberline {5.1}Processo CRISP-DM 1.0}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Ferramentas utilizadas}{34}{section.5.2}
+\contentsline {section}{\numberline {5.2}Ferramentas utilizadas}{45}{section.5.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados}}{35}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados}}{47}{chapter.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclus\IeC {\~a}o}}{37}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclus\IeC {\~a}o}}{49}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{39}{section*.60}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{51}{section*.113}
