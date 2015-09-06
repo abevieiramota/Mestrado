@@ -402,6 +402,45 @@ IX. Taxa de Sucesso na Graduação-TSG                        &  66.63 &  56.51 
 \subsection{Indicadores de evasão}
 \cite{esclarecimentos_calculos}
 \cite{mudanca_calculos}
+
+\subsubsection{Taxa de sucesso}
+Definido com esse nome em \cite{indicadores_TCU} e com o nome "Taxa de titulação" em \cite{mudanca_calculos}, esse indicador é a razão entre a quantidade de discentes concluintes efetivos e a quantidade de concluintes esperados, considerando prazo esperado de conclusão.
+Este indicador abstrai a ocorrência de ocupação, via transferência, de vaga ociosa por evasão; considera apenas as conclusões no prazo esperado, podendo gerar dados inesperados, como percentuais acima de 100\%, indicando haver se formado no ano em questão mais discentes que o esperado, consequência, por exemplo, de discentes atrasados ou de discentes adiantados.
+\begin{equation}
+\frac{Nº\ de\ diplomados(N_{DI})}{Nº\ total\ de\ alunos\ ingressantes}
+\end{equation}
+
+\subsubsection{Evasão anual}
+Definido em \cite{esclarecimentos_calculos} e \cite{mudanca_calculos}, é a razão entre a quantidade de rematrículas realizadas e a quantidade de rematrículas esperadas.
+\begin{equation}
+1 - \frac{M(n) - Ig(n)}{M(n-1) - Eg(n-1)}
+\end{equation}
+\begin{itemize}
+\item $M(n)$: quantidade de matrículas no ano $n$
+\item $Eg(n)$: quantidade de egressos do ano $n$
+\item $Ig(n)$: quantidade de ingressantes do ano $n$
+\end{itemize}
+
+Essa definição refere-se à evasão de cursos, de forma que um discente que tenha mudado de curso na mesma IES terá ao mesmo tempo contabilizados sua matrícula no período anterior($M(n-1)$) e como ingressante($Ig(n)$).
+
+Para a evasão de IES, é proposta a seguinte definição:
+\begin{equation}
+1 - \frac{M(n) - [Ig(n) - ITC(n)]}{M(n-1) - Eg(n-1)}
+\end{equation}
+\begin{itemize}
+\item $ITC(n)$: quantidade de ingressantes no ano $n$ com forma de ingresso transferência interna
+\end{itemize}
+
+Já para a evasão do sistema, a ser aplicada a dados de várias, se possível todas, IES, a definição proposta é:
+\begin{equation}
+1 - \frac{M(n) - [Ig(n) - ITC(n) - ITIES(n)]}{M(n-1) - Eg(n-1)}
+\end{equation}
+\begin{itemize}
+\item $ITIES(n)$: quantidade de ingressantes no ano $n$ com forma de ingresso transferência externa
+\end{itemize}
+\todo[inline]{refletir melhor sobre o significado desses indicadores}
+\todo[inline]{refletir melhor sobre quais possíveis indicadores utilizar}
+
 \todo[inline]{Analisar os indicadores de evasão da literatura e calcular}
 
 \section{Business objectives}
