@@ -26,7 +26,11 @@
 \contentsline {subsubsection}{Evas\IeC {\~a}o anual}{13}
 \contentsline {subsection}{\numberline {1.3.3}Causas}{14}
 \contentsline {subsubsection}{Instituto Lobo}{14}
-\contentsline {subsubsection}{Vincent Tinto}{15}
-\contentsline {subsection}{\numberline {1.3.4}Solu\IeC {\c c}\IeC {\~o}es}{15}
-\contentsline {chapter}{\numberline {2}Business objectives}{16}
-\contentsline {chapter}{\numberline {3}Business success criteria}{17}
+\contentsline {subsubsection}{Opini\IeC {\~a}o de docentes e de coordenadores acerca do fen\IeC {\^o}meno da evas\IeC {\~a}o discente dos cursos de gradua\IeC {\c c}\IeC {\~a}o da Universidade Federal do Cear\IeC {\'a}(UFC)}{16}
+\contentsline {subsubsection}{Vincent Tinto}{16}
+\contentsline {subsection}{\numberline {1.3.4}Solu\IeC {\c c}\IeC {\~o}es}{17}
+\contentsline {subsubsection}{Instituto Lobo}{17}
+\contentsline {subsubsection}{Vincent Tinto}{18}
+\contentsline {subsubsection}{Opini\IeC {\~a}o de docentes e de coordenadores acerca do fen\IeC {\^o}meno da evas\IeC {\~a}o discente dos cursos de gradua\IeC {\c c}\IeC {\~a}o da Universidade Federal do Cear\IeC {\'a}(UFC)}{18}
+\contentsline {chapter}{\numberline {2}Business objectives}{19}
+\contentsline {chapter}{\numberline {3}Business success criteria}{20}
