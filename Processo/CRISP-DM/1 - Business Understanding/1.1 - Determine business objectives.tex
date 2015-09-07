@@ -435,12 +435,34 @@ Definido em \cite{esclarecimentos_calculos} e \cite{mudanca_calculos}, é a raz�
 1 - \frac{M(n) - Ig(n)}{M(n-1) - Eg(n-1)}
 \end{equation}
 \begin{itemize}
-\item $M(n)$: quantidade de matrículas no ano $n$
-\item $Eg(n)$: quantidade de egressos do ano $n$
-\item $Ig(n)$: quantidade de ingressantes do ano $n$
+\item $M(n)$: quantidade de matrículas na unidade de tempo $n$
+\item $Eg(n)$: quantidade de egressos na undiade de tempo $n$
+\item $Ig(n)$: quantidade de ingressantes na unidade de tempo $n$
 \end{itemize}
 
-Essa definição refere-se à evasão de cursos, de forma que um discente que tenha mudado de curso na mesma IES terá ao mesmo tempo contabilizados sua matrícula no período anterior($M(n-1)$) e como ingressante($Ig(n)$).
+Para derivar essa taxa, basta notarmos as seguintes equações e respectivos significados:
+\begin{enumerate}
+\item 
+\begin{equation}
+M(n) = E(n) + X(n) + Eg(n)
+\end{equation}
+significando que a quantidade de matrículas em determinada unidade de tempo $n$ é composta pelas quantidades de matrículas de discentes que evadirão em $n$, de discentes que persistirão, isto é, se matricularão em $n+1$, e de discentes que se diplomarão ao fim de $n$.
+\item 
+\begin{equation}
+M(n) = X(n-1) + Ig(n)
+\end{equation}
+significando que a quantidade de matrículas em determinada unidade de tempo $n$ é composta pelas quantidades de matrículas de discentes que se matricularam em $n$ e em $n-1$, ou seja, que persistiram de $n-1$ a $n$, e de discentes que ingressaram em $n$.
+\end{enumerate}
+
+Fazendo as devidas manipulações nas equações, chegamos na equação de quantidade de evasões ao fim de determinada unidade de tempo:
+\begin{equation}
+E(n) = [M(n) - Eg(n)] - [M(n+1) - Ig(n+1)]
+\end{equation}
+Podendo ser interpretada como a diferença de quantidade máxima de discentes persistindo e a quantidade efetiva de discentes que persistiram.
+
+A fórmula da evasão anual pode ser então definida como a proporção entre a quantidade de evasões em uma unidade de tempo e a quantidade máxima de discentes persistindo naquela unidade de tempo.
+
+A definição de evasão anual até então analisada refere-se à evasão de cursos, de forma que um discente que tenha mudado de curso na mesma IES terá ao mesmo tempo contabilizados sua matrícula no período anterior($M(n-1)$) e como ingressante($Ig(n)$).
 
 Para a evasão de IES, é proposta a seguinte definição:
 \begin{equation}
