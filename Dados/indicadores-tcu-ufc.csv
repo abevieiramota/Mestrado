@@ -1,29 +1,7 @@
-COMPONENTES DOS INDICADORES DE DESEMPENHO,2008,2009,2010,2011,2012,2013
-AE – Aluno Equivalente da UFC,34023.00,33557.62,37908.26,40708.72,41144.35,42443.53
-ATI – Aluno em Tempo Integral,21212.00,21461.92,23307.93,25035.20,26330.48,26466.34
-AgE – Aluno Equivalente de Graduação,28080.00,27074.62,31631.26,33018.72,32468.35,34247.53
-ApgTI – Aluno da Pós-Graduação em Tempo Integral,5615,6075,5839,7308.00,8268.00,7760.00
-ArTI – Aluno de Residência em Tempo Integral,328,408,438,382.00,408.00,436.00
-AgTI – Aluno de Graduação em Tempo Integral,15269.00,14978.92,17030.93,17345.20,17654.48,18270.34
-Ag – Aluno de Graduação,20991,21289,22538,25971,26956,27433
-Apg – Aluno de Pós-Graduação,2808,3038,2920,3654,4134,3880
-Ar – Aluno de Residência Médica,164,204,219,191,204,218
-Ndi – Alunos Diplomados,2520,2481,2586,2792,2684,2920
-Ni – Alunos Ingressantes,4822,4731,6204,5643,6406,6087
-Custo corrente com HU (inclui 65% do HU),444351055.04,473411413.49,564453156.89,581255114.03,560737712.22,698496687.71
-Custo corrente sem HU,426930950.49,431030343.74,513713119.26,491835392.86,482034252.71,609763905.54
-Número de funcionários Equivalente com HU,3313.00,3252.50,3255.50,3283.25,3281.50,3277.75
-Número de funcionários Equivalente sem HU,1902.25,1916.25,1954.00,1927.00,1990.00,2047.50
-Professor Equivalente,1619,1765.50,1856.00,1851.50,1912.50,1948.50
-I.A. Custo corrente com HU/Aluno Equivalente,13060.38,14107.42,14889.98,14278.39,13628.55,16457.08
-I.B. Custo Corrente sem HU/Aluno Equivalente,12548.36,12844.49,13551.48,12081.82,11715.69,14366.47
-II. Aluno Tempo Integral/Professor Equivalente,13.10,12.16,12.56,13.52,13.77,13.58
-III.A. Aluno Tempo Integral/Funcionário Equivalente com HU,6.40,6.60,7.16,7.63,8.03,8.07
-III.B. Aluno Tempo Integral/Funcionário Equivalente sem HU,11.15,11.20,11.93,12.99,13.23,12.93
-IV.A. Funcionário Equivalente com HU/Professor Equivalente3,2.05,1.84,1.75,1.77,1.72,1.68
-IV.B. Funcionário Equivalente sem HU/Professor Equivalente,1.17,1.09,1.05,1.04,1.04,1.05
-V. Grau de Participação Estudantil-GPE,0.73,0.70,0.76,0.67,0.65,0.67
-VI. Grau de Envolvimento com Pós-Graduação-GEPG,0.12,0.12,0.11,0.12,0.13,0.12
-VII. Conceito CAPES para a Pós-Graduação,4.13,4.11,4.22,4.22,4.20,4.34
-VIII. Índice de Qualificação do Corpo Docente-IQCD,3.95,3.73,4.03,4.13,4.15,4.24
-IX. Taxa de Sucesso na Graduação-TSG,70.00,66.86,68.45,69.06,66.63,56.51
+Ano,AE – Aluno Equivalente da UFC,ATI – Aluno em Tempo Integral,AgE – Aluno Equivalente de Graduação,ApgTI – Aluno da Pós-Graduação em Tempo Integral,ArTI – Aluno de Residência em Tempo Integral,AgTI – Aluno de Graduação em Tempo Integral,Ag – Aluno de Graduação,Apg – Aluno de Pós-Graduação,Ar – Aluno de Residência Médica,Ndi – Alunos Diplomados,Ni – Alunos Ingressantes,Custo corrente com HU (inclui 65% do HU),Custo corrente sem HU,Número de funcionários Equivalente com HU,Número de funcionários Equivalente sem HU,Professor Equivalente,I.A. Custo corrente com HU/Aluno Equivalente,I.B. Custo Corrente sem HU/Aluno Equivalente,II. Aluno Tempo Integral/Professor Equivalente,III.A. Aluno Tempo Integral/Funcionário Equivalente com HU,III.B. Aluno Tempo Integral/Funcionário Equivalente sem HU,IV.A. Funcionário Equivalente com HU/Professor Equivalente3,IV.B. Funcionário Equivalente sem HU/Professor Equivalente,V. Grau de Participação Estudantil-GPE,VI. Grau de Envolvimento com Pós-Graduação-GEPG,VII. Conceito CAPES para a Pós-Graduação,VIII. Índice de Qualificação do Corpo Docente-IQCD,IX. Taxa de Sucesso na Graduação-TSG
+2008,34023.0,21212.0,28080.0,5615.0,328.0,15269.0,20991.0,2808.0,164.0,2520.0,4822.0,444351055.04,426930950.49,3313.0,1902.25,1619.0,13060.38,12548.36,13.1,6.4,11.15,2.05,1.17,0.73,0.12,4.13,3.95,70.0
+2009,33557.62,21461.92,27074.62,6075.0,408.0,14978.92,21289.0,3038.0,204.0,2481.0,4731.0,473411413.49,431030343.74,3252.5,1916.25,1765.5,14107.42,12844.49,12.16,6.6,11.2,1.84,1.09,0.7,0.12,4.11,3.73,66.86
+2010,37908.26,23307.93,31631.26,5839.0,438.0,17030.93,22538.0,2920.0,219.0,2586.0,6204.0,564453156.89,513713119.26,3255.5,1954.0,1856.0,14889.98,13551.48,12.56,7.16,11.93,1.75,1.05,0.76,0.11,4.22,4.03,68.45
+2011,40708.72,25035.2,33018.72,7308.0,382.0,17345.2,25971.0,3654.0,191.0,2792.0,5643.0,581255114.03,491835392.86,3283.25,1927.0,1851.5,14278.39,12081.82,13.52,7.63,12.99,1.77,1.04,0.67,0.12,4.22,4.13,69.06
+2012,41144.35,26330.48,32468.35,8268.0,408.0,17654.48,26956.0,4134.0,204.0,2684.0,6406.0,560737712.22,482034252.71,3281.5,1990.0,1912.5,13628.55,11715.69,13.77,8.03,13.23,1.72,1.04,0.65,0.13,4.2,4.15,66.63
+2013,42443.53,26466.34,34247.53,7760.0,436.0,18270.34,27433.0,3880.0,218.0,2920.0,6087.0,698496687.71,609763905.54,3277.75,2047.5,1948.5,16457.08,14366.47,13.58,8.07,12.93,1.68,1.05,0.67,0.12,4.34,4.24,56.51
