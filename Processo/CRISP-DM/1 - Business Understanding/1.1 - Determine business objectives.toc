@@ -1,36 +1,34 @@
 \contentsline {chapter}{\numberline {1}Background}{3}
-\contentsline {section}{\numberline {1.1}Fonte: site da UFC}{3}
-\contentsline {section}{\numberline {1.2}Fonte: Anu\IeC {\'a}rio estat\IeC {\'\i }stico 2014 base 2013}{3}
-\contentsline {subsection}{\numberline {1.2.1}Objetivos institucionais}{3}
-\contentsline {subsection}{\numberline {1.2.2}Lema}{4}
-\contentsline {subsection}{\numberline {1.2.3}Miss\IeC {\~a}o}{4}
-\contentsline {subsection}{\numberline {1.2.4}Vis\IeC {\~a}o}{5}
-\contentsline {subsection}{\numberline {1.2.5}Centros, faculdades e institutos}{5}
-\contentsline {subsection}{\numberline {1.2.6}Or\IeC {\c c}amento da UFC - em milh\IeC {\~o}es}{5}
-\contentsline {subsection}{\numberline {1.2.7}\IeC {\'A}rea constru\IeC {\'\i }da da UFC - mil m2}{6}
-\contentsline {subsection}{\numberline {1.2.8}Quantitativos de bolsas por ano e modalidade}{6}
-\contentsline {subsection}{\numberline {1.2.9}Projetos e programas de inclus\IeC {\~a}o social em 2013}{6}
-\contentsline {subsection}{\numberline {1.2.10}Unidade Universit\IeC {\'a}ria Federal de Educa\IeC {\c c}\IeC {\~a}o Infantil - UUFEI}{6}
-\contentsline {subsection}{\numberline {1.2.11}Quantitativos de inscritos(vestibular e sisu) e vagas ofertadas por ano}{7}
-\contentsline {subsection}{\numberline {1.2.12}Quantitativo de cursos de gradua\IeC {\c c}\IeC {\~a}o por ano}{7}
-\contentsline {subsection}{\numberline {1.2.13}Indicadores de assist\IeC {\^e}ncia a estudantes}{7}
-\contentsline {subsection}{\numberline {1.2.14}Distribui\IeC {\c c}\IeC {\~a}o de docentes e t\IeC {\'e}cnicos-administrativos}{8}
-\contentsline {subsection}{\numberline {1.2.15}Quantitativo de vagas de casa de cultura}{8}
-\contentsline {subsection}{\numberline {1.2.16}Indicadores de gest\IeC {\~a}o para o TCU}{9}
-\contentsline {subsection}{\numberline {1.2.17}Porcentagem de alunos de gradua\IeC {\c c}\IeC {\~a}o com bolsas}{11}
-\contentsline {subsection}{\numberline {1.2.18}Bolsas de monitoria, pet - por curso em 2013; de ic - por \IeC {\'a}rea de conhecimento 2010 a 2013}{11}
-\contentsline {section}{\numberline {1.3}Evas\IeC {\~a}o}{12}
-\contentsline {subsection}{\numberline {1.3.1}Defini\IeC {\c c}\IeC {\~a}o}{12}
-\contentsline {subsection}{\numberline {1.3.2}Indicadores de evas\IeC {\~a}o}{13}
-\contentsline {subsubsection}{Taxa de sucesso}{13}
-\contentsline {subsubsection}{Evas\IeC {\~a}o anual}{13}
-\contentsline {subsection}{\numberline {1.3.3}Causas}{14}
-\contentsline {subsubsection}{Instituto Lobo}{14}
-\contentsline {subsubsection}{Opini\IeC {\~a}o de docentes e de coordenadores acerca do fen\IeC {\^o}meno da evas\IeC {\~a}o discente dos cursos de gradua\IeC {\c c}\IeC {\~a}o da Universidade Federal do Cear\IeC {\'a}(UFC)}{16}
-\contentsline {subsubsection}{Vincent Tinto}{16}
-\contentsline {subsection}{\numberline {1.3.4}Solu\IeC {\c c}\IeC {\~o}es}{17}
-\contentsline {subsubsection}{Instituto Lobo}{17}
-\contentsline {subsubsection}{Vincent Tinto}{18}
-\contentsline {subsubsection}{Opini\IeC {\~a}o de docentes e de coordenadores acerca do fen\IeC {\^o}meno da evas\IeC {\~a}o discente dos cursos de gradua\IeC {\c c}\IeC {\~a}o da Universidade Federal do Cear\IeC {\'a}(UFC)}{18}
-\contentsline {chapter}{\numberline {2}Business objectives}{19}
-\contentsline {chapter}{\numberline {3}Business success criteria}{20}
+\contentsline {section}{\numberline {1.1}Evas\IeC {\~a}o}{3}
+\contentsline {subsection}{\numberline {1.1.1}Defini\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {subsection}{\numberline {1.1.2}Indicadores de evas\IeC {\~a}o}{4}
+\contentsline {subsubsection}{Taxa de sucesso}{4}
+\contentsline {subsubsection}{Evas\IeC {\~a}o anual}{4}
+\contentsline {subsection}{\numberline {1.1.3}Causas}{6}
+\contentsline {subsubsection}{Instituto Lobo}{6}
+\contentsline {subsubsection}{Opini\IeC {\~a}o de docentes e de coordenadores acerca do fen\IeC {\^o}meno da evas\IeC {\~a}o discente dos cursos de gradua\IeC {\c c}\IeC {\~a}o da Universidade Federal do Cear\IeC {\'a}(UFC)}{7}
+\contentsline {subsubsection}{Vincent Tinto}{8}
+\contentsline {subsection}{\numberline {1.1.4}Solu\IeC {\c c}\IeC {\~o}es}{9}
+\contentsline {subsubsection}{Instituto Lobo}{9}
+\contentsline {subsubsection}{Vincent Tinto}{10}
+\contentsline {subsubsection}{Opini\IeC {\~a}o de docentes e de coordenadores acerca do fen\IeC {\^o}meno da evas\IeC {\~a}o discente dos cursos de gradua\IeC {\c c}\IeC {\~a}o da Universidade Federal do Cear\IeC {\'a}(UFC)}{10}
+\contentsline {section}{\numberline {1.2}Fonte: site da UFC}{10}
+\contentsline {section}{\numberline {1.3}Fonte: Anu\IeC {\'a}rio estat\IeC {\'\i }stico 2014 base 2013}{11}
+\contentsline {subsection}{\numberline {1.3.1}Objetivos institucionais}{11}
+\contentsline {subsection}{\numberline {1.3.2}Lema}{11}
+\contentsline {subsection}{\numberline {1.3.3}Miss\IeC {\~a}o}{12}
+\contentsline {subsection}{\numberline {1.3.4}Vis\IeC {\~a}o}{12}
+\contentsline {subsection}{\numberline {1.3.5}Centros, faculdades e institutos}{12}
+\contentsline {subsection}{\numberline {1.3.6}Or\IeC {\c c}amento da UFC - em milh\IeC {\~o}es}{13}
+\contentsline {subsection}{\numberline {1.3.7}\IeC {\'A}rea constru\IeC {\'\i }da da UFC - mil m2}{13}
+\contentsline {subsection}{\numberline {1.3.8}Quantitativos de bolsas por ano e modalidade}{13}
+\contentsline {subsection}{\numberline {1.3.9}Quantitativos de inscritos(vestibular e sisu) e vagas ofertadas por ano}{14}
+\contentsline {subsection}{\numberline {1.3.10}Quantitativo de cursos de gradua\IeC {\c c}\IeC {\~a}o por ano}{14}
+\contentsline {subsection}{\numberline {1.3.11}Indicadores de assist\IeC {\^e}ncia a estudantes}{14}
+\contentsline {subsection}{\numberline {1.3.12}Distribui\IeC {\c c}\IeC {\~a}o de docentes e t\IeC {\'e}cnicos-administrativos}{15}
+\contentsline {subsection}{\numberline {1.3.13}Quantitativo de vagas de casa de cultura}{15}
+\contentsline {subsection}{\numberline {1.3.14}Indicadores de gest\IeC {\~a}o para o TCU}{15}
+\contentsline {subsection}{\numberline {1.3.15}Porcentagem de alunos de gradua\IeC {\c c}\IeC {\~a}o com bolsas}{17}
+\contentsline {subsection}{\numberline {1.3.16}Bolsas de monitoria, pet - por curso em 2013; de ic - por \IeC {\'a}rea de conhecimento 2010 a 2013}{17}
+\contentsline {chapter}{\numberline {2}Business objectives}{18}
+\contentsline {chapter}{\numberline {3}Business success criteria}{19}
