@@ -29,9 +29,12 @@ Esses exemplos não esgotam as possibilidades de definições de evasão de disc
 
 Além do escopo, outro atributo da evasão que pode ser levado em consideração é o agente cuja decisão resultou na interrupção do processo de aprendizado, podendo ser tanto o discente quanto a instituição de ensino.
 
-De acordo com a literatura analisada \cite{tinto_leaving} \cite{evasao_panorama} a quantidade de evasão da IES ocorrem no primeiro ano do discente na instituição.
+\todo[inline]{discutir o atributo 'motivo' da evasão}
+\todo[inline]{discutir o atributo 'pós evasão'}
 
-A evasão de discente configura-se em problema ao considerarmos que o custo x benefício do processo de aprendizado, quando abandonado antes da conclusão, é menor que o esperado. Expectativas podem ser frustradas, como a esperança de formação de corpo técnico para atender às demandas da indústria; recursos podem ficar ociosos, como é o caso de contratação de servidores, a aquisição de equipamentos e a construção de espaços físicos; pode haver diminuição de recursos financeiros da instituição, caso seu orçamento seja vinculado à quantidade de discentes que concluem o processo de aprendizado. O cálculo 
+De acordo com a literatura analisada \cite{tinto_leaving} \cite{evasao_panorama} a maior parte da evasão de IES ocorre no primeiro ano do discente na instituição.
+
+A evasão de discente configura-se em problema ao considerarmos que o custo x benefício do processo de aprendizado, quando abandonado antes da conclusão, é menor que o esperado. Expectativas podem ser frustradas, como a esperança de formação de corpo técnico para atender às demandas da indústria; recursos podem ficar ociosos, como é o caso de contratação de servidores, a aquisição de equipamentos e a construção de espaços físicos; pode haver diminuição de recursos financeiros da instituição, caso seu orçamento seja vinculado à quantidade de discentes que concluem o processo de aprendizado. 
 
 \subsection{Indicadores de evasão}
 
@@ -42,6 +45,8 @@ Este indicador abstrai a ocorrência de ocupação, via transferência, de vaga 
 \begin{equation}
 \frac{Nº\ de\ diplomados(N_{DI})}{Nº\ total\ de\ alunos\ ingressantes}
 \end{equation}
+
+\todo[inline]{discutir as vantagens e desvantagens dessa métrica e como interpretá-la}
 
 \subsubsection{Evasão anual}
 
@@ -80,7 +85,7 @@ A fórmula da evasão anual pode ser então definida como a proporção entre a 
 A definição de evasão anual até então analisada refere-se à evasão de cursos, de forma que um discente que tenha mudado de curso na mesma IES terá ao mesmo tempo contabilizados sua matrícula no período anterior($M(n-1)$) e como ingressante($Ig(n)$).
 
 \todo{analisar o ciclo de vida de discente e derivar os indicadores}
-Para a evasão de IES, é proposta a seguinte definição:
+Para a evasão anual de IES, é proposta a seguinte definição:
 \begin{equation}
 1 - \frac{M(n) - [Ig(n) - ITC(n)]}{M(n-1) - Eg(n-1)}
 \end{equation}
@@ -88,7 +93,7 @@ Para a evasão de IES, é proposta a seguinte definição:
 \item $ITC(n)$: quantidade de ingressantes no ano $n$ com forma de ingresso transferência interna
 \end{itemize}
 
-Já para a evasão do sistema, a ser aplicada a dados de várias, se possível todas, IES, a definição proposta é:
+Já para a evasão anual do sistema, a ser aplicada a dados de várias, se possível todas, IES, a definição proposta é:
 \begin{equation}
 1 - \frac{M(n) - [Ig(n) - ITC(n) - ITIES(n)]}{M(n-1) - Eg(n-1)}
 \end{equation}
@@ -96,12 +101,12 @@ Já para a evasão do sistema, a ser aplicada a dados de várias, se possível t
 \item $ITIES(n)$: quantidade de ingressantes no ano $n$ com forma de ingresso transferência externa
 \end{itemize}
 
-\todo[inline]{refletir melhor sobre quais possíveis indicadores utilizar}
+\todo[inline]{discutir as vantagens e desvantagens dessa métrica e como interpretá-la}
 \todo[inline]{calcular indicadores para a UFC}
 
 \subsection{Causas}
 
-\subsubsection{Instituto Lobo}
+\subsubsection{Fonte: Instituto Lobo}
 De acordo com o Instituto Lobo\cite{evasao_panorama2}, as causas mais comuns de evasão do sistema de ensino superior no Brasil são:
 
 \begin{enumerate}
@@ -153,9 +158,9 @@ Em \cite{evasao_panorama2} são apresentados modelos teóricos que tentam explic
 Algumas pesquisas indicam que estudantes não abandonam faculdades por grandes razões, mas pelo acúmulo de pequenas razões que destroem suas justificativas de escolha de uma instituição.
 \end{quote}
 
-\subsubsection{Opinião de docentes e de coordenadores acerca do fenômeno da evasão discente dos cursos de graduação da Universidade Federal do Ceará(UFC)}
+\subsubsection{Fonte: Opinião de docentes e de coordenadores acerca do fenômeno da evasão discente dos cursos de graduação da Universidade Federal do Ceará(UFC)}
 
-No trabalho \cite{andriola} são apresentados os resultados de pesquisa feita com uma amostra(tamanho 86 de um universo de tamanho 412) de discentes evadidos no período de 1999 e 2000 acerca dos motivos que os levaram a abandonar os cursos. Os seguintes fatores foram apresentados:
+No trabalho \cite{andriola} são apresentados os \textbf{resultados de pesquisa feita com uma amostra(tamanho 86 de um universo de tamanho 412) de discentes evadidos no período de 1999 e 2000 acerca dos motivos que os levaram a abandonar os cursos}. Os seguintes fatores foram apresentados:
 
 \begin{enumerate}
 
@@ -218,7 +223,7 @@ A estrutura do livro segue:
 
 \subsection{Soluções}
 
-\subsubsection{Instituto Lobo}
+\subsubsection{Fonte: Instituto Lobo}
 
 Em \cite{evasao_panorama2} são apresentados "Sete pontos para baixar a evasão":
 
@@ -240,7 +245,7 @@ Em \cite{evasao_panorama2} são apresentados "Sete pontos para baixar a evasão"
 
 \end{enumerate}
 
-E "Conclusões e recomendações sobre a evasão no ensino superior brasileiro":
+E na seção "Conclusões e recomendações sobre a evasão no ensino superior brasileiro":
 
 \begin{enumerate}
 
@@ -264,10 +269,10 @@ E "Conclusões e recomendações sobre a evasão no ensino superior brasileiro":
 
 \end{enumerate}
 
-\subsubsection{Vincent Tinto}
+\subsubsection{Fonte: Vincent Tinto}
 \todo[inline]{soluções apontadas por Vincent Tinto}
 
-\subsubsection{Opinião de docentes e de coordenadores acerca do fenômeno da evasão discente dos cursos de graduação da Universidade Federal do Ceará(UFC)}
+\subsubsection{Fonte: Opinião de docentes e de coordenadores acerca do fenômeno da evasão discente dos cursos de graduação da Universidade Federal do Ceará(UFC)}
 \todo[inline]{adicionar as sugestões dos docentes e dos coordenadores}
 
 
@@ -606,6 +611,14 @@ Indic &               &               &               &               &         
 \textbf{p. 282 a 289}
 
 \chapter{Business objectives}
+
+\begin{itemize}
+\item Redução de desperdício financeiro - \cite{evasao_global}
+\item Redução de abandonos efetivos subsequentes a abandonos temporários
+\item REUNI \cite{reuni}
+\item PDI \cite{pdi_ufc}
+\item Programa de gestão da atual reitoria \cite{henry}
+\end{itemize}
 
 \chapter{Business success criteria}
 

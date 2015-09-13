@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{andriola}
 {\sc Andriola, W.~B., Andriola, C.~G., and Moura, C.~P.}
@@ -7,12 +7,29 @@
   do cear{\'a} (ufc).
 \newblock {\em Ensaio: aval. pol. p{\'u}bl. Educ\/} (2006).
 
+\bibitem{reuni}
+{\sc da~República, P.}
+\newblock Decreto nº 6096.
+\newblock
+  \url{http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC%206.096-2007?OpenDocument},
+  2007.
+
+\bibitem{henry}
+{\sc e~Custódio, H.}
+\newblock Programa de gestão 2015-2019.
+\newblock \url{http://www.henry-custodio.com/programa.pdf}, 2015.
+
 \bibitem{evasao_panorama2}
 {\sc Lobo, M. B. d. C.~M.}
 \newblock Panorama da evas{\~a}o no ensino superior brasileiro: aspectos gerais
   das causas e solu{\c{c}}{\~o}es.
 \newblock {\em Associa{\c{c}}{\~a}o Brasileira de Mantenedoras de Ensino
   Superior. Cadernos}, 25 (2012).
+
+\bibitem{evasao_global}
+{\sc PRESTES, E. M. D.~T., and FIALHO, M. G.~D.}
+\newblock A evas{\~a}o no ensino superior globalizado e suas repercuss{\~o}es
+  na gest{\~a}o universit{\'a}ria.
 
 \bibitem{evasao_panorama}
 {\sc Silva~Filho, R. L.~L., Motejunas, P.~R., Hip{\'o}lito, O., and Lobo, M.}
