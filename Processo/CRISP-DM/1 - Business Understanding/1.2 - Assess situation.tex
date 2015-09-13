@@ -9,50 +9,65 @@ Inventory of resources:
 
 Requirements, assumptions, and constraints:
 
-\begin{itemize}
+\begin{enumerate}
 \item [\textbf{Assunções}]
 \item 
-	\begin{enumerate}
+	\begin{itemize}
 	\item Perfil do discente não é suficiente para explicar o fenômeno da evasão - instituição/contexto também é relevante
 	\item \textbf{Baseado em}: \cite{tinto_leaving} - loc. 161 "But even among institutions..."
 	\item \textbf{Como validar}: unir uma base de dados sobre discentes e uma sobre a instituição/contexto(universidade, faculdade, curso, turma etc) e verificar a explicabilidade das duas bases, com relação ao problema de evasão
-	\end{enumerate}
+	\end{itemize}
 
 \item 
-	\begin{enumerate}
+	\begin{itemize}
 	\item As informações disponíveis ao fim do primeiro semestre de um discente possuem explicabilidade suficiente para que, baseados nelas, sejam desenvolvidos modelos de predição úteis no combate ao problema
 	\item \textbf{Baseado em}: quais estudos? \cite{tinto_completing} \todo{onde?}
 	\item \textbf{Como validar}: desenvolver modelos de predição utilizando informações disponíveis ao fim do primeiro semestre de discentes na UFC(2015.1) e verificar a acurácia deles, utilizando como função alvo a informação de se o discente conseguiu pelo menos uma aprovação em 2015.2
-	\end{enumerate}
+	\end{itemize}
 
 \item 
-	\begin{enumerate}
+	\begin{itemize}
 	\item O desempenho de um discente em uma área de conhecimento no ENEM é indício relevante para predizer seu desempenho em disciplinas dessa área ou de área similar
 	\item \textbf{Baseado em}: intuição/senso comum
 	\item \textbf{Como validar}: analisar os dados do ENEM\todo{até quando há disponível?} e dados de desempenho do discente na UFC
-	\end{enumerate}
+	\end{itemize}
 	
 \item 
-	\begin{enumerate}
+	\begin{itemize}
 	\item Conhecer as causas da evasão não implica em conhecer as causas da persistência
 	\item \textbf{Baseado em}: \cite{tinto_completing} - loc. 181 "The process of persistence..."
 	\item \textbf{Como validar}: \todo{how?}
-	\end{enumerate}
+	\end{itemize}
 	
 \item 
-	\begin{enumerate}
+	\begin{itemize}
 	\item Os fatores relacionados ao contexto da sala de aula possuem maior relevância para os discentes que possuem outras responsabilidades além da universidade(indiretamente low-income, pois espera-se que tenham que trabalhar)
 	\item \textbf{Baseado em}: \cite{tinto_completing} - loc. 191 "Lest we forget..."
 	\item \textbf{Como validar}: analisar a explicabilidade dos fatores relacionados ao contexto da sala em discentes que possuam outras responsabilidades além da universidade x resto
-	\end{enumerate}
+	\end{itemize}
 	
 \item 
-	\begin{enumerate}
+	\begin{itemize}
 	\item Como fatores que contribuem para a retenção de discentes, há dependências, entre as classes, dos fatores pertencente às quatro classes especificadas por Tinto
 	\item \textbf{Baseado em}: \cite{tinto_completing} - loc. 213 "The absence of one undermine the efficacy of the others(...)"
 	\item \textbf{Como validar}: analisar casos em que, para uma classe de atributos, os valores sejam negativos -> esperado é que a taxa de evasão seja alta
-	\end{enumerate}
-\end{itemize}
+	\end{itemize}
+	
+\item 
+	\begin{itemize}
+	\item Atributos do currículo, como rigidez, sinergia entre disciplinas, carga horária, concentração de disciplinas teóricas e práticas, estão correlacionados com a taxa de evasão do currículo.
+	\item \textbf{Baseado em}: intuição em conversa com a Bernadete.
+	\item \textbf{Como validar}: \todo{how?}
+	\end{itemize}	
+
+\item 
+	\begin{itemize}
+	\item Desvios do currículo estão correlacionados com a probabilidade de evasão.
+	\item \textbf{Baseado em}: intuição em conversa com a Bernadete.
+	\item \textbf{Como validar}: \todo{how?}
+	\end{itemize}	
+
+\end{enumerate}
 
 Risks and contingencies:
 
