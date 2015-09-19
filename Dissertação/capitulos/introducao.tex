@@ -1,72 +1,67 @@
 \chapter{Introdução}
 
 % O que é o problema
-\section{O que é o problema}
 
-O problema de evasão de discente consiste no abandono, pelo discente, de um processo de aprendizado antes de sua conclusão. De acordo com o escopo do processo de aprendizado, essa definição pode ser detalhada: a evasão pode ser de um curso, de uma instituição de ensino, de cursos de uma determinada área, do sistema de ensino etc. Independente do escopo da definição de evasão, ela representa desperdício de recursos de todos os envolvidos: discente, docente, instituição de ensino e sociedade.
+% [Background]
+O fenômeno evasão de discente consiste na interrupção de um processo de aprendizado de um discente antes de sua conclusão. Por exemplo, um discente que abandonou o curso de Computação, na UFC, no qual estava matriculado havia dois anos, pois precisou trabalhar para sustentar sua família e os horários das disciplinas eram incompatíveis com os horários do trabalho. Deste exemplo pode-se observar alguns dos atributos do fenômeno: o agente que interrompeu o processo, o discente, o curso, a instituição de ensino superior(IES), o tempo cursado e o motivo.
 
-% Por que deve ser resolvido
+% # discutir mais sobre o fenômeno -> números no brasil, na ufc etc
+% dados de qtd evasão na UFC e no Brasil
 
-No Brasil, a redução da ocorrência desse problema faz parte de uma das diretrizes do Programa de Apoio a Planos de Reestruturação e Expansão das Universidades Federais(REUNI), instituído pelo DECRETO Nº 6.096, DE 24 DE ABRIL DE 2007\todo[inline]{como citar?}:
+% Consequências
+Sob a perspectiva de que o processo de aprendizado é um investimento e que o resultado esperado é a sua conclusão, o fenômeno evasão de discente pode ser considerado um problema: para a sociedade, com a frustração da expectativa de formação de profissionais e pesquisadores qualificados; para a instituição de ensino, caso tenha realizado investimentos em infraestrutura e em recursos humanos para atender a uma quantidade esperada de discentes ativos maior que a real, ocorrendo desperdício de recursos; caso seu orçamento seja ou função da quantidade de discentes ativos, no caso das instituições de ensino particulares, ou função da quantidade de discentes diplomados, no caso das instituições de ensino superior públicas\todo{validar o impacto da evasão no orçamento das IFES}; para o indivíduo que investiu tempo, dinheiro e dedicação, mas não terá os benefícios da conclusão da graduação, crítica no caso das profissões que exigem, para serem exercidas, diploma de graduação.
 
+Em \cite{evasao_global} foi estimado um prejuízo econômico, decorrente da evasão de discentes de graduação no período de 2007 a 2012, para a UFPB, de R\$ 415.032.704,52. A estimativa considera perdidos os recursos financeiros investidos para manutenção do discente que não concluiu a graduação, utilizando a fórmula:
+
+$Perda\ Anual=n\_evadidos \times t\_permanencia \times v\_aluno$
+
+onde:
+\begin{itemize}
+\item $n\_evadidos$ representa a quantidade, por ano, média de discentes que evadiram no período, considerada a média aritmética do total de discentes que evadiram no período pela quantidade de anos do período.
+\item $t\_permanencia$ representa o tempo de permanência esperado de um discente antes de evadir.
+\item $v\_aluno$ representa o custo corrente com hospital universitário por aluno corrente, indicador definido pelo TCU\cite{indicadores_TCU}.
+\end{itemize}
+
+Aplicando a fórmula para os dados da UFC, obtemos o resultado \todo[inline]{estimar o prejuízo econômico da evasão para a UFC}.
+
+% motivação para resolver o problema
+
+O estudo da evasão de discentes é motivado não apenas pelos problemas que dela podem decorrer mas também por diretrizes dos diversos níveis administrativos envolvidos com o processo.
+
+No nível federal, redução da ocorrência desse fenômeno faz parte de uma das diretrizes do Programa de Apoio a Planos de Reestruturação e Expansão das Universidades Federais(REUNI), instituído pelo Decreto nº 6.096, de 24 de abril de 2007\cite{reuni}:
 \begin{quote}
 I - redução das taxas de evasão, ocupação de vagas ociosas e aumento de vagas de ingresso, especialmente no período noturno;
 \end{quote}
 
-Na Universidade Federal do Ceará(UFC), de acordo com o Anuário estatístico \todo[inline]{quando sai o próximo?}de 2014, ano base 2013\todo[inline]{referencia}, o indicador "Taxa de sucesso na graduação", definido como a proporção entre número de discentes diplomados e número de discentes ingressantes da graduação\todo[inline]{manual de indicadores do TCU, p.5}, esteve em 2013 com o menor valor desde 2008(Figura \ref{img:taxa-de-sucesso-ufc}). Já o indicador "Taxa de sucesso da graduação por curso", em 2013\todo[inline]{qual a definição?}, possuiu valor mínimo igual a 6.8\%, referente ao curso Ciências Sociais, habilitação em licenciatura(Tabela \ref{table:ts_2013}).
+Na UFC, o instrumento de planejamento Plano de Desenvolvimento Institucional\cite{pdi_ufc}, para o período de 2013 a 2017, apresenta como um dos objetivos da política de assistência estudantil a redução da evasão; o programa de gestão da chapa eleita para reitoria no período de 2015 a 2019\cite{henry} apresenta um conjunto de propostas que possuem como um dos objetivos a redução dos índices de evasão; o planejamento estratégico do Centro de Tecnologia da UFC para o período de 2015 a 2025 propõe a criação de uma equipe de apoio pedagógico para atuar no combate a problemas relacionados à evasão de discentes.
 
-\begin{figure}[H]
-	\includegraphics[scale=0.8]{img/taxa-de-sucesso-ufc.png}
-	\caption{Taxa de Sucesso na Graduação - UFC}
-	\label{img:taxa-de-sucesso-ufc}
-\end{figure}
 
-\begin{table}[H]
-\begin{tabular}{llc}
-\toprule
-                            Curso &  Período & Taxa de Sucesso \\
-\midrule
-  Ciências Sociais - Licenciatura &  Noturno &            6.8\% \\
-  Redes de Computadores - Quixadá &  Noturno &           13.3\% \\
-          Geografia - Bacharelado &   Diurno &           15.3\% \\
-        Letras - Português-Alemão &   Diurno &           17.6\% \\
-           Engenharia Metalúrgica &   Diurno &           18.3\% \\
-     Ciências Econômicas - Sobral &  Noturno &           20.9\% \\
- Sistemas de Informação - Quixadá &   Diurno &           22.0\% \\
-          Filosofia - Bacharelado &  Noturno &           24.3\% \\
-         Matemática - Bacharelado &   Diurno &           24.4\% \\
-     Engenharia Elétrica - Sobral &   Diurno &           25.0\% \\
-\bottomrule
-\end{tabular}
-\caption{Taxa de sucesso da graduação por curso na UFC em 2013 - 10 piores resultados, em ordem crescente}
-\label{table:ts_2013}
-\end{table}
+% Soluções
 
-Em DIRETRIZES GERAIS DO PROGRAMA DE APOIO A PLANOS DE REESTRUTURAÇÃO E EXPANSÃO DAS UNIVERSIDADES FEDERAIS REUNI p.4 \todo[inline]{referencia}é ressaltado que o indicador "Taxa de conclusão dos cursos de graduação", cuja definição é igual à do "Taxa de Sucesso na graduação":
+Em \cite{evasao_panorama2} são apresentadas sete ações que ajudam a diminuir a ocorrência de evasão de discentes:
 
-\begin{quote}
-(...) não expressa diretamente as taxas de sucesso observadas nos cursos da universidade, ainda que haja uma relação estreita com fenômenos de retenção e evasão.
-\end{quote}
+\begin{enumerate}
 
-Esse indicador não é sensível, por exemplo, à ocorrência de uma greve, fenômeno que causa atraso na formação dos discentes, podendo diminuir relevantemente a quantidade de diplomados em determinado ano. Funciona bem considerando o modelo em que, necessariamente, após a diplomação de uma turma de discentes, turma de igual tamanho irá ingressar. A realidade mostra que o processo de diplomação, iniciado com o ingresso do discente e finalizado com a emissão e recebimento de seu diploma, é mais complexo. Se adicionarmos o indivíduo que assume o papel de discente, a análise das causas da evasão torna-se mais complexa, trazendo à tona dimensões como a social e a econômica, além da vida pré universidade do indivíduo. Em \cite{unioeste}, por exemplo, informações sobre o trabalho do discente e se ele é casado foram os fatores mais relevantes na classificação dos discentes analisados com relação à evasão do curso. 
+\item Estabelecer um grupo de trabalho encarregado de reduzir a evasão
+\item Avaliar as estatísticas da evasão
+\item Determinar as causas da evasão
+\item Estimular a visão da IES centrada no aluno
+\item Criar condições que atendam aos objetivos que atraíram os alunos
+\item Tornar o ambiente e o trânsito na IES agradáveis aos alunos
+\item Criar programa de aconselhamento e orientação dos aluno
 
-% Como o problema pode ser resolvido
-\section{Soluções}
-\todo[inline]{outros tipos de ações - artigos do instituto Lobo}
+\end{enumerate}
+
+Estas ações podem ser beneficiadas pela utilização de ferramentas de Aprendizado de Máquina, subárea de Inteligência Artificial, que estuda o desenvolvimento de programas cujas performances melhorem a partir de dados. 
+
+% argumentar que é um problema complexo
+% tese de Tinto de que normalmente é a combinação de pequenas causas
 
 % Predição
 Para diminuir as taxas de evasão, uma das estratégias adotadas é a identificação precoce de discentes com grande tendência para abandonarem seus cursos e a execução de ações que minimizem tal tendência. A identificação pode ser conduzida por observação do comportamento e resultados dos discentes, de forma subjetiva, pelos docentes e coordenadores de cursos, por exemplo. Em estudo realizado no departamento de engenharia elétrica da Eindhoven University of Technology\cite{Predicting_Students}, é relatado que em dezembro os discentes desse departamente recebem um aviso informando se são ou não aconselhados a continuarem no curso. Esse aviso é baseado na performance do discente no curso e em informações obtidas de professores do primeiro semestre e de discentes monitores. É relatado que o aviso parece ter bastante acurácia: geralmente discentes aconselhados a continuarem têm sucesso no próximo ano do curso, enquanto aqueles desaconselhados geralmente não continuam no curso.
 Dois problemas decorrem dessa forma de identificação: sendo conduzida por pessoas, essa forma de identificação é limitada pelo conjunto de observações as quais o observador tem acesso; sendo subjetiva, seus resultados podem sofrer resistência para serem aceitos. A utilização de técnicas de aprendizado de máquina como forma de identificação pode contornar esses problemas, por, primeiro, fazer uso de dados registrados por sistemas de informação, provavelmente contendo informações mais amplas que as que uma pessoa pode observar; segundo, por fazer maior uso de dados registrados, sendo aceita mais facilmente como identificação objetiva. Nesse estudo foram utilizados diversos algoritmos de aprendizado de máquina com o objetivo de tentar detectar que um estudante irá abandonar seu curso. Foram utilizadas informações de discente referentes tanto ao período anterior ao seu ingresso na universidade, quanto ao posterior.
 
-% Identificação das causas
-Tendo a UFC como escopo o estudo \cite{andriola_2003} foi desenvolvido e objetivou entender o problema da evasão de discentes na UFC a partir da opinião de discentes que abandonaram seus cursos. A pesquisa foi realizada com 86 discentes que evadiram entre os anos 1999 e 2000. Seguem os motivos e as frequências com que foram apresentados: 
-
-\begin{itemize}
-\item Incompatibilidade entre horários de trabalho e de estudo - 39,4\%
-\item Aspectos familiares e desmotivação com os estudos - 20\%
-\item Precariedade das condições físicas do curso ou inadequação curricular - 10\%
-\end{itemize}
 
 % Objetivo
-\section{Objetivos}
-O presente trabalho objetiva avaliar a aplicabilidade de técnicas de aprendizado de máquina ao problema de evasão de discentes na UFC, utilizando os dados que seus sistemas de informação, como o Sistema Integrado de Gestão de Atividades Acadêmicas(SIGAA), gerenciam.
+
+O presente trabalho objetiva avaliar a aplicabilidade de técnicas de aprendizado de máquina ao problema de evasão de discentes na UFC.

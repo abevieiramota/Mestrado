@@ -5,15 +5,10 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
-\bibitem[Azevedo 2008]{CRISP-DM-KDD-SEMMA}
-\abntrefinfo{Azevedo}{AZEVEDO}{2008}
-{AZEVEDO, A. I. R.~L. Kdd, semma and crisp-dm: a parallel overview.
-2008.}
-
-\bibitem[Chapman et al. 2000]{CRISP-DM}
-\abntrefinfo{Chapman et al.}{CHAPMAN et al.}{2000}
-{CHAPMAN, P. et al. Crisp-dm 1.0 step-by-step data mining guide.
-2000.}
+\bibitem[Custódio 2015]{henry}
+\abntrefinfo{Custódio}{CUSTóDIO}{2015}
+{CUSTóDIO, H. e. \emph{Programa de gestão 2015-2019}. 2015.
+  \url{http://www.henry-custodio.com/programa.pdf}.}
 
 \bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{Predicting_Students}
 \abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;
@@ -22,60 +17,31 @@
   out: A case study.
 \emph{International Working Group on Educational Data Mining}, ERIC, 2009.}
 
-\bibitem[Domingos 2012]{ML_know}
-\abntrefinfo{Domingos}{DOMINGOS}{2012}
-{DOMINGOS, P. A few useful things to know about machine learning.
-\emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
+\bibitem[Lobo 2012]{evasao_panorama2}
+\abntrefinfo{Lobo}{LOBO}{2012}
+{LOBO, M. B. d. C.~M. Panorama da evas{\~a}o no ensino superior brasileiro:
+  aspectos gerais das causas e solu{\c{c}}{\~o}es.
+\emph{Associa{\c{c}}{\~a}o Brasileira de Mantenedoras de Ensino Superior.
+  Cadernos}, n.~25, 2012.}
 
-\bibitem[Drummond 2008]{balance-anarchy}
-\abntrefinfo{Drummond}{DRUMMOND}{2008}
-{DRUMMOND, C. Finding a balance between anarchy and orthodoxy. In:
-  \emph{Proceedings of the Twenty-Fifth International Conference on Machine
-  Learning: Workshop on Evaluation Methods for Machine Learning III (4 pages)}.
-  [S.l.: s.n.], 2008.}
+\bibitem[PRESTES e FIALHO]{evasao_global}
+\abntrefinfo{PRESTES e FIALHO}{PRESTES; FIALHO}{}
+{PRESTES, E. M. D.~T.; FIALHO, M. G.~D. A evas{\~a}o no ensino superior
+  globalizado e suas repercuss{\~o}es na gest{\~a}o universit{\'a}ria.}
 
-\bibitem[Drummond 2009]{replicability}
-\abntrefinfo{Drummond}{DRUMMOND}{2009}
-{DRUMMOND, C. Replicability is not reproducibility: nor is it good science.
-2009.}
+\bibitem[República 2007]{reuni}
+\abntrefinfo{República}{REPúBLICA}{2007}
+{REPúBLICA, P. da. \emph{Decreto nº 6096}. 2007.
+  \url{http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC%206.096-2007?OpenDocument}.}
 
-\bibitem[Manh{\~a}es et al. 2012]{EDM_ufrj2}
-\abntrefinfo{Manh{\~a}es et al.}{MANH{\~A}ES et al.}{2012}
-{MANH{\~A}ES, L. M.~B. et al. Identifica{\c{c}}ao dos fatores que influenciam a
-  evasao em cursos de gradua{\c{c}}ao atrav{\'e}s de sistemas baseados em
-  minera{\c{c}}ao de dados: Uma abordagem quantitativa.
-\emph{Anais do VIII Simp{\'o}sio Brasileiro de Sistemas de
-  Informa{\c{c}}{\~a}o, S{\~a}o Paulo}, 2012.}
+\bibitem[TCU 2009]{indicadores_TCU}
+\abntrefinfo{TCU}{TCU}{2009}
+{TCU. \emph{Orientações para o cálculo dos indicadores de gestão - TCU}.
+  2009. \url{http://portal.mec.gov.br/sesu/arquivos/pdf/indicadores.pdf}.}
 
-\bibitem[Manh{\~a}es, Cruz e Zimbr{\~a}o]{EDM_ufrj}
-\abntrefinfo{Manh{\~a}es, Cruz e Zimbr{\~a}o}{MANH{\~A}ES; CRUZ; ZIMBR{\~A}O}{}
-{MANH{\~A}ES, L. M.~B.; CRUZ, S. M.~S. da; ZIMBR{\~A}O, G. Evaluating
-  performance and dropouts of undergraduates using educational data mining.}
-
-\bibitem[Mitchell 1997]{Tom_mitchell}
-\abntrefinfo{Mitchell}{MITCHELL}{1997}
-{MITCHELL, T.~M. \emph{Machine Learning}. 1. ed. New York, NY, USA:
-  McGraw-Hill, Inc., 1997.
-ISBN 0070428077, 9780070428072.}
-
-\bibitem[Sculley et al. 2014]{ML_debt}
-\abntrefinfo{Sculley et al.}{SCULLEY et al.}{2014}
-{SCULLEY, D. et al. Machine learning: The high interest credit card of
-  technical debt. In:  \emph{SE4ML: Software Engineering for Machine Learning
-  (NIPS 2014 Workshop)}. [S.l.: s.n.], 2014.}
-
-\bibitem[Sherrill, Eberle e Talbert 2011]{EDM_retention}
-\abntrefinfo{Sherrill, Eberle e Talbert}{SHERRILL; EBERLE; TALBERT}{2011}
-{SHERRILL, B.; EBERLE, W.; TALBERT, D. Analysis of student data for retention
-  using data mining techniques.
-2011.}
-
-\bibitem[Villwock, Appio e Andreta 2015]{EDM_dropout_rates}
-\abntrefinfo{Villwock, Appio e Andreta}{VILLWOCK; APPIO; ANDRETA}{2015}
-{VILLWOCK, R.; APPIO, A.; ANDRETA, A.~A. Educational data mining with focus on
-  dropout rates.
-\emph{International Journal of Computer Science and Network Security (IJCSNS)},
-  International Journal of Computer Science and Network Security, v.~15, n.~3,
-  p.~17, 2015.}
+\bibitem[UFC 2013]{pdi_ufc}
+\abntrefinfo{UFC}{UFC}{2013}
+{UFC. \emph{Plano de Desenvolvimento Institucional}. 2013.
+  \url{http://ufc.br/a-universidade/documentos-oficiais/313-plano-de-desenvolvimento-institucional-pdi}.}
 
 \end{thebibliography}
