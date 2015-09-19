@@ -5,43 +5,15 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
-\bibitem[Custódio 2015]{henry}
-\abntrefinfo{Custódio}{CUSTóDIO}{2015}
-{CUSTóDIO, H. e. \emph{Programa de gestão 2015-2019}. 2015.
-  \url{http://www.henry-custodio.com/programa.pdf}.}
+\bibitem[Domingos 2012]{ML_know}
+\abntrefinfo{Domingos}{DOMINGOS}{2012}
+{DOMINGOS, P. A few useful things to know about machine learning.
+\emph{Communications of the ACM}, ACM, v.~55, n.~10, p. 78--87, 2012.}
 
-\bibitem[Dekker, Pechenizkiy e Vleeshouwers 2009]{Predicting_Students}
-\abntrefinfo{Dekker, Pechenizkiy e Vleeshouwers}{DEKKER; PECHENIZKIY;
-  VLEESHOUWERS}{2009}
-{DEKKER, G.~W.; PECHENIZKIY, M.; VLEESHOUWERS, J.~M. Predicting students drop
-  out: A case study.
-\emph{International Working Group on Educational Data Mining}, ERIC, 2009.}
-
-\bibitem[Lobo 2012]{evasao_panorama2}
-\abntrefinfo{Lobo}{LOBO}{2012}
-{LOBO, M. B. d. C.~M. Panorama da evas{\~a}o no ensino superior brasileiro:
-  aspectos gerais das causas e solu{\c{c}}{\~o}es.
-\emph{Associa{\c{c}}{\~a}o Brasileira de Mantenedoras de Ensino Superior.
-  Cadernos}, n.~25, 2012.}
-
-\bibitem[PRESTES e FIALHO]{evasao_global}
-\abntrefinfo{PRESTES e FIALHO}{PRESTES; FIALHO}{}
-{PRESTES, E. M. D.~T.; FIALHO, M. G.~D. A evas{\~a}o no ensino superior
-  globalizado e suas repercuss{\~o}es na gest{\~a}o universit{\'a}ria.}
-
-\bibitem[República 2007]{reuni}
-\abntrefinfo{República}{REPúBLICA}{2007}
-{REPúBLICA, P. da. \emph{Decreto nº 6096}. 2007.
-  \url{http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC%206.096-2007?OpenDocument}.}
-
-\bibitem[TCU 2009]{indicadores_TCU}
-\abntrefinfo{TCU}{TCU}{2009}
-{TCU. \emph{Orientações para o cálculo dos indicadores de gestão - TCU}.
-  2009. \url{http://portal.mec.gov.br/sesu/arquivos/pdf/indicadores.pdf}.}
-
-\bibitem[UFC 2013]{pdi_ufc}
-\abntrefinfo{UFC}{UFC}{2013}
-{UFC. \emph{Plano de Desenvolvimento Institucional}. 2013.
-  \url{http://ufc.br/a-universidade/documentos-oficiais/313-plano-de-desenvolvimento-institucional-pdi}.}
+\bibitem[Mitchell 1997]{Tom_mitchell}
+\abntrefinfo{Mitchell}{MITCHELL}{1997}
+{MITCHELL, T.~M. \emph{Machine Learning}. 1. ed. New York, NY, USA:
+  McGraw-Hill, Inc., 1997.
+ISBN 0070428077, 9780070428072.}
 
 \end{thebibliography}

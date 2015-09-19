@@ -9,23 +9,27 @@ Aprendizado de máquina é uma subárea de Inteligência Artificial que agrupa c
 Um programa aprende a partir de uma experiência E, com relação a uma classe de tarefas T e a uma medida de performance P, se sua performance em tarefas da classe T, medida por P, melhora com a experiência E. \cite[p.2, tradução nossa]{Tom_mitchell}
 \end{citacao}
 
-\todo[inline]{expandir}
+\todo[inline]{adicionar exemplos de aplicação}
+
 % Exemplo
 \section{Modelagem}
 
-\cite{Tom_mitchell}, para exemplificar a modelagem de um programa com uma abordagem de aprendizado de máquina, apresenta uma sequência de passos para desenvolver um programa que aprenda a jogar xadrez, a ser utilizado para disputar um campeonato mundial de xadrez.
+Para exemplificar a modelagem de um programa com uma abordagem de aprendizado de máquina, \cite{Tom_mitchell} apresenta uma sequência de passos para desenvolver um programa que aprenda a jogar xadrez, a ser utilizado para disputar um campeonato mundial de xadrez, tendo sua performance medida pela frequência de partidas que vencer.
 
 % Escolha da experiência
 \subsection*{Escolha da experiência}
 
-O primeiro passo é escolher a experiência a partir da qual o programa irá aprender, denominada experiência de treinamento. \cite{Tom_mitchell} classifica os tipos de experiência a partir de três atributos: feedback, se direto ou indireto com relação a como o programa será utilizado; nível de controle que há sobre a experiência; e representatividade. É ressaltado que o tipo de experiência utilizada pelo programa pode ter impacto significativo no sucesso ou falha em seu aprendizado. 
+O primeiro passo consiste na escolha da experiência a partir da qual o programa irá aprender, denominada experiência de treinamento. 
+% exemplos de experiência <- definir
+\cite{Tom_mitchell} apresenta três atributos da experiência de treinamento que devem ser levados em consideração por impactarem no sucesso do aprendizado: feedback, nível de controle sobre os exemplos de treinamento e quão bem a a distribuição dos exemplos de treinamento representam a distribuição dos exemplos sobre os quais a performance final do programa será mensurada.
 
-O atributo feedback representa quão direta é a informação fornecida pela experiência para o problema em questão. 
-Com relação a esse atributo, o elemento experiência pode ser classificado como experiência de feedback direto e experiência de feedback indireto. Por exemplo, a tupla estado do tabuleiro e melhor movimento possível a partir desse estado é classificada como experiência de feedback direto: o programa irá atuar realizando movimentos e esse tipo de experiência informa diretamente qual o melhor movimento. Já a tupla sequência de movimentos de uma partida e seu resultado final é classificada como experiência de feedback indireto: o resultado final da partida não fornece informação direta sobre a qualidade dos movimentos que nela foram executados. A atividade de determinar o grau de influência que elementos de uma experiência de feedback indireto têm sobre o resultado é denominada credit assignment. \todo[inline]{traduzir}
+O atributo feedback representa quão direta é a informação fornecida pela experiência para o problema em questão, podendo assumir os valores feedback direto e feedback indireto. Por exemplo, a tupla estado do tabuleiro e o melhor movimento possível a partir desse estado é classificada como experiência de feedback direto: o programa irá atuar realizando movimentos e esse tipo de experiência informa diretamente qual o melhor movimento a ser executado. Já a tupla sequência de movimentos de uma partida e seu resultado final é classificada como experiência de feedback indireto: o resultado final da partida não fornece informação direta sobre a influência dos movimentos que nela foram executados. A atividade de determinar o grau de influência que elementos de uma experiência de feedback indireto têm sobre o resultado é denominada credit assignment. \todo{é necessário traduzir credit assignment?}
 
-O atributo nível de controle representa quanto de controle é possível ter sobre a captura da experiência. Com relação a esse atributo, o elemento experiência pode ser classificado como experiência selecionada por especialista, experiência sugerida pelo programa e analisada por um especialista e experiência selecionada e analisada pelo programa. Por exemplo, a experiência será do tipo selecionada por especialista se houve um jogador experiente de xadrez que selecionou estados de tabuleiro e indicou que melhores movimentos poderão ser feitos; será do tipo sugerida pelo programa e analisada por um especialista se o próprio programa selecionar estados de tabuleiro para serem analisadas por um jogador experiente de xadrez; será do tipo selecionada e analisada pelo programa se o programa utilizar o resultado de partidas que disputar consigo mesmo.
+Com relação ao nível de controle sobre os exemplos de treinamento, a experiência pode ser classificado como experiência selecionada por especialista, experiência sugerida pelo programa e analisada por um especialista e experiência selecionada e analisada pelo programa. Por exemplo, a experiência será do tipo selecionada por especialista se foi selecionada por um jogador experiente de xadrez, que selecionou estados de tabuleiro e indicou que melhores movimentos poderiam ser feitos, a partir desses estados; será do tipo sugerida pelo programa e analisada por um especialista se o próprio programa selecionar estados de tabuleiro para serem analisadas por um jogador experiente de xadrez; será do tipo selecionada e analisada pelo programa se o programa utilizar o resultado de partidas que disputar consigo mesmo.
 
-O atributo representatividade indica quão bem a experiência reflete a realidade. Com relação a esse atributo, o elemento experiência pode ser classificado em representativo, se sua distribuição representar a distribuição dos exemplos com os quais o programa efetivamente será utilizado, e não representativo, caso contrário. Por exemplo, a experiência não irá representar a realidade caso esteja limitada ao conjunto de partidas de apenas um jogador: considerando que o programa será utilizado em um campeonato mundial, do qual participam jogadores diversos, com estilos de jogo diversos, é capaz de o programa, treinado com essa experiência, depare com estados de tabuleiro que não encontrou no treinamento. \cite{Tom_mitchell} ressalta que muito da teoria de aprendizado de máquina depende da assunção de que a experiência utilizada no treinamento reflete a realidade.
+Com relação a quão bem a a distribuição dos exemplos de treinamento representam a distribuição dos exemplos sobre os quais a performance final do programa será mensurada, a experiência pode ser classificado como representativa, se a distribuição de seus exemplos representar a distribuição dos exemplos com os quais o programa efetivamente será utilizado, e não representativo, caso contrário. Por exemplo, a experiência é não representativa caso esteja limitada ao conjunto de partidas de apenas um jogador: considerando que o programa será utilizado em um campeonato mundial, do qual participam jogadores diversos, com estilos de jogo diversos, é esperado que o programa, treinado com essa experiência, depare com estados de tabuleiro que não encontrou no treinamento. \cite{Tom_mitchell} ressalta que muito da teoria de aprendizado de máquina depende da assunção de que a experiência utilizada no treinamento é representativa.
+
+Para o problema em análise, \cite{Tom_mitchell} escolhe como experiência de treinamento um conjunto de partidas jogadas pelo programa contra ele mesmo.
 
 % Escolha da função alvo/target function
 \subsection*{Escolha da função alvo}
@@ -33,14 +37,16 @@ O atributo representatividade indica quão bem a experiência reflete a realidad
 O próximo passo é a escolha do tipo de conhecimento que deverá ser aprendido, representado por uma função denominada função alvo, e como ele será utilizado pelo programa. Considerando que o programa irá atuar como um jogador de xadrez, uma possível função a ser considerada é uma cujo domínio seja o conjunto de estados de tabuleiro e que retorne o melhor movimento a partir do estado de tabuleiro informado. Esse tipo de conhecimento depende da assunção de que, dado um estado de tabuleiro, existe um melhor movimento a ser executado. O problema de aprendizado dessa função depende, portanto, do problema de determinar quão um movimento influencia no resultado final de uma partida. \todo[inline]{discutir}
 \todo[inline]{qual a escolhida no Mitchell? Lembrar de apresentar o exemplo}
 
-Outro tipo de conhecimento é uma função que tenha como domínio o conjunto de estados de tabuleiro e retorne um número real, indicando quão bom o estado de tabuleiro informado é. 
-
-O programa irá jogar verificando qual estado de tabuleiro maximiza o valor da função, considerando o conjunto de estados de tabuleiro que podem ser alcançados a partir do estado atual do tabuleiro e de todas jogadas válidas.
+Outro exemplo de função alvo, a ser utilizada no exemplo, é uma que tenha como domínio o conjunto de estados de tabuleiro e retorne um número real, indicando quão bom o estado de tabuleiro informado é. O programa irá jogar verificando qual estado de tabuleiro maximiza o valor da função, considerando o conjunto de estados de tabuleiro que podem ser alcançados a partir do estado atual do tabuleiro e de todas jogadas válidas.
 
 % Escolha de uma representação para a função alvo
 \subsection*{Escolha de uma representação para a função alvo}
 
-Após a escolha do tipo de conhecimento que deverá ser aprendido, é necessário definir como esse conhecimento será representado. A função que associa um estado de tabuleiro a um número real pode assumir diversas formas: pode ser uma matriz contendo uma célula com um número real para cada estado de tabuleiro possível; pode ser um conjunto de regras que associe atributos do estado do tabuleiro a números reais; pode ser uma função polinomial de atributos do estado do tabuleiro em números reais etc. Para darmos continuidade ao detalhamento dos passos, escolhemos aqui uma representação de função simples: denominaremos por V a função que associa um estado de tabuleiro a um número real, calculada como combinação linear dos seguintes atributos do estado do tabuleiro:
+Após a escolha do tipo de conhecimento que deverá ser aprendido, é necessário definir como esse conhecimento será representado. Por exemplo, a função que associa um estado de tabuleiro a um número real pode assumir diversas formas: pode ser uma matriz contendo uma célula com um número real para cada estado de tabuleiro possível; um conjunto de regras que associe atributos do estado do tabuleiro a números reais; uma função polinomial de atributos do estado do tabuleiro em números reais etc. Para dar continuidade ao detalhamento dos passos, \cite{Tom_mitchell} escolhe a seguinte representação de função, denominada $V$:
+
+$V(t) = w_0 + w_1 x_1 + w_2 x_2 + w_3 x_3 + w_4 x_4 + w_5 x_5 + w_6 x_6$
+
+Os coeficientes $w_0$ a $w_6$ são parâmetros do programa, a serem ajustados no aprendizado. As variávels $x_1$ a $x_6$ possuem as seguintes definições:
 
 \begin{itemize}
 \item $x_1$: número de peças pretas no tabuleiro
@@ -51,35 +57,35 @@ Após a escolha do tipo de conhecimento que deverá ser aprendido, é necessári
 \item $x_6$: número de peças brancas ameaçadas por peças pretas no tabuleiro
 \end{itemize}
 
-A função V pode ser representada então por:
-\\
-$V(t) = w_0 + w_1 x_1 + w_2 x_2 + w_3 x_3 + w_4 x_4 + w_5 x_5 + w_6 x_6$
-\\
-Os coeficientes $w_0$ a $w_6$ são parâmetros do programa, a serem ajustados no aprendizado.
-\\
 Resumindo os passos até aqui realizados, temos:
 
 \begin{itemize}
+
 \item Tarefa: jogar xadrez
-\item Medida de performance: proporção de jogos do campeonato mundial de xadrez ganhos
+\item Medida de performance: frequência de partidas do campeonato mundial de xadrez ganhas
 \item Experiência de treinamento: partidas disputadas pelo programa contra ele mesmo
-\item Função alvo: $V:EstadosDeTabuleiro \rightarrow \mathbb{R}$
-\item Representação da função alvo: $V(t) = w_0 + w_1 x_1 + w_2 x_2 + w_3 x_3 + w_4 x_4 + w_5 x_5 + w_6 x_6$
+\item Função alvo: $V:Estados\ De\ Tabuleiro \rightarrow \mathbb{R}$
+\item Representação da função alvo: $\overset{-}{V}(t) = w_0 + w_1 x_1 + w_2 x_2 + w_3 x_3 + w_4 x_4 + w_5 x_5 + w_6 x_6$
+
 \end{itemize}
 
 % Escolha de um algoritmo de aproximação 
 \subsection*{Escolha de um algoritmo de aproximação}
 
-O próximo passo consiste na escolha de um algoritmo que, a partir de um conjunto de experiências, irá ajustar os parâmetros da representação da função a fim de aproximá-la da função alvo. Para tanto, é necessário um conjunto de dados de treinamento, composto por um par de estado de tabuleiro e o valor que a função deverá atribuir. Denotamos por $\langle b, V_{treino}(b) \rangle $ um dado para treinamento: $b$ é uma tupla contendo os atributos de um estado de tabuleiro e $V_{treino}(b)$ o valor a ele atribuído. Por exemplo:
+O próximo passo consiste na escolha de um algoritmo que irá realizar o treinamento da função, isto é, que, a partir da experiência de treinamento, irá ajustar seus coeficientes a fim de aproximá-la da função alvo. Para tanto, é necessário um conjunto de exemplos de treinamento composto por tuplas, $\langle b, V_{treino}(b) \rangle $, de estado de tabuleiro e o valor da função alvo para esse estado, respectivamente, $b$ e $V_{treino}(b)$. Por exemplo:
 
 $\langle \langle x_1 = 3, x_2 = 0, x_3 = 1, x_4 = 0, x_5 = 0, x_6 = 0 \rangle, +100\rangle$
 
-Determinar os valores dos estados de tabuleiros utilizados no treinamento é tarefa fácil para os estados finais: pode-se definir dois valores, $max < min$, e atribuir aos estados finais de vitória o valor $max$ e aos de derrota o valor $min$. Já a determinação dos valores dos tabuleiros intermediários não é tão simples. O fato de uma partida ter sido ganha não implica necessariamente que todos os estados de tabuleiro nela percorridos devem receber um valor alto. Para definir tais valores pode-se utilizar uma regra de estimação. Por exemplo:
+Para o desenvolvimento dos exemplos de treinamento, é necessário estimar um valor para cada estado de tabuleiro alcançado nas partidas disputadas pelo programa contra ele mesmo(experiência de treinamento escolhida), indicando quão bom aquele estado de tabuleiro é. A abordagem apresentada consiste em atribuir valores para os últimos estados de tabuleiro das partidas e ir propagando esses valores para os estados intermediários através da regra:
 
 \begin{equation}
-V_{treino}(b) \leftarrow V(sucessor(b))
+V_{treino}(b) \leftarrow \overset{-}{V}(t)(Sucessor(b))
 \label{eq:critico}
 \end{equation}
+
+% # explicar a regra de propagação e falar do problema(partida perdida não implica em que os estados intermediários foram ruins)
+
+
 
 Essa regra atribui a um estado de tabuleiro de treinamento o valor que a função alvo estimada retorna para o estado de tabuleiro após a próxima jogada do oponente. Apesar de parecer estranho fazer uso de $V$, a função que se está estimando, para determinar os valores a serem utilizados para refiná-la, intuitivamente essa abordagem parece fazer sentido, por atribuir a um estado de tabuleiro um valor que é função de um estado que foi possível alcançar a partir dele. 
 
