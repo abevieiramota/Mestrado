@@ -1,12 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: pretextuais.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: ../referencias.bib
 Warning--I didn't find a database entry for "e"
 Warning--I didn't find a database entry for "Mitchell_discipline"
+Warning--I didn't find a database entry for "anuario_estatistico"
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.5           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-(There were 2 warnings)
+(There were 3 warnings)

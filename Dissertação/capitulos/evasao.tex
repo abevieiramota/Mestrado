@@ -2,13 +2,202 @@
 
 \section{Definição}
 
+O fenômeno evasão de discente consiste na interrupção de um processo de aprendizado de um discente antes de sua conclusão. Ele pode ser caracterizado por um conjunto de atributos: o agente que interrompeu o processo, o discente, o escopo, o tempo cursado e o motivo.
+
+A iniciativa de interromper o processo de aprendizado pode ter sido tanto do discente, nos casos de desistência e transferência, ou da instituição de ensino, nos casos de jubilamento.
+
+Com relação ao atributo escopo, a evasão pode ser classificada em:
+
+\begin{itemize}
+\item Evasão de curso: refere-se à evasão de um curso.
+\item Evasão de área de conhecimento: refere-se à evasão de um curso sem posterior ingresso em curso da mesma área de conhecimento.
+\item Evasão de IES: refere-se à evasão de um curso sem posterior ingresso em curso da mesma instituição de ensino. 
+\item Evasão do ensino: refere-se à evasão de um curso sem posterior ingresso em outro curso.
+\end{itemize}
+
+Com relação ao tempo cursado, \cite{evasao_panorama} indica que, em todo o mundo, a taxa de evasão no primeiro ano de curso é duas a três vezes maior que a dos anos seguintes.
+
 \section{Dados de ocorrência}
+
+A fim de quantificar a ocorrência de evasão de discentes, é necessária a utilização de métricas. A métrica que quantifica com maior exatidão o fenômeno, de acordo com \cite{evasao_panorama2} é a Acompanhamento de Coorte, consistindo na análise individualizada de cada discente. Para realizar tal análise são necessárias informações do histórico do discente durante o processo de aprendizado. Caso essas informações não estejam disponíveis, como quando a análise é feita sobre dados agregados, faz-se necessária a utilização de métricas de mais alto nível. Em \cite{mudanca_calculos} são definidas as métricas Taxa de Titulação e Evasão Anual.
+
+% Taxa de sucesso
+
+Definido com o nome Taxa de Sucesso em \cite{indicadores_TCU}, a Taxa de Titulação é a razão entre a quantidade de discentes diplomados em um ano e a quantidade de diplomados esperados para aquele ano, considerando o prazo esperado de conclusão(por exemplo, caso tenham ingressados 60 discentes em Computação em 2008 e diplomados 30 em 2012, considerando 4 anos o tempo esperado de conclusão do curso, o valor dessa métrica para o ano 2012 será 0.5).
+
+\begin{equation}
+Taxa\ de\ Sucesso=\frac{Nº\ de\ diplomados}{Nº\ de\ diplomados\ esperados}
+\end{equation}
+
+Este indicador pode gerar interpretações equivocadas por abstrair detalhes do fenômeno, como a ocorrência de ocupação, via transferência, de vagas ociosas, e por considerar apenas as conclusões no prazo esperado, podendo gerar dados inesperados, como percentuais acima de 100\%, indicando haver se formado no ano em questão mais discentes que o esperado, consequência, por exemplo, de discentes atrasados ou de discentes adiantados.
+
+Em \ref{table:ts_2013} são apresentados os cinco maiores e cinco menores valores de Taxa de Sucesso para cursos da UFC no ano 2013, de acordo com \cite{anuario_estatistico}.
+
+\begin{table}
+
+\begin{tabular}{lll}
+\toprule
+                           Curso &  Período & Taxa de Sucesso \\
+\midrule
+ Ciências Sociais - Licenciatura &  Noturno &    6.8\% \\
+ Redes de Computadores - Quixadá &  Noturno &   13.3\% \\
+         Geografia - Bacharelado &   Diurno &   15.3\% \\
+       Letras - Português-Alemão &   Diurno &   17.6\% \\
+          Engenharia Metalúrgica &   Diurno &   18.3\% \\
+  Educação Física - Licenciatura &   Diurno &  124.0\% \\
+            Odontologia - Sobral &   Diurno &  135.0\% \\
+                       Pedagogia &   Diurno &  143.6\% \\
+        Geografia - Licenciatura &   Diurno &  219.0\% \\
+        Filosofia - Licenciatura &  Noturno &  223.1\% \\
+\bottomrule
+\end{tabular}
+
+\caption{Taxa de Sucesso na UFC, ano 2013 - 5 menores e 5 maiores resultados}
+\label{table:ts_2013}
+
+\end{table}
+
+% Evasão anual
+
+Definido em \cite{esclarecimentos_calculos} e \cite{mudanca_calculos}, é a razão entre a quantidade de rematrículas realizadas e a quantidade de rematrículas esperadas.
+\begin{equation}
+1 - \frac{M(n) - Ig(n)}{M(n-1) - Eg(n-1)}
+\end{equation}
+\begin{itemize}
+\item $M(n)$: quantidade de matrículas na unidade de tempo $n$
+\item $Eg(n)$: quantidade de egressos na undiade de tempo $n$
+\item $Ig(n)$: quantidade de ingressantes na unidade de tempo $n$
+\end{itemize}
+
+Para derivar essa taxa, basta notarmos as seguintes equações e respectivos significados:
+\begin{enumerate}
+\item 
+\begin{equation}
+M(n) = E(n) + X(n) + Eg(n)
+\end{equation}
+significando que a quantidade de matrículas em determinada unidade de tempo $n$ é composta pelas quantidades de matrículas de discentes que evadirão em $n$, de discentes que persistirão, isto é, se matricularão em $n+1$, e de discentes que se diplomarão ao fim de $n$.
+\item 
+\begin{equation}
+M(n) = X(n-1) + Ig(n)
+\end{equation}
+significando que a quantidade de matrículas em determinada unidade de tempo $n$ é composta pelas quantidades de matrículas de discentes que se matricularam em $n$ e em $n-1$, ou seja, que persistiram de $n-1$ a $n$, e de discentes que ingressaram em $n$.
+\end{enumerate}
+
+Fazendo as devidas manipulações nas equações, chegamos na equação de quantidade de evasões ao fim de determinada unidade de tempo:
+\begin{equation}
+E(n) = [M(n) - Eg(n)] - [M(n+1) - Ig(n+1)]
+\end{equation}
+Podendo ser interpretada como a diferença de quantidade máxima de discentes persistindo e a quantidade efetiva de discentes que persistiram.
+
+A fórmula da evasão anual pode ser então definida como a proporção entre a quantidade de evasões em uma unidade de tempo e a quantidade máxima de discentes persistindo naquela unidade de tempo.
+
+A definição de evasão anual até então analisada refere-se à evasão de cursos, de forma que um discente que tenha mudado de curso na mesma IES terá ao mesmo tempo contabilizados sua matrícula no período anterior($M(n-1)$) e como ingressante($Ig(n)$).
+
+\todo{analisar o ciclo de vida de discente e derivar os indicadores}
+Para a evasão anual de IES, é proposta a seguinte definição:
+\begin{equation}
+1 - \frac{M(n) - [Ig(n) - ITC(n)]}{M(n-1) - Eg(n-1)}
+\end{equation}
+\begin{itemize}
+\item $ITC(n)$: quantidade de ingressantes no ano $n$ com forma de ingresso transferência interna
+\end{itemize}
+
+Já para a evasão anual do sistema, a ser aplicada a dados de várias, se possível todas, IES, a definição proposta é:
+\begin{equation}
+1 - \frac{M(n) - [Ig(n) - ITC(n) - ITIES(n)]}{M(n-1) - Eg(n-1)}
+\end{equation}
+\begin{itemize}
+\item $ITIES(n)$: quantidade de ingressantes no ano $n$ com forma de ingresso transferência externa
+\end{itemize}
+
+\todo[inline]{apresentar dados do brasil}
+\todo[inline]{apresentar dados da UFC}
+
+\section{Consequências}
+
+Sob a perspectiva de que o processo de aprendizado é um investimento e que o resultado esperado é a sua conclusão, o fenômeno evasão de discente pode ser considerado um problema: para a sociedade, com a frustração da expectativa de formação de profissionais e pesquisadores qualificados; para a instituição de ensino, caso tenha realizado investimentos em infraestrutura e em recursos humanos para atender a uma quantidade esperada de discentes ativos maior que a real, ocorrendo desperdício de recursos; caso seu orçamento seja ou função da quantidade de discentes ativos, no caso das instituições de ensino particulares, ou função da quantidade de discentes diplomados, no caso das instituições de ensino superior públicas\todo{validar o impacto da evasão no orçamento das IFES}; para o indivíduo que investiu tempo, dinheiro e dedicação, mas não terá os benefícios da conclusão da graduação, crítica no caso das profissões que exigem, para serem exercidas, diploma de graduação.\todo{copiado da introdução - na introdução, resumir}
+
+Em \cite{evasao_global} foi estimado um prejuízo econômico, decorrente da evasão de discentes de graduação no período de 2007 a 2012, para a UFPB, de R\$ 415.032.704,52. A estimativa considera perdidos os recursos financeiros investidos para manutenção do discente que não concluiu a graduação, utilizando a fórmula:
+
+$Perda\ Anual=n\_evadidos \times t\_permanencia \times v\_aluno$
+
+onde:
+\begin{itemize}
+\item $n\_evadidos$ representa a quantidade, por ano, média de discentes que evadiram no período, considerada a média aritmética do total de discentes que evadiram no período pela quantidade de anos do período.
+\item $t\_permanencia$ representa o tempo de permanência esperado de um discente antes de evadir.
+\item $v\_aluno$ representa o custo corrente com hospital universitário por aluno corrente, indicador definido pelo TCU\cite{indicadores_TCU}.
+\end{itemize}
+
+Aplicando a fórmula para os dados da UFC, obtemos o resultado \todo{estimar o prejuízo econômico da evasão para a UFC}.
 
 \section{Causas}
 
+\cite{evasao_panorama2} indica um conjunto de causas mais comuns de evasão do sistema de ensino superior no Brasil, dentre elas:
+
+\begin{enumerate}
+
+\item Baixa qualidade da educação básica brasileira.
+% mensurar o nível de conhecimento do ingressante
+
+\item Limitação das políticas de financiamento ao estudante.
+% mensurar a ocorrência de abandono por necessidade financeira
+
+\item Escolha precoce da especialidade profissional.
+% mensurar o nível de especialização dos cursos, rigidez para mudança de curso
+
+\item Dificuldade de mobilidade estudantil, indicada como a dificuldade de transferência entre IES e de aproveitamento de créditos.
+% mensurável pelos processos de transferência/aproveitamento de créditos
+
+\item Falta de pressão para combater a evasão.
+% mensurável pelas ações adotadas pela instituição
+
+\item Enorme quantidade de docentes despreparados para o ensino e para lidar com o aluno real.
+% mensurável por atributos do docente(lattes?)
+
+\end{enumerate}
+
+No trabalho \cite{andriola} são apresentados os resultados de pesquisa feita com uma amostra(tamanho 86 de um universo de tamanho 412) de discentes evadidos no período de 1999 e 2000 acerca dos motivos que os levaram a abandonar os cursos. Os seguintes motivos foram apresentados:
+
+\begin{enumerate}
+
+\item Incompatibilidade entre horários de trabalho e de estudo(destacado por 39.4\% dos evadidos).
+
+\item Aspectos familiares(por exemplo: necessidade de dedicar-se aos filhos menores) e desmotivação com os estudos(justificado por 20\% dos evadidos).
+
+\item Precariedade das condições físicas do curso ou inadequação curricular(mencionado por 10\% dos evadidos).
+
+\end{enumerate}
+
 \section{Soluções}
 
+Em \cite{evasao_panorama2} são apresentados "Sete pontos para baixar a evasão":
+
+\begin{enumerate}
+
+\item Estabelecer um grupo de trabalho encarregado de reduzir a evasão.
+% necessários dados - conhecer o fenômeno para combatê-lo
+
+\item Avaliar as estatísticas da evasão.
+% não só dados brutos, mas análises, visualizações, clusterizações etc
+
+\item Determinar as causas da evasão.
+% análise de fatores
+
+\item Estimular a visão da IES centrada no aluno.
+
+\item Criar condições que atendam aos objetivos que atraíram os alunos.
+% é necessário conhecer o que atraiu os alunos
+
+\item Tornar o ambiente e o trânsito na IES agradáveis aos alunos.
+
+\item Criar programa de aconselhamento e orientação dos alunos.
+% predição de discentes que precisam/se beneficiarão de aconselhamento/orientação.
+
+\end{enumerate}
+
 \section{Aplicação de aprendizado de máquina}
+
+\todo[inline]{falar das oportunidades, diante de análises de causa e das soluções}
 
 \subsection*{Trabalhos relacionados}
 

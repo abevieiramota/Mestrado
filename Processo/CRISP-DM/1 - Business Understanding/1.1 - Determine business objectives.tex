@@ -18,12 +18,14 @@
 \cite{mudanca_calculos}
 
 \subsection{Definição}
-Por evasão de discente entenda-se a interrupção de um processo de aprendizado de um discente antes de sua conclusão. Por exemplo, um discente que abandonou o curso de Medicina, na UFC, no qual estava matriculado, pois precisou trabalhar para sustentar sua família e os horários das disciplinas eram incompatíveis com os horários do trabalho. Especificando-se o escopo do processo de aprendizado temos definições mais objetivas de evasão de discente. Por exemplo:
+O fenômeno evasão de discente consiste na interrupção de um processo de aprendizado de um discente antes de sua conclusão. Por exemplo, um discente que abandonou o curso de Computação, na UFC, no qual estava matriculado havia dois anos, pois precisou trabalhar para sustentar sua família e os horários das disciplinas eram incompatíveis com os horários do trabalho. Deste exemplo pode-se observar alguns dos atributos do fenômeno: o agente que interrompeu o processo, o discente, o curso, a instituição de ensino superior(IES), o tempo cursado e o motivo.
+
+Especificando-se o escopo do processo de aprendizado temos definições mais objetivas de evasão de discente. Por exemplo:
 \begin{itemize}
-\item Evasão de curso: refere-se ao abandono, pelo discente, de um curso, antes de sua conclusão.
-\item Evasão de área de conhecimento: refere-se ao abandono, pelo discente, de um curso, antes de sua conclusão, sem posterior ingresso em curso da mesma área de conhecimento.
-\item Evasão de IES: refere-se ao abandono, pelo discente, de um curso, antes de sua conclusão, sem posterior ingresso em curso da mesma IES. 
-\item Evasão do ensino: refere-se ao abandono, pelo discente, de um curso, antes de sua conclusão, sem posterior ingresso em outro curso.
+\item Evasão de curso: refere-se à evasão de um curso.
+\item Evasão de área de conhecimento: refere-se à evasão de um curso sem posterior ingresso em curso da mesma área de conhecimento.
+\item Evasão de IES: refere-se à evasão de um curso sem posterior ingresso em curso da mesma instituição de ensino. 
+\item Evasão do ensino: refere-se à evasão de um curso sem posterior ingresso em outro curso.
 \end{itemize}
 
 Esses exemplos não esgotam as possibilidades de definições de evasão de discente, visto ser bastante flexível a definição do escopo do processo de aprendizado. A escolha do escopo a ser considerado deve ser direcionada pelo uso que será feito dos dados calculados a partir da definição de evasão de discente. Por exemplo, para fins de planejamento de políticas de fomento de uma área de conhecimento, pode-se utilizar a definição Evasão de área de conhecimento a fim de verificar se está havendo migração de discentes da área de conhecimento em foco para outras; para fins de comparação, os valores devem ser gerados seguindo a mesma definição, como no caso entre comparações de índices de Evasão de IES entre as IES.
@@ -35,7 +37,7 @@ Além do escopo, outro atributo da evasão que pode ser levado em consideração
 
 De acordo com a literatura analisada \cite{tinto_leaving} \cite{evasao_panorama} a maior parte da evasão de IES ocorre no primeiro ano do discente na instituição.
 
-A evasão de discente configura-se em problema ao considerarmos que o custo x benefício do processo de aprendizado, quando abandonado antes da conclusão, é menor que o esperado. Expectativas podem ser frustradas, como a esperança de formação de corpo técnico para atender às demandas da indústria; recursos podem ficar ociosos, como é o caso de contratação de servidores, a aquisição de equipamentos e a construção de espaços físicos; pode haver diminuição de recursos financeiros da instituição, caso seu orçamento seja vinculado à quantidade de discentes que concluem o processo de aprendizado. 
+Sob a perspectiva de que o processo de aprendizado é um investimento e que o resultado esperado é a sua conclusão, o fenômeno evasão de discente pode ser considerado um problema: para a sociedade, com a frustração da expectativa de formação de profissionais e pesquisadores qualificados; para a instituição de ensino, caso tenha realizado investimentos em infraestrutura e em recursos humanos para atender a uma quantidade esperada de discentes ativos maior que a real, ocorrendo desperdício de recursos; caso seu orçamento seja ou função da quantidade de discentes ativos, no caso das instituições de ensino particulares, ou função da quantidade de discentes diplomados, no caso das instituições de ensino superior públicas\todo{validar o impacto da evasão no orçamento das IFES}; para o indivíduo que investiu tempo, dinheiro e dedicação, mas não terá os benefícios da conclusão da graduação, crítica no caso das profissões que exigem, para serem exercidas, diploma de graduação.
 
 Atributos do fenômeno evasão de discente:
 
@@ -55,7 +57,7 @@ Atributos do fenômeno evasão de discente:
 Definido com esse nome em \cite{indicadores_TCU} e com o nome "Taxa de titulação" em \cite{mudanca_calculos}, esse indicador é a razão entre a quantidade de discentes concluintes efetivos e a quantidade de concluintes esperados, considerando prazo esperado de conclusão.
 Este indicador abstrai a ocorrência de ocupação, via transferência, de vaga ociosa por evasão; considera apenas as conclusões no prazo esperado, podendo gerar dados inesperados, como percentuais acima de 100\%, indicando haver se formado no ano em questão mais discentes que o esperado, consequência, por exemplo, de discentes atrasados ou de discentes adiantados.
 \begin{equation}
-\frac{Nº\ de\ diplomados(N_{DI})}{Nº\ total\ de\ alunos\ ingressantes}
+\frac{Nº\ de\ diplomados}{Nº\ de\ diplomados\ esperados}
 \end{equation}
 
 \todo[inline]{discutir as vantagens e desvantagens dessa métrica e como interpretá-la}
@@ -123,7 +125,7 @@ Sob a perspectiva de que o processo de aprendizado é um investimento e que o re
 \subsection{Causas}
 
 \subsubsection{Fonte: Instituto Lobo}
-De acordo com o Instituto Lobo\cite{evasao_panorama2}, as causas mais comuns de evasão do sistema de ensino superior no Brasil são:
+De acordo com \cite{evasao_panorama2}, as causas mais comuns de evasão do sistema de ensino superior no Brasil são:
 
 \begin{enumerate}
 
