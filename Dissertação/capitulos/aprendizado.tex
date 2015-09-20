@@ -72,28 +72,26 @@ Resumindo os passos até aqui realizados, temos:
 % Escolha de um algoritmo de aproximação 
 \subsection*{Escolha de um algoritmo de aproximação}
 
-O próximo passo consiste na escolha de um algoritmo que irá realizar o treinamento da função, isto é, que, a partir da experiência de treinamento, irá ajustar seus coeficientes a fim de aproximá-la da função alvo. Para tanto, é necessário um conjunto de exemplos de treinamento composto por tuplas, $\langle b, V_{treino}(b) \rangle $, de estado de tabuleiro e o valor da função alvo para esse estado, respectivamente, $b$ e $V_{treino}(b)$. Por exemplo:
+O próximo passo consiste na escolha de um algoritmo que irá realizar o treinamento da função, isto é, que, a partir da experiência de treinamento, irá ajustar seus coeficientes a fim de aproximá-la da função alvo. Para tanto, é necessário um conjunto de exemplos de treinamento composto por tuplas, $\langle b, V_{treino}(b) \rangle $, de estado de tabuleiro e o valor da função alvo para esse estado, respectivamente, $b$ e $V_{treino}(b)$. Por exemplo, o seguinte exemplo representa um estado de tabuleiro onde o jogador com peças pretas ganhou:
 
 $\langle \langle x_1 = 3, x_2 = 0, x_3 = 1, x_4 = 0, x_5 = 0, x_6 = 0 \rangle, +100\rangle$
 
-Para o desenvolvimento dos exemplos de treinamento, é necessário estimar um valor para cada estado de tabuleiro alcançado nas partidas disputadas pelo programa contra ele mesmo(experiência de treinamento escolhida), indicando quão bom aquele estado de tabuleiro é. A abordagem apresentada consiste em atribuir valores para os últimos estados de tabuleiro das partidas e ir propagando esses valores para os estados intermediários através da regra:
+Para o desenvolvimento dos exemplos de treinamento, é necessário estimar um valor para cada estado de tabuleiro alcançado nas partidas disputadas pelo programa contra ele mesmo(experiência de treinamento escolhida), indicando quão bom aquele estado de tabuleiro é. A abordagem adotada no exemplo consiste em atribuir a $V_{treino}(b)$, caso seja um estado final, um valor arbitrário, caso seja um estado intermediário, o valor da função estimada, $\overset{-}{V}(t)$, aplicado ao próximo estado do tabuleiro para o jogador ativo em $b$, $Sucessor(b)$:
 
 \begin{equation}
 V_{treino}(b) \leftarrow \overset{-}{V}(t)(Sucessor(b))
 \label{eq:critico}
 \end{equation}
 
-% # explicar a regra de propagação e falar do problema(partida perdida não implica em que os estados intermediários foram ruins)
+\cite{Tom_mitchell} indica que, apesar de parecer estranho atribuir aos exemplos de treinamento valores estimados pela função que está sendo treinada, sob certas condições, pode ser provado que essa abordagem converge para uma estimativa perfeita de $V_{treino}$.\todo[inline]{ponto muito confuso do capítulo! qual o valor inicial dos coeficientes? random? qual o valor de V\_treino para o último estado do tabuleiro? usa um valor arbitrário? qual? acho que +100 win -100 loss e intuitivamente parece mesmo que a tendência é convergir}
 
-
-
-Essa regra atribui a um estado de tabuleiro de treinamento o valor que a função alvo estimada retorna para o estado de tabuleiro após a próxima jogada do oponente. Apesar de parecer estranho fazer uso de $V$, a função que se está estimando, para determinar os valores a serem utilizados para refiná-la, intuitivamente essa abordagem parece fazer sentido, por atribuir a um estado de tabuleiro um valor que é função de um estado que foi possível alcançar a partir dele. 
-
-Após a determinação dos valores dos estados de tabuleiros contidos na experiência de treinamento, o conjunto de dados de treinamento pode ser utilizado. Para estimar a função alvo a partir dos dados de treinamento, dada a representação da função escolhida, é necessário agora determinarmos seus pesos, $w_0$ a $w_6$. Para tanto, primeiro definimos como mensurar quão bem a função estimada se adequa aos dados de treinamento. Uma medida comum é o erro quadrático, assim definido:
+Para estimar a função alvo a partir dos dados de treinamento é necessário estimar seus pesos, $w_0$ a $w_6$. Para tanto, primeiro é necessário definir uma medida de quão bem a função estimada se ajusta aos exemplos de treinamento. Uma medida comum é o erro quadrático, assim definido:
 
 $E = \sum\limits_{\langle b, V_{treino}(b) \rangle \in \ dados\ de\ treinamento} {(V_{treino}(b) - V(b))}^2$
 
-O problema de estimar a função alvo pode ser modelado então como o problema de encontrar os pesos $w_0$ a $w_6$ que minimizem o erro quadrático sobre os dados de treinamento. Um dos algoritmos que incrementalmente ajusta os pesos aos dados de treinamento, minimizando o erro quadrático é o Método dos Mínimos Quadrados. Esse algoritmo funciona ajustando, para cada dado de treinamento, os pesos da função na direção que minimiza o erro quadrático. Para tanto, atualiza iterativamente, para cada dado de treinamento, os pesos da função, incrementando com um valor proporcional a $(V_{treino}(b) - V(b))$: se o valor da função aplicado ao dado de treinamento, $V(b)$, é igual ao valor do dado de treinamento, $V_{treino}(b)$, o incremento será nulo; se o valor da função é maior que o do dado de treinamento, o incremento será negativo, fazendo com que, para o dado de treinamento em questão, o valor da função diminua; se o valor da função é menor que o do dado de treinamento, o incremento será positivo, fazendo com que, para o dado de treinamento em questão, o valor da função aumente.
+O problema de estimar a função alvo pode ser modelado então como o problema de encontrar os pesos $w_0$ a $w_6$ que minimizem o erro quadrático sobre os dados de treinamento. Um dos algoritmos que incrementalmente ajusta os pesos aos dados de treinamento, minimizando o erro quadrático, é o Least Mean Square. Esse algoritmo funciona atualizando iterativamente, para cada exemplo de treinamento, os pesos da função, ajustando-os com um valor proporcional a $(V_{treino}(b) - V(b))$: se o valor da função aplicado ao exemplo de treinamento, $V(b)$, for igual ao valor do exemplo de treinamento, $V_{treino}(b)$, o ajuste será nulo; caso seja maior, o ajuste será negativo, fazendo com que, para o dado de treinamento em questão, o valor da função diminua; caso seja menor, o incremento será positivo, fazendo com que, para o dado de treinamento em questão, o valor da função aumente.
+
+\todo[inline]{continuar a discussão dessa parte}
 
 % Conclusão
 \subsection*{Conclusão}

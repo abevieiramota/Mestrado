@@ -1,24 +1,10 @@
-\contentsline {todo}{validar o impacto da evas\IeC {\~a}o no or\IeC {\c c}amento das IFES}{11}{section*.4}
-\contentsline {todo}{estimar o preju\IeC {\'\i }zo econ\IeC {\^o}mico da evas\IeC {\~a}o para a UFC}{11}{section*.5}
-\contentsline {todo}{adicionar exemplos de aplica\IeC {\c c}\IeC {\~a}o}{15}{section*.6}
-\contentsline {todo}{\IeC {\'e} necess\IeC {\'a}rio traduzir credit assignment?}{15}{section*.8}
-\contentsline {todo}{discutir}{16}{section*.10}
-\contentsline {todo}{qual a escolhida no Mitchell? Lembrar de apresentar o exemplo}{16}{section*.11}
-\contentsline {todo}{definir o que quer dizer por modelo}{19}{section*.15}
-\contentsline {todo}{melhorar}{19}{section*.16}
-\contentsline {todo}{citar a coefficient for agreement for nominal scale}{22}{section*.18}
-\contentsline {todo}{Educational Data Mining with Focus on Dropout Rates}{22}{section*.19}
-\contentsline {todo}{Identifica\IeC {\c c}\IeC {\~a}o dos Fatores que Influenciam a Evas\IeC {\~a}o em Cursos de Gradua\IeC {\c c}\IeC {\~a}o}{22}{section*.20}
-\contentsline {todo}{Analysis of Student Data for Retention Using Data Mining Techniques}{22}{section*.21}
-\contentsline {todo}{O cap\IeC {\'\i }tulo todo \IeC {\'e} um resumo do CRISP-DM 1.0... fico dando \cite em todo par\IeC {\'a}grafo?}{25}{section*.30}
-\contentsline {todo}{Por que um processo?}{25}{section*.31}
-\contentsline {todo}{Por que CRISP-DM?}{25}{section*.32}
-\contentsline {todo}{Hist\IeC {\'o}ria do CRISP-DM}{25}{section*.33}
-\contentsline {todo}{E hoje em dia?}{25}{section*.34}
-\contentsline {todo}{figura com diagrama}{25}{section*.35}
-\contentsline {todo}{Overview}{25}{section*.36}
-\contentsline {todo}{traduzir ou n\IeC {\~a}o?}{25}{section*.37}
-\contentsline {todo}{tabela com exemplos de valores para as dimens\IeC {\~o}es -> p.7}{26}{section*.38}
-\contentsline {todo}{figura com representa\IeC {\c c}\IeC {\~a}o do processo}{26}{section*.39}
-\contentsline {todo}{qual a tradu\IeC {\c c}\IeC {\~a}o para deployment?}{27}{section*.41}
-\contentsline {todo}{report techniques...}{31}{section*.67}
+\contentsline {todo}{validar o impacto da evas\IeC {\~a}o no or\IeC {\c c}amento das IFES}{3}{section*.2}
+\contentsline {todo}{estimar o preju\IeC {\'\i }zo econ\IeC {\^o}mico da evas\IeC {\~a}o para a UFC}{3}{section*.3}
+\contentsline {todo}{adicionar exemplos de aplica\IeC {\c c}\IeC {\~a}o}{7}{section*.4}
+\contentsline {todo}{\IeC {\'e} necess\IeC {\'a}rio traduzir credit assignment?}{7}{section*.6}
+\contentsline {todo}{discutir}{8}{section*.8}
+\contentsline {todo}{qual a escolhida no Mitchell? Lembrar de apresentar o exemplo}{8}{section*.9}
+\contentsline {todo}{ponto muito confuso do cap\IeC {\'\i }tulo! qual o valor inicial dos coeficientes? random? qual o valor de V\_treino para o \IeC {\'u}ltimo estado do tabuleiro? usa um valor arbitr\IeC {\'a}rio? qual? acho que +100 win -100 loss e intuitivamente parece mesmo que a tend\IeC {\^e}ncia \IeC {\'e} convergir}{10}{section*.12}
+\contentsline {todo}{continuar a discuss\IeC {\~a}o dessa parte}{10}{section*.13}
+\contentsline {todo}{definir o que quer dizer por modelo}{11}{section*.15}
+\contentsline {todo}{melhorar}{11}{section*.16}
