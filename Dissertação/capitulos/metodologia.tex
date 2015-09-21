@@ -1,8 +1,6 @@
-\chapter{Metodologia}
+\chapter{Método}
 
-\todo[inline]{O capítulo todo é um resumo do CRISP-DM 1.0... fico dando \cite em todo parágrafo?}
-
-\section{Processo CRISP-DM 1.0}
+\todo[inline]{O capítulo todo é um resumo do CRISP-DM 1.0... fico dando \\cite em todo parágrafo? o mesmo para o capítulo sobre aprendizado de máquina}
 
 % Por que seguir um processo?
 \todo[inline]{Por que um processo?}
@@ -10,19 +8,20 @@
 % Reproducibilidade/padronização/etc
 \cite{ML_know} \cite{balance-anarchy} \cite{ML_debt} \cite{replicability}
 
+O processo de aplicação de técnicas de Mineração de Dados para atender a um problema real demanda não apenas conhecimentos e execução de atividades relacionadas, estritamente, a aprendizado de máquina, mas também conhecimentos e execução de atividades relacionadas ao entendimento do problema em questão. A fim de organizar as atividades envolvidas nesse processo, foram desenvolvidas especificações de processos que orientam quais os passos devem ser seguidos para partir do entendimento de um problema e chegar a uma solução baseada em Mineração de Dados, como o CRISP-DM, o KDD e o SEMMA\cite{CRISP-DM-KDD-SEMMA}.
+
 % Por que CRISP-DM?
-\todo[inline]{Por que CRISP-DM?}
+\todo{por que crisp-dm}
 \cite{CRISP-DM-KDD-SEMMA}
+
+\section{Processo CRISP-DM}
 
 % História do CRISP-DM
 %% p. 1-2
-\todo[inline]{História do CRISP-DM}
-CRISP-DM(CRoss-Industry Standard Process for Data Mining) é um processo de aplicação de Mineração de Dados, desenvolvido pelo CRISP-DM Special Interest Group e publicado em 2000. Foi concebido em 1996 por três empresas que utilizavam Mineração de Dados: DaimlerChrysler(à época Daimler-Benz), SPSS(à época ISL) e NCR; motivadas pela incerteza com relação à qualidade de seus trabalhos, pelo questionamento de se toda nova empresa que quiser aplicar Mineração de Dados terá que passar pelo aprendizado que passaram, baseado em tentativa e erro, e como garantir, para seus clientes, que Mineração de Dados era uma área suficientemente madura para ser incorporada a seus processos de negócio. Em 1999 foi publicado um draft do CRISP-DM versão 1.0, sendo aplicado pela DaimlerChrysler, SPSS e NCR a vários tipos de aplicações, indústrias e problemas de negócio, sendo considerado, então, validado suficientemente para ser publicado e distribuído\cite{CRISP-DM}.
-\todo[inline]{E hoje em dia?}
+CRISP-DM(CRoss-Industry Standard Process for Data Mining) é um processo de aplicação de Mineração de Dados, desenvolvido pelo CRISP-DM Special Interest Group e publicado em 2000. Foi concebido em 1996 por três empresas que utilizavam Mineração de Dados: DaimlerChrysler(à época Daimler-Benz), SPSS(à época ISL) e NCR; motivadas pela incerteza com relação à qualidade de seus trabalhos, pelo questionamento de se toda nova empresa que quisesse aplicar Mineração de Dados \todo{falar sobre mineração de dados como super área no capítulo sobre aprendizado de máquina} teria que passar pelo aprendizado pelo qual passaram, baseado em tentativa e erro, e como garantirem, para seus clientes, que Mineração de Dados era uma área suficientemente madura para ser incorporada a seus processos de negócio. Em 1999 foi publicado um draft do CRISP-DM versão 1.0, sendo aplicado pela DaimlerChrysler, SPSS e NCR a vários tipos de aplicações, indústrias e problemas de negócio, sendo considerado, então, validado suficientemente para ser publicado e distribuído\cite{CRISP-DM}.
 
 % Overview do CRISP-DM
 %% p. 6
-\todo[inline]{figura com diagrama}
 \todo[inline]{Overview}
 CRISP-DM segue uma estrutura hierárquica, composta de quatro níveis de abstração(do mais genérico ao mais específico):\todo{traduzir ou não?} fase, tarefa genérica, tarefa especializada e instância de processo. Os dois primeiros níveis, fase e tarefa genérico, foram modelados a fim de serem genéricos o suficiente para atenderem às todas aplicações de Mineração de Dados; completos, abrangendo todo o processo de Mineração de Dados; e estáveis, sendo aplicáveis tanto para as técnicas de Mineração de Dados existentes, quanto às que venham a ser desenvolvidas. O terceiro nível, tarefa especializada, é composto pelas tarefas a serem executadas em situações específicas para alcançar os objetivos das tarefas genéricas. Exemplificando, seja a tarefa genérica Limpar dados: a ela relacionadas estão as tarefas especializadas Limpar dados numéricos e Limpar dados categóricos. O quarto nível, instância de processo, é composto pelos registros de ações, decisões e resultados de uma execução do processo.\cite{CRISP-DM}
 

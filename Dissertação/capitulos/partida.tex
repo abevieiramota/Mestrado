@@ -1,20 +1,88 @@
 \chapter{Pontos de partida}
 
-Como pontos de partida, consideraremos:
+Como pontos de partida, consideraremos a análise de dados para avaliação de um conjunto de assunções e o desenvolvimento de modelos de aprendizado de máquina úteis no entendimento do fenômeno e combate de seus problemas.
 
-\begin{itemize}
+\subsection*{Assunções a serem avaliadas}
 
-\item Analisar o problema de predição de discente com alta probabilidade de evasão do curso a partir de dados referentes a sua vida pré universidade e dados de seu desempenho no primeiro semestre do curso.
+As assunções a serem avaliadas são listadas indicando em que são baseadas e como serão avaliadas:
 
-\item Analisar as múltiplas definições de evasão de discentes, suas peculiaridades, as causas atribuídas pela literatura e a aplicabilidade de técnicas de aprendizado de máquina.
+\begin{enumerate}
 
-\item Analisar o problema da predição do desempenho de um discente em uma disciplina a partir de dados sobre seu histórico como discente. Esse problema é relevante àqueles interessados na melhoria do desempenho de discentes em uma determinada disciplina a partir de atividades a serem iniciadas antes de o discente efetivamente cursá-la.
+\item 
 
-\item Analisar o problema da predição da taxa de evasão de um curso a partir de seus dados, como, por exemplo, sua estrutura curricular. Esse problema é relevante ao processo de desenho ou redesenho de um curso, sua solução podendo ser utilizado como guia para decisões acerca do curso.
+	\begin{itemize}
 
-\section{Desempenho no primeiro semestre}
-\subsection*{Especificação do problema}
-\subsection*{Benefícios}
+		\item As informações disponíveis ao fim do primeiro ano de um curso permitem desenvolver modelos de predição de evasão de discentes no primeiro ano.
+		\item \textbf{Baseado em}: a quantidade de discentes que evadem no primeiro ano ser maior que a quantidade de discentes que evadem nos anos subsequentes. \todo{formular melhor}
+		\item \textbf{Como será avaliada}: serão desenvolvidos e avaliados com dados de ingressantes de 2015 modelos de predição de evasão no primeiro ano.
 
-\end{itemize}
+	\end{itemize}
+	
+\item 
+
+	\begin{itemize}
+
+		\item O desempenho de um discente no ENEM em uma área de conhecimento permite predizer seu desempenho em disciplinas dessa mesma área ou de área similar.
+		\item \textbf{Baseado em}: a ideia de que os conhecimentos testados no ENEM são pré requisitos para o aprendizado dos conhecimentos do curso.
+		\item \textbf{Como será avaliada}: serão desenvolvidos e avaliados com dados de ingressantes de 2015 modelos de predição, a partir do desempenho no ENEM, do desempenho em disciplinas do primeiro ano do curso.
+
+	\end{itemize}
+	
+\item 
+
+	\begin{itemize}
+
+		\item Conhecer as causas da evasão não implica em conhecer as causas da persistência.
+		\item \textbf{Baseado em}: \cite{Tinto_completing} afirma que, apesar de a evasão e a persistência serem fenômenos relacionados, o entendimento das causas da evasão não implica, necessariamente, no entendimento das causas da persistência.
+		\item \textbf{Como será avaliada}: \todo{analisar melhor. a ideia aqui é de dois fenômenos aparentemente um contrário ao outro, onde a remoção das causas de um não implica na ocorrência do outro}
+
+	\end{itemize}
+	
+\item 
+
+	\begin{itemize}
+
+		\item Atributos do currículo de um curso, proporção de componentes curriculares obrigatórios, sinergia entre disciplinas obrigatórios de cada semestre, distribuição de disciplinas teóricas e práticas, distribuição de turmas nos turnos do dia estão correlacionados com a taxa de evasão anual do curso.
+		\item \textbf{Baseado em}: a intuição de que quanto maior a proporção de componentes curriculares obrigatórios, menor a liberdade de escolha, pelo discente, de sua formação; de que é mais difícil o aprendizado conteúdos relacionados que não relacionados; de que quão mais distantes forem cursadas disciplinas teóricas e práticas, de mesma conteúdo ou de conteúdos relacionados, mais difícil será o aprendizado; de que quanto mais distribuído nos turnas as turmas de disciplinas obrigatórias de um semestre de um currículo forem, menor a liberdade, do discente, de realizar outras atividades, como estágio.
+		\item \textbf{Como será avaliada}: serão desenvolvidos e avaliados modelos de predição da taxa de evasão anual de um curso a partir de dados de seus currículos.
+
+	\end{itemize}
+	
+\item 
+
+	\begin{itemize}
+
+		\item Quão mais distante forem o histórico de um discente e o currículo ao qual ele está vinculado, maior a probabilidade de ele abandonar o curso.
+		\item \textbf{Baseado em}: a intuição de que desvios do currículo são indícios de problemas para o discente, como é o caso de reprovação em uma disciplina obrigatória.
+		\item \textbf{Como será avaliada}: serão desenvolvidas e avaliadas métricas para mensurar a distância entre o histórico de um discente e o currículo ao qual ele está vinculado.
+
+	\end{itemize}
+	
+\item
+
+	\begin{itemize}
+	
+		\item A taxa de evasão anual no primeiro ano de curso é maior para discentes que ingressaram via 2º opção do Sisu que para aqueles que ingressaram via 1º opção do Sisu.
+		\item \textbf{Baseado em}: o fato de que o discente que ocupa vaga de 2º opção continua no processo de seleção do Sisu, concorrendo por vagas com sua inscrição de 1ª opção.
+		\item \textbf{Como será avaliada}: serão calculadas as taxas de evasão anual para discentes ingressantes via Sisu via 1ª opção e via 2ª opção.
+	\end{itemize}
+
+\end{enumerate}
+
+\subsection*{Modelos de aprendizado de máquina a serem desenvolvidos}
+
+Os modelos de aprendizado de máquina a serem desenvolvidos são:
+\todo[inline]{indicar como serão utilizados para alcançar os business goals}
+
+\begin{enumerate}
+
+\item Modelo de predição de evasão por um discente no primeiro ano a partir de informações de seu desempenho em disciplinas obrigatórias do 1º semestre.
+
+\item Modelo de predição de retenção\todo{definir no capítulo sobre evasão} de um discente a partir de informações de seu desempenho em disciplinas obrigatórias do 1º semestre.
+
+\item Modelo de predição do desempenho de um discente em disciplinas obrigatórias do primeiro ano a partir do seu desempenho no ENEM.
+
+\item Modelo de predição do desempenho de um discente em disciplinas a partir de seu desempenho em disciplinas pré requisito.
+
+\end{enumerate}
 
