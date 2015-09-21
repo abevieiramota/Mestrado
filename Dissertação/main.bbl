@@ -10,6 +10,12 @@
 {AZEVEDO, A. I. R.~L. Kdd, semma and crisp-dm: a parallel overview.
 2008.}
 
+\bibitem[Buitinck et al. 2013]{scikit-learn}
+\abntrefinfo{Buitinck et al.}{BUITINCK et al.}{2013}
+{BUITINCK, L. et al. Api design for machine learning software: experiences from
+  the scikit-learn project.
+\emph{arXiv preprint arXiv:1309.0238}, 2013.}
+
 \bibitem[Chapman et al. 2000]{CRISP-DM}
 \abntrefinfo{Chapman et al.}{CHAPMAN et al.}{2000}
 {CHAPMAN, P. et al. Crisp-dm 1.0 step-by-step data mining guide.
@@ -31,6 +37,11 @@
 \abntrefinfo{Drummond}{DRUMMOND}{2009}
 {DRUMMOND, C. Replicability is not reproducibility: nor is it good science.
 2009.}
+
+\bibitem[McKinney 2010]{pandas}
+\abntrefinfo{McKinney}{MCKINNEY}{2010}
+{MCKINNEY, W. Data structures for statistical computing in python. In:
+  \emph{Proceedings of the 9th}. [S.l.: s.n.], 2010. v.~445, p. 51--56.}
 
 \bibitem[Sculley et al. 2014]{ML_debt}
 \abntrefinfo{Sculley et al.}{SCULLEY et al.}{2014}
