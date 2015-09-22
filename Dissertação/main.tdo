@@ -1,32 +1,33 @@
-\contentsline {todo}{validar o impacto da evas\IeC {\~a}o no or\IeC {\c c}amento das IFES}{17}{section*.7}
-\contentsline {todo}{adicionar exemplos de aplica\IeC {\c c}\IeC {\~a}o}{19}{section*.8}
-\contentsline {todo}{\IeC {\'e} necess\IeC {\'a}rio traduzir credit assignment?}{19}{section*.10}
-\contentsline {todo}{discutir}{20}{section*.12}
-\contentsline {todo}{qual a escolhida no Mitchell? Lembrar de apresentar o exemplo}{20}{section*.13}
-\contentsline {todo}{ponto muito confuso do cap\IeC {\'\i }tulo! qual o valor inicial dos coeficientes? random? qual o valor de V\_treino para o \IeC {\'u}ltimo estado do tabuleiro? usa um valor arbitr\IeC {\'a}rio? qual? acho que +100 win -100 loss e intuitivamente parece mesmo que a tend\IeC {\^e}ncia \IeC {\'e} convergir}{22}{section*.16}
-\contentsline {todo}{continuar a discuss\IeC {\~a}o dessa parte}{22}{section*.17}
-\contentsline {todo}{definir o que quer dizer por modelo}{23}{section*.19}
-\contentsline {todo}{melhorar}{23}{section*.20}
-\contentsline {todo}{analisar o ciclo de vida de discente e derivar os indicadores}{27}{section*.21}
-\contentsline {todo}{apresentar dados do brasil}{27}{section*.22}
-\contentsline {todo}{apresentar dados da UFC}{27}{section*.23}
-\contentsline {todo}{validar o impacto da evas\IeC {\~a}o no or\IeC {\c c}amento das IFES}{28}{section*.24}
-\contentsline {todo}{copiado da introdu\IeC {\c c}\IeC {\~a}o - na introdu\IeC {\c c}\IeC {\~a}o, resumir}{28}{section*.25}
-\contentsline {todo}{estimar o preju\IeC {\'\i }zo econ\IeC {\^o}mico da evas\IeC {\~a}o para a UFC}{28}{section*.26}
-\contentsline {todo}{falar das oportunidades, diante de an\IeC {\'a}lises de causa e das solu\IeC {\c c}\IeC {\~o}es}{29}{section*.27}
-\contentsline {todo}{citar a coefficient for agreement for nominal scale}{30}{section*.29}
-\contentsline {todo}{Educational Data Mining with Focus on Dropout Rates}{30}{section*.30}
-\contentsline {todo}{Identifica\IeC {\c c}\IeC {\~a}o dos Fatores que Influenciam a Evas\IeC {\~a}o em Cursos de Gradua\IeC {\c c}\IeC {\~a}o}{30}{section*.31}
-\contentsline {todo}{Analysis of Student Data for Retention Using Data Mining Techniques}{30}{section*.32}
-\contentsline {todo}{O cap\IeC {\'\i }tulo todo \IeC {\'e} um resumo do CRISP-DM 1.0... fico dando \cite em todo par\IeC {\'a}grafo?}{35}{section*.41}
-\contentsline {todo}{Por que um processo?}{35}{section*.42}
-\contentsline {todo}{Por que CRISP-DM?}{35}{section*.43}
-\contentsline {todo}{Hist\IeC {\'o}ria do CRISP-DM}{35}{section*.44}
-\contentsline {todo}{E hoje em dia?}{35}{section*.45}
-\contentsline {todo}{figura com diagrama}{35}{section*.46}
-\contentsline {todo}{Overview}{35}{section*.47}
-\contentsline {todo}{traduzir ou n\IeC {\~a}o?}{35}{section*.48}
-\contentsline {todo}{tabela com exemplos de valores para as dimens\IeC {\~o}es -> p.7}{36}{section*.49}
-\contentsline {todo}{figura com representa\IeC {\c c}\IeC {\~a}o do processo}{36}{section*.50}
-\contentsline {todo}{qual a tradu\IeC {\c c}\IeC {\~a}o para deployment?}{37}{section*.52}
-\contentsline {todo}{report techniques...}{41}{section*.78}
+\contentsline {todo}{validar o impacto da evas\IeC {\~a}o no or\IeC {\c c}amento das IFES}{19}{section*.9}
+\contentsline {todo}{adicionar exemplos de aplica\IeC {\c c}\IeC {\~a}o}{21}{section*.10}
+\contentsline {todo}{\IeC {\'e} necess\IeC {\'a}rio traduzir credit assignment?}{21}{section*.12}
+\contentsline {todo}{discutir}{22}{section*.14}
+\contentsline {todo}{qual a escolhida no Mitchell? Lembrar de apresentar o exemplo}{22}{section*.15}
+\contentsline {todo}{ponto muito confuso do cap\IeC {\'\i }tulo! qual o valor inicial dos coeficientes? random? qual o valor de V\_treino para o \IeC {\'u}ltimo estado do tabuleiro? usa um valor arbitr\IeC {\'a}rio? qual? acho que +100 win -100 loss e intuitivamente parece mesmo que a tend\IeC {\^e}ncia \IeC {\'e} convergir}{24}{section*.18}
+\contentsline {todo}{continuar a discuss\IeC {\~a}o dessa parte}{24}{section*.19}
+\contentsline {todo}{definir o que quer dizer por modelo}{25}{section*.21}
+\contentsline {todo}{apresentar a classifica\IeC {\c c}\IeC {\~a}o de modelos em supervised - classification, regression, unsupervised, reinforcement etc}{25}{section*.22}
+\contentsline {todo}{melhorar}{25}{section*.23}
+\contentsline {todo}{analisar o ciclo de vida de discente e derivar os indicadores}{29}{section*.24}
+\contentsline {todo}{apresentar dados do brasil}{29}{section*.25}
+\contentsline {todo}{apresentar dados da UFC}{29}{section*.26}
+\contentsline {todo}{validar o impacto da evas\IeC {\~a}o no or\IeC {\c c}amento das IFES}{30}{section*.27}
+\contentsline {todo}{copiado da introdu\IeC {\c c}\IeC {\~a}o - na introdu\IeC {\c c}\IeC {\~a}o, resumir}{30}{section*.28}
+\contentsline {todo}{estimar o preju\IeC {\'\i }zo econ\IeC {\^o}mico da evas\IeC {\~a}o para a UFC}{30}{section*.29}
+\contentsline {todo}{falar das oportunidades, diante de an\IeC {\'a}lises de causa e das solu\IeC {\c c}\IeC {\~o}es}{31}{section*.30}
+\contentsline {todo}{citar a coefficient for agreement for nominal scale}{32}{section*.32}
+\contentsline {todo}{Educational Data Mining with Focus on Dropout Rates}{32}{section*.33}
+\contentsline {todo}{Identifica\IeC {\c c}\IeC {\~a}o dos Fatores que Influenciam a Evas\IeC {\~a}o em Cursos de Gradua\IeC {\c c}\IeC {\~a}o}{32}{section*.34}
+\contentsline {todo}{Analysis of Student Data for Retention Using Data Mining Techniques}{32}{section*.35}
+\contentsline {todo}{O cap\IeC {\'\i }tulo todo \IeC {\'e} um resumo do CRISP-DM 1.0... fico dando \\cite em todo par\IeC {\'a}grafo? o mesmo para o cap\IeC {\'\i }tulo sobre aprendizado de m\IeC {\'a}quina}{35}{section*.42}
+\contentsline {todo}{Por que um processo?}{35}{section*.43}
+\contentsline {todo}{por que crisp-dm}{35}{section*.44}
+\contentsline {todo}{falar sobre minera\IeC {\c c}\IeC {\~a}o de dados como super \IeC {\'a}rea no cap\IeC {\'\i }tulo sobre aprendizado de m\IeC {\'a}quina}{35}{section*.45}
+\contentsline {todo}{esqueci de traduzir Background...}{38}{section*.51}
+\contentsline {todo}{qual a tradu\IeC {\c c}\IeC {\~a}o para report techniques...}{41}{section*.73}
+\contentsline {todo}{pensar em exemplo de constru\IeC {\c c}\IeC {\~a}o de registro}{44}{section*.88}
+\contentsline {todo}{falar no cap\IeC {\'\i }tulo aprendizado sobre par\IeC {\^a}metros de modelos}{47}{section*.102}
+\contentsline {todo}{formular melhor}{53}{section*.130}
+\contentsline {todo}{analisar melhor. a ideia aqui \IeC {\'e} de dois fen\IeC {\^o}menos aparentemente um contr\IeC {\'a}rio ao outro, onde a remo\IeC {\c c}\IeC {\~a}o das causas de um n\IeC {\~a}o implica na ocorr\IeC {\^e}ncia do outro}{53}{section*.131}
+\contentsline {todo}{indicar como ser\IeC {\~a}o utilizados para alcan\IeC {\c c}ar os business goals}{54}{section*.133}
+\contentsline {todo}{definir no cap\IeC {\'\i }tulo sobre evas\IeC {\~a}o}{54}{section*.134}

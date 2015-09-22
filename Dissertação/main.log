@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.26)  21 SEP 2015 21:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.26)  21 SEP 2015 23:38
 entering extended mode
 **main.tex
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.tex
@@ -1413,7 +1413,9 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 176.
 \main@idxfile=\write5
 
 Writing index file main.idx 
-(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.aux)
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.aux
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\pretextuais.au
+x))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 213.
 LaTeX Font Info:    ... okay on input line 213.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 213.
@@ -1429,8 +1431,7 @@ LaTeX Font Info:    ... okay on input line 213.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 213.
 LaTeX Font Info:    ... okay on input line 213.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 213.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box47
@@ -1474,15 +1475,733 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\pretextuais.te
+x <abntex2-ufc-brasao.pdf, id=7, 375.804pt x 457.46912pt>
+File: abntex2-ufc-brasao.pdf Graphic file (type pdf)
+
+<use abntex2-ufc-brasao.pdf>
+Package pdftex.def Info: abntex2-ufc-brasao.pdf used on input line 9.
+(pdftex.def)             Requested size: 75.15947pt x 91.4922pt.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 9.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/abevieira/Docume
+nts/GitHub/mestrado-core/DissertaÃ§Ã£o/abntex2-ufc-brasao.pdf>] [2
+
+]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<ot1.cmap>>
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<oml.cmap>>
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<oms.cmap>>
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 16.
+<<omx.cmap>>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 
+      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 
+      [2
+
+] [3] [4
+
+] [5
+
+] [6
+
+] [7] [8
+
+]
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\abstract.tex)
+[9] [10
+
+]
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.lof)
+[11] [12
+
+]
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.lot)
+[13] [14
+
+]
+No file main.nls.
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.toc)
+[15
+
+] [16
+
+])
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\todo
+.tex) (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.tdo
+
+Underfull \vbox (badness 3895) has occurred while \output is active []
+
+ [17
+
+
+])
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\intr
+oducao.tex [18]
+Overfull \hbox (12.55873pt too wide) in paragraph at lines 6--7
+[]\T1/lmr/m/n/12 O fenô-meno eva-são de dis-cente con-siste na in-ter-rup-ção d
+e um pro-cesso de apren-di-zado
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 12.
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 12--12
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 12--12
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 12--12
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 12--12
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 12--12
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (10.3654pt too wide) in paragraph at lines 12--13
+\T1/lmr/m/n/12 um pro-blema: para a so-ci-e-dade, com a frus-tra-ção da ex-pec-
+ta-tiva de for-ma-ção de pro-fis-si-o-nais
+ []
+
+
+Overfull \hbox (7.47168pt too wide) in paragraph at lines 12--13
+\T1/lmr/m/n/12 e pes-qui-sa-do-res qua-li-fi-ca-dos; para a ins-ti-tui-ção de e
+n-sino, caso te-nha re-a-li-zado in-ves-ti-men-tos
+ []
+
+
+Overfull \hbox (1.07773pt too wide) in paragraph at lines 18--19
+\T1/lmr/m/n/12 di-re-tri-zes do Pro-grama de Apoio a Pla-nos de Re-es-tru-tu-ra
+-ção e Ex-pan-são das Uni-ver-si-da-des
+ []
+
+
+Overfull \hbox (20.50029pt too wide) in paragraph at lines 23--24
+[]\T1/lmr/m/n/12 Na UFC, o ins-tru-mento de pla-ne-ja-mento Plano de De-sen-vol
+-vi-mento Ins-ti-tu-ci-o-nal([][]UFC[][],
+ []
+
+
+Overfull \hbox (4.35999pt too wide) in paragraph at lines 23--24
+\T1/lmr/m/n/12 cri-a-ção de uma equipe de apoio pe-da-gó-gico para atuar no com
+-bate a pro-ble-mas re-la-ci-o-na-dos
+ []
+
+[19
+
+]
+Overfull \hbox (15.78186pt too wide) in paragraph at lines 48--50
+\T1/lmr/m/n/12 com-por-ta-mento e re-sul-ta-dos dos dis-cen-tes, de forma sub-j
+e-tiva, pe-los do-cen-tes e co-or-de-na-do-res
+ []
+
+)
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\apre
+ndizado.tex [20]
+Overfull \hbox (10.37416pt too wide) in paragraph at lines 17--18
+[]\T1/lmr/m/n/12 Para exem-pli-fi-car a mo-de-la-gem de um pro-grama com uma ab
+or-da-gem de apren-di-zado
+ []
+
+
+Overfull \hbox (17.40778pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 ne-ces-sá-rio 
+ []
+
+
+Overfull \hbox (7.48613pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 tra-du-zir 
+ []
+
+
+Overfull \hbox (28.50589pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 as-sign-ment?  
+ []
+
+
+Overfull \hbox (17.40778pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 ne-ces-sá-rio 
+ []
+
+
+Overfull \hbox (7.48613pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 tra-du-zir 
+ []
+
+
+Overfull \hbox (28.50589pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 as-sign-ment?  
+ []
+
+
+Overfull \hbox (17.40778pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 ne-ces-sá-rio 
+ []
+
+
+Overfull \hbox (7.48613pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 tra-du-zir 
+ []
+
+
+Overfull \hbox (28.50589pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 as-sign-ment?  
+ []
+
+
+Overfull \hbox (17.40778pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 ne-ces-sá-rio 
+ []
+
+
+Overfull \hbox (7.48613pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 tra-du-zir 
+ []
+
+
+Overfull \hbox (28.50589pt too wide) in paragraph at lines 26--26
+\T1/lmr/m/n/12 as-sign-ment?  
+ []
+
+
+Overfull \hbox (5.70396pt too wide) in paragraph at lines 26--27
+[]\T1/lmr/m/n/12 O atri-buto fe-ed-back re-pre-senta quão di-reta é a in-for-ma
+-ção for-ne-cida pela ex-pe-ri-ên-cia
+ []
+
+[21
+
+]
+Overfull \hbox (4.42624pt too wide) in paragraph at lines 30--31
+\T1/lmr/m/n/12 a dis-tri-bui-ção dos exem-plos so-bre os quais a per-for-mance 
+fi-nal do pro-grama será men-su-rada,
+ []
+
+
+Overfull \hbox (8.27602pt too wide) in paragraph at lines 30--31
+\T1/lmr/m/n/12 re-pre-sen-tar a dis-tri-bui-ção dos exem-plos com os quais o pr
+o-grama efe-ti-va-mente será uti-li-zado,
+ []
+
+
+Overfull \hbox (21.95413pt too wide) in paragraph at lines 30--31
+\T1/lmr/m/n/12 ex-pe-ri-ên-cia, de-pare com es-ta-dos de ta-bu-leiro que não en
+-con-trou no trei-na-mento. ([][]MIT-CHELL[][],
+ []
+
+
+Overfull \hbox (0.90283pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 de-pende, por-tanto, do pro-blema de de-ter-mi-nar quão um mo-vi
+-mento in-flu-en-cia no re-sul-tado
+ []
+
+[22]
+Overfull \hbox (19.6018pt too wide) in paragraph at lines 49--50
+[]\T1/lmr/m/n/12 Os co-e-fi-ci-en-tes $\OML/lmm/m/it/12 w[]$ \T1/lmr/m/n/12 a $
+\OML/lmm/m/it/12 w[]$ \T1/lmr/m/n/12 são pa-râ-me-tros do pro-grama, a se-rem a
+jus-ta-dos no apren-di-zado.
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 52.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 52.
+
+Overfull \hbox (2.07372pt too wide) in paragraph at lines 86--86
+\T1/lmr/m/n/12 de trei-na-mento va-lo-res es-ti-ma-dos pela fun-ção que está se
+ndo trei-nada, sob cer-tas con-di-ções,
+ []
+
+[23]
+Overfull \hbox (5.89818pt too wide) in paragraph at lines 99--100
+[]\T1/lmr/m/n/12 Nessa sequên-cia de pas-sos po-dem ser iden-ti-fi-ca-dos qua-t
+ro ele-men-tos de um pro-grama
+ []
+
+[24]
+
+LaTeX Warning: Citation `Mitchell_discipline' on page 25 undefined on input lin
+e 119.
+
+)
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\evas
+ao.tex
+Overfull \hbox (17.7855pt too wide) in paragraph at lines 119--1
+\T1/lmr/m/n/12 apli-cado a di-ver-sas áreas, como, por exem-plo, a re-co-nhe-ci
+-mento de voz; a vi-são com-pu-ta-ci-o-nal,
+ []
+
+[25] [26
+
+]
+Overfull \hbox (12.55873pt too wide) in paragraph at lines 5--6
+[]\T1/lmr/m/n/12 O fenô-meno eva-são de dis-cente con-siste na in-ter-rup-ção d
+e um pro-cesso de apren-di-zado
+ []
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 29.
+
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 29.
+
+
+[27]
+Overfull \hbox (2.07352pt too wide) in paragraph at lines 32--33
+\T1/lmr/m/n/12 dis-cen-tes que o es-pe-rado, con-sequên-cia, por exem-plo, de d
+is-cen-tes atra-sa-dos ou de dis-cen-tes
+ []
+
+
+LaTeX Warning: Citation `anuario_estatistico' on page 28 undefined on input lin
+e 34.
+
+
+Overfull \hbox (16.3106pt too wide) in paragraph at lines 72--74
+[]\T1/lmr/m/n/12 Para de-ri-var essa taxa, basta no-tar-mos as se-guin-tes equa
+-ções e res-pec-ti-vos sig-ni-fi-ca-dos: 
+ []
+
+[28]
+Overfull \hbox (3.8449pt too wide) in paragraph at lines 86--87
+[]\T1/lmr/m/n/12 Fazendo as de-vi-das ma-ni-pu-la-ções nas equa-ções, che-ga-mo
+s na equa-ção de quan-ti-dade
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 96--96
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (7.22472pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 dis-cente 
+ []
+
+
+Overfull \hbox (1.9375pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 de-ri-var 
+ []
+
+
+Overfull \hbox (23.87108pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 in-di-ca-do-res  
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 96--96
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (7.22472pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 dis-cente 
+ []
+
+
+Overfull \hbox (1.9375pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 de-ri-var 
+ []
+
+
+Overfull \hbox (23.87108pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 in-di-ca-do-res  
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 96--96
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (7.22472pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 dis-cente 
+ []
+
+
+Overfull \hbox (1.9375pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 de-ri-var 
+ []
+
+
+Overfull \hbox (23.87108pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 in-di-ca-do-res  
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 96--96
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (7.22472pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 dis-cente 
+ []
+
+
+Overfull \hbox (1.9375pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 de-ri-var 
+ []
+
+
+Overfull \hbox (23.87108pt too wide) in paragraph at lines 96--96
+\T1/lmr/m/n/12 in-di-ca-do-res  
+ []
+
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (1.28516pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 validar 
+ []
+
+
+Overfull \hbox (7.48647pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 im-pacto 
+ []
+
+
+Overfull \hbox (19.56238pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 or-ça-mento 
+ []
+
+
+Overfull \hbox (5.52809pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 copiado 
+ []
+
+
+Overfull \hbox (21.19473pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção 
+ []
+
+
+Overfull \hbox (24.45872pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção, 
+ []
+
+
+Overfull \hbox (4.9405pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 re-su-mir  
+ []
+
+
+Overfull \hbox (5.52809pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 copiado 
+ []
+
+
+Overfull \hbox (21.19473pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção 
+ []
+
+
+Overfull \hbox (24.45872pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção, 
+ []
+
+
+Overfull \hbox (4.9405pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 re-su-mir  
+ []
+
+
+Overfull \hbox (5.52809pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 copiado 
+ []
+
+
+Overfull \hbox (21.19473pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção 
+ []
+
+
+Overfull \hbox (24.45872pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção, 
+ []
+
+
+Overfull \hbox (4.9405pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 re-su-mir  
+ []
+
+
+Overfull \hbox (5.52809pt too wide) in paragraph at lines 118--118
+[][][][]\T1/lmr/m/n/12 copiado 
+ []
+
+
+Overfull \hbox (21.19473pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção 
+ []
+
+
+Overfull \hbox (24.45872pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 in-tro-du-ção, 
+ []
+
+
+Overfull \hbox (4.9405pt too wide) in paragraph at lines 118--118
+\T1/lmr/m/n/12 re-su-mir  
+ []
+
+
+Overfull \hbox (10.3654pt too wide) in paragraph at lines 118--119
+\T1/lmr/m/n/12 um pro-blema: para a so-ci-e-dade, com a frus-tra-ção da ex-pec-
+ta-tiva de for-ma-ção de pro-fis-si-o-nais
+ []
+
+
+Overfull \hbox (7.47168pt too wide) in paragraph at lines 118--119
+\T1/lmr/m/n/12 e pes-qui-sa-do-res qua-li-fi-ca-dos; para a ins-ti-tui-ção de e
+n-sino, caso te-nha re-a-li-zado in-ves-ti-men-tos
+ []
+
+[29]
+
+LaTeX Warning: Marginpar on page 30 moved by 111.03317pt.
+
+
+Package hyperref Warning: Suppressing empty link on input line 120.
+
+
+Overfull \hbox (4.2875pt too wide) in paragraph at lines 131--131
+[][][][]\T1/lmr/m/n/12 estimar 
+ []
+
+
+Overfull \hbox (7.15968pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 pre-juízo 
+ []
+
+
+Overfull \hbox (19.23608pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 econô-mico 
+ []
+
+
+Overfull \hbox (4.2875pt too wide) in paragraph at lines 131--131
+[][][][]\T1/lmr/m/n/12 estimar 
+ []
+
+
+Overfull \hbox (7.15968pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 pre-juízo 
+ []
+
+
+Overfull \hbox (19.23608pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 econô-mico 
+ []
+
+
+Overfull \hbox (4.2875pt too wide) in paragraph at lines 131--131
+[][][][]\T1/lmr/m/n/12 estimar 
+ []
+
+
+Overfull \hbox (7.15968pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 pre-juízo 
+ []
+
+
+Overfull \hbox (19.23608pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 econô-mico 
+ []
+
+
+Overfull \hbox (4.2875pt too wide) in paragraph at lines 131--131
+[][][][]\T1/lmr/m/n/12 estimar 
+ []
+
+
+Overfull \hbox (7.15968pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 pre-juízo 
+ []
+
+
+Overfull \hbox (19.23608pt too wide) in paragraph at lines 131--131
+\T1/lmr/m/n/12 econô-mico 
+ []
+
+[30]
+Overfull \hbox (13.75668pt too wide) in paragraph at lines 208--209
+[]\T1/lmr/m/n/12 Em ([][]DEK-KER; PE-CHE-NIZ-KIY; VLE-ESHOUWERS[][], [][]2009[]
+[]) são apli-ca-dos al-go-rit-mos
+ []
+
+
+Overfull \hbox (3.86026pt too wide) in paragraph at lines 208--209
+\T1/lmr/m/n/12 sub-je-tiva. Os da-dos dos dis-cen-tes são par-ti-ci-o-na-dos em
+ pré uni-ver-si-dade e pós uni-ver-si-dade,
+ []
+
+
+Overfull \hbox (19.43967pt too wide) in paragraph at lines 208--209
+\T1/lmr/m/n/12 ge-rando três ba-ses de da-dos de trei-na-mento, a pri-meira con
+-sis-tindo nos da-dos pré uni-ver-si-dade,
+ []
+
+
+Overfull \hbox (41.43466pt too wide) in paragraph at lines 208--209
+\T1/lmr/m/n/12 maior em não ofe-re-cer apoio a um dis-cente com risco de eva-sã
+o do que ofe-re-cer, des-ne-ces-sa-ri-a-mente,
+ []
+
+[31]
+
+Package hyperref Warning: Suppressing empty link on input line 212.
+
+)
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\meto
 do.tex
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 3.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [32]
+[33] [34
+
+]
 Overfull \hbox (12.10811pt too wide) in paragraph at lines 9--10
 []\T1/lmr/m/n/12 ([][]DOMINGOS[][], [][]2012[][]) ([][]DRUM-MOND[][], [][]2008[
 ][]) ([][]SCUL-LEY et al.[][], [][]2014[][]) ([][]DRUM-MOND[][],
@@ -1600,10 +2319,7 @@ Overfull \hbox (2.82776pt too wide) in paragraph at lines 28--29
  com-posto por uma sequên-cia
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
+[35]
 Overfull \hbox (15.87651pt too wide) in paragraph at lines 44--45
 []\T1/lmr/m/n/12 Especializar(ou ins-tan-ciar) ele-men-tos ge-né-ri-cos do mo-d
 elo de acordo com ca-rac-te-rís-ti-cas
@@ -1615,15 +2331,15 @@ Overfull \hbox (0.79953pt too wide) in paragraph at lines 46--47
  fim de tor-nar mais ex-plí-cito
  []
 
-<img/CRISP-DM-main.png, id=43, 502.5174pt x 39.5076pt>
+<img/CRISP-DM-main.png, id=478, 502.5174pt x 39.5076pt>
 File: img/CRISP-DM-main.png Graphic file (type png)
 
 <use img/CRISP-DM-main.png>
 Package pdftex.def Info: img/CRISP-DM-main.png used on input line 51.
 (pdftex.def)             Requested size: 402.01445pt x 31.60611pt.
- [2 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
-DM-main.png>] [3]
-<img/CRISP-DM-Analise-de-negocio.png, id=67, 538.6524pt x 348.3414pt>
+ [36 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP
+-DM-main.png>] [37]
+<img/CRISP-DM-Analise-de-negocio.png, id=499, 538.6524pt x 348.3414pt>
 File: img/CRISP-DM-Analise-de-negocio.png Graphic file (type png)
 
 <use img/CRISP-DM-Analise-de-negocio.png>
@@ -1690,8 +2406,8 @@ Overfull \hbox (37.3495pt too wide) in paragraph at lines 103--103
 \T1/lmr/m/n/12 Back-ground...  
  []
 
-[4 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-D
-M-Analise-de-negocio.png>]
+[38 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+DM-Analise-de-negocio.png>]
 Overfull \hbox (5.21364pt too wide) in paragraph at lines 121--122
 []\T1/lmr/m/n/12 Registra os re-cur-sos dis-po-ní-veis para o pro-jeto, como re
 -cur-sos hu-ma-nos(especialistas
@@ -1709,13 +2425,13 @@ Overfull \hbox (2.53212pt too wide) in paragraph at lines 141--142
 i-ne-ra-ção de Da-dos os ob-je-ti-vos
  []
 
-[5]
+[39]
 Overfull \hbox (9.97961pt too wide) in paragraph at lines 157--159
 []\T1/lmr/m/n/12 Registra as ati-vi-da-des a se-rem de-sen-vol-vi-das, in-cluin
 do du-ra-ção, re-cur-sos ne-ces-sá-rios,
  []
 
-[6] <img/CRISP-DM-Analise-dos-dados.png, id=103, 502.9992pt x 352.1958pt>
+[40] <img/CRISP-DM-Analise-dos-dados.png, id=531, 502.9992pt x 352.1958pt>
 File: img/CRISP-DM-Analise-dos-dados.png Graphic file (type png)
 
 <use img/CRISP-DM-Analise-dos-dados.png>
@@ -1768,9 +2484,9 @@ Overfull \hbox (29.74619pt too wide) in paragraph at lines 196--196
 \T1/lmr/m/n/12 te-ch-ni-ques...  
  []
 
-[7 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-D
-M-Analise-dos-dados.png>] [8]
-<img/CRISP-DM-Preparacao-dos-dados.png, id=125, 502.9992pt x 482.7636pt>
+[41 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+DM-Analise-dos-dados.png>] [42]
+<img/CRISP-DM-Preparacao-dos-dados.png, id=551, 502.9992pt x 482.7636pt>
 File: img/CRISP-DM-Preparacao-dos-dados.png Graphic file (type png)
 
 <use img/CRISP-DM-Preparacao-dos-dados.png>
@@ -1789,49 +2505,8 @@ Overfull \hbox (3.64702pt too wide) in paragraph at lines 238--239
 e-a-li-za-das na ta-refa Se-le-ci-o-nar
  []
 
-[9 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-D
-M-Preparacao-dos-dados.png>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 254.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 254.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 254
-.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 254
-.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 254.
-<<omx.cmap>>
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 254.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 254.
-LaTeX Font Info:    Try loading font information for U+msa on input line 254.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 254.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+[43 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+DM-Preparacao-dos-dados.png>]
 
 LaTeX Warning: Command \' invalid in math mode on input line 254.
 
@@ -1901,7 +2576,7 @@ Overfull \hbox (9.51994pt too wide) in paragraph at lines 266--267
 ndo quais fon-tes fo-ram uti-li-za-das
  []
 
-[10] [11] <img/CRISP-DM-Modelagem.png, id=162, 502.9992pt x 352.1958pt>
+[44] [45] <img/CRISP-DM-Modelagem.png, id=579, 502.9992pt x 352.1958pt>
 File: img/CRISP-DM-Modelagem.png Graphic file (type png)
 
 <use img/CRISP-DM-Modelagem.png>
@@ -1919,14 +2594,14 @@ Overfull \hbox (1.75513pt too wide) in paragraph at lines 309--310
 mo-delo a ser de-sen-vol-vido. 
  []
 
-[12 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+[46 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
 DM-Modelagem.png>]
 Overfull \hbox (7.04344pt too wide) in paragraph at lines 317--317
 []\T1/lmr/m/n/12 Registra os pa-râ-me-tros uti-li-za-dos pe-los mo-de-los de-se
 n-vol-vi-dos, bem como os mo-ti-vos
  []
 
-[13] <img/CRISP-DM-Avaliacao.png, id=188, 502.9992pt x 280.4076pt>
+[47] <img/CRISP-DM-Avaliacao.png, id=603, 502.9992pt x 280.4076pt>
 File: img/CRISP-DM-Avaliacao.png Graphic file (type png)
 
 <use img/CRISP-DM-Avaliacao.png>
@@ -1950,18 +2625,298 @@ Overfull \hbox (30.32813pt too wide) in paragraph at lines 375--376
 a im-plan-ta-ção dos mo-de-los de-sen-vol-vi-dos,
  []
 
-[14 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
-DM-Avaliacao.png>] [15]
-<img/CRISP-DM-Implantacao.png, id=208, 510.2262pt x 352.6776pt>
+[48 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+DM-Avaliacao.png>] [49]
+<img/CRISP-DM-Implantacao.png, id=622, 515.0442pt x 353.1594pt>
 File: img/CRISP-DM-Implantacao.png Graphic file (type png)
 
 <use img/CRISP-DM-Implantacao.png>
 Package pdftex.def Info: img/CRISP-DM-Implantacao.png used on input line 392.
-(pdftex.def)             Requested size: 408.1815pt x 282.14246pt.
- [16 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP
--DM-Implantacao.png>])
+(pdftex.def)             Requested size: 412.03593pt x 282.52788pt.
+
+Overfull \hbox (22.24646pt too wide) in paragraph at lines 409--410
+\T1/lmr/m/n/12 ob-je-ti-vando ve-ri-fi-car os re-sul-ta-dos dos mo-de-los im-pl
+an-ta-dos e evi-tar, atra-vés de mo-ni-to-ra-mento
+ []
+
+[50 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+DM-Implantacao.png>])
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\part
+ida.tex [51] [52
+
+]
+Overfull \hbox (10.09766pt too wide) in paragraph at lines 16--16
+[][][][]\T1/lmr/m/n/12 formular 
+ []
+
+
+Overfull \hbox (1.61148pt too wide) in paragraph at lines 16--16
+\T1/lmr/m/n/12 me-lhor  
+ []
+
+
+Overfull \hbox (10.09766pt too wide) in paragraph at lines 16--16
+[][][][]\T1/lmr/m/n/12 formular 
+ []
+
+
+Overfull \hbox (1.61148pt too wide) in paragraph at lines 16--16
+\T1/lmr/m/n/12 me-lhor  
+ []
+
+
+Overfull \hbox (10.09766pt too wide) in paragraph at lines 16--16
+[][][][]\T1/lmr/m/n/12 formular 
+ []
+
+
+Overfull \hbox (1.61148pt too wide) in paragraph at lines 16--16
+\T1/lmr/m/n/12 me-lhor  
+ []
+
+
+Overfull \hbox (10.09766pt too wide) in paragraph at lines 16--16
+[][][][]\T1/lmr/m/n/12 formular 
+ []
+
+
+Overfull \hbox (1.61148pt too wide) in paragraph at lines 16--16
+\T1/lmr/m/n/12 me-lhor  
+ []
+
+
+Overfull \hbox (8.35555pt too wide) in paragraph at lines 17--18
+[]\T1/lmr/bx/n/12 Como será ava-li-ada\T1/lmr/m/n/12 : se-rão de-sen-vol-vi-dos
+ e ava-li-a-dos com da-dos de in-gres-san-tes
+ []
+
+
+Overfull \hbox (8.35555pt too wide) in paragraph at lines 27--28
+[]\T1/lmr/bx/n/12 Como será ava-li-ada\T1/lmr/m/n/12 : se-rão de-sen-vol-vi-dos
+ e ava-li-a-dos com da-dos de in-gres-san-tes
+ []
+
+
+Overfull \hbox (2.78117pt too wide) in paragraph at lines 27--28
+\T1/lmr/m/n/12 de 2015 mo-de-los de pre-di-ção, a par-tir do de-sem-pe-nho no E
+NEM, do de-sem-pe-nho
+ []
+
+
+Overfull \hbox (1.61597pt too wide) in paragraph at lines 35--36
+[]\T1/lmr/m/n/12 Conhecer as cau-sas da eva-são não im-plica em co-nhe-cer as c
+au-sas da per-sis-tên-cia. 
+ []
+
+
+Overfull \hbox (4.35968pt too wide) in paragraph at lines 36--37
+\T1/lmr/m/n/12 se-rem fenô-me-nos re-la-ci-o-na-dos, o en-ten-di-mento das cau-
+sas da eva-são não im-plica,
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 37--37
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (4.87547pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 me-lhor. 
+ []
+
+
+Overfull \hbox (19.62802pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 fenô-me-nos 
+ []
+
+
+Overfull \hbox (41.43027pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 apa-ren-te-mente 
+ []
+
+
+Overfull \hbox (12.38171pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 con-trá-rio 
+ []
+
+
+Overfull \hbox (9.11784pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 re-mo-ção 
+ []
+
+
+Overfull \hbox (3.57013pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 im-plica 
+ []
+
+
+Overfull \hbox (18.90913pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 ocor-rên-cia 
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 37--37
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (4.87547pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 me-lhor. 
+ []
+
+
+Overfull \hbox (19.62802pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 fenô-me-nos 
+ []
+
+
+Overfull \hbox (41.43027pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 apa-ren-te-mente 
+ []
+
+
+Overfull \hbox (12.38171pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 con-trá-rio 
+ []
+
+
+Overfull \hbox (9.11784pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 re-mo-ção 
+ []
+
+
+Overfull \hbox (3.57013pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 im-plica 
+ []
+
+
+Overfull \hbox (18.90913pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 ocor-rên-cia 
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 37--37
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (4.87547pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 me-lhor. 
+ []
+
+
+Overfull \hbox (19.62802pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 fenô-me-nos 
+ []
+
+
+Overfull \hbox (41.43027pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 apa-ren-te-mente 
+ []
+
+
+Overfull \hbox (12.38171pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 con-trá-rio 
+ []
+
+
+Overfull \hbox (9.11784pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 re-mo-ção 
+ []
+
+
+Overfull \hbox (3.57013pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 im-plica 
+ []
+
+
+Overfull \hbox (18.90913pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 ocor-rên-cia 
+ []
+
+
+Overfull \hbox (6.24612pt too wide) in paragraph at lines 37--37
+[][][][]\T1/lmr/m/n/12 analisar 
+ []
+
+
+Overfull \hbox (4.87547pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 me-lhor. 
+ []
+
+
+Overfull \hbox (19.62802pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 fenô-me-nos 
+ []
+
+
+Overfull \hbox (41.43027pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 apa-ren-te-mente 
+ []
+
+
+Overfull \hbox (12.38171pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 con-trá-rio 
+ []
+
+
+Overfull \hbox (9.11784pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 re-mo-ção 
+ []
+
+
+Overfull \hbox (3.57013pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 im-plica 
+ []
+
+
+Overfull \hbox (18.90913pt too wide) in paragraph at lines 37--37
+\T1/lmr/m/n/12 ocor-rên-cia 
+ []
+
+
+Overfull \hbox (6.9698pt too wide) in paragraph at lines 45--46
+\T1/lmr/m/n/12 obri-ga-tó-rios, si-ner-gia en-tre dis-ci-pli-nas obri-ga-tó-rio
+s de cada se-mes-tre, dis-tri-bui-ção
+ []
+
+[53]
+Overfull \hbox (4.42067pt too wide) in paragraph at lines 79--80
+[]\T1/lmr/m/n/12 Modelo de pre-di-ção de eva-são por um dis-cente no pri-meiro 
+ano a par-tir de in-for-ma-ções
+ []
+
+
+Overfull \hbox (7.48643pt too wide) in paragraph at lines 81--81
+\T1/lmr/m/n/12 ca-pí-tulo 
+ []
+
+
+Overfull \hbox (7.48643pt too wide) in paragraph at lines 81--81
+\T1/lmr/m/n/12 ca-pí-tulo 
+ []
+
+
+Overfull \hbox (7.48643pt too wide) in paragraph at lines 81--81
+\T1/lmr/m/n/12 ca-pí-tulo 
+ []
+
+
+Overfull \hbox (7.48643pt too wide) in paragraph at lines 81--81
+\T1/lmr/m/n/12 ca-pí-tulo 
+ []
+
+)
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\resu
+ltados.tex [54])
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\conc
+lusao.tex [55
+
+] [56
+
+])
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.bbl
-[17] [18
+[57] [58
 
 ]
 
@@ -1969,42 +2924,60 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-) 
+[59]) 
 AED: lastpage setting LastPage
-[19]
+[60]
+\tf@lof=\write6
+\tf@lot=\write7
+\tf@toc=\write8
+\tf@tdo=\write9
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
- (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.aux)
+ (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.aux
+(C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\pretextuais.au
+x))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 260.
+
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
- 24701 strings out of 493921
- 433077 string characters out of 3144864
- 531089 words of memory out of 3000000
- 27355 multiletter control sequences out of 15000+200000
- 48688 words of font info for 43 fonts, out of 3000000 for 9000
+ 25168 strings out of 493921
+ 442424 string characters out of 3144864
+ 544995 words of memory out of 3000000
+ 27592 multiletter control sequences out of 15000+200000
+ 64917 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 68i,12n,96p,1183b,707s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,13n,96p,1677b,1034s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss
-bx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (19 pages, 688982 bytes).
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx1
+0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (62 pages, 1031298 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 932 PDF objects out of 1000 (max. 8388607)
+ 306 named destinations out of 1000 (max. 500000)
+ 305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
