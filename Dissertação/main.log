@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.26)  21 SEP 2015 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.26)  21 SEP 2015 21:13
 entering extended mode
 **main.tex
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.tex
@@ -1835,56 +1835,128 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: Command \' invalid in math mode on input line 254.
 
-[10] [11] <img/CRISP-DM-Modelagem.png, id=161, 502.9992pt x 352.1958pt>
+
+Overfull \hbox (8.46564pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 exem-plo 
+ []
+
+
+Overfull \hbox (21.25943pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 cons-tru-ção 
+ []
+
+
+Overfull \hbox (4.93982pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 re-gis-tro  
+ []
+
+
+Overfull \hbox (8.46564pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 exem-plo 
+ []
+
+
+Overfull \hbox (21.25943pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 cons-tru-ção 
+ []
+
+
+Overfull \hbox (4.93982pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 re-gis-tro  
+ []
+
+
+Overfull \hbox (8.46564pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 exem-plo 
+ []
+
+
+Overfull \hbox (21.25943pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 cons-tru-ção 
+ []
+
+
+Overfull \hbox (4.93982pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 re-gis-tro  
+ []
+
+
+Overfull \hbox (8.46564pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 exem-plo 
+ []
+
+
+Overfull \hbox (21.25943pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 cons-tru-ção 
+ []
+
+
+Overfull \hbox (4.93982pt too wide) in paragraph at lines 258--258
+\T1/lmr/m/n/12 re-gis-tro  
+ []
+
+
+Overfull \hbox (9.51994pt too wide) in paragraph at lines 266--267
+[]\T1/lmr/m/n/12 Dados re-sul-tan-tes da ta-refa In-te-grar os da-dos, in-di-ca
+ndo quais fon-tes fo-ram uti-li-za-das
+ []
+
+[10] [11] <img/CRISP-DM-Modelagem.png, id=162, 502.9992pt x 352.1958pt>
 File: img/CRISP-DM-Modelagem.png Graphic file (type png)
 
 <use img/CRISP-DM-Modelagem.png>
-Package pdftex.def Info: img/CRISP-DM-Modelagem.png used on input line 283.
+Package pdftex.def Info: img/CRISP-DM-Modelagem.png used on input line 284.
 (pdftex.def)             Requested size: 402.3999pt x 281.75702pt.
 
-Overfull \hbox (1.75513pt too wide) in paragraph at lines 308--309
+Overfull \hbox (28.90994pt too wide) in paragraph at lines 297--298
+[]\T1/lmr/m/n/12 Registra in-for-ma-ções so-bre a téc-nica de mo-de-la-gem se-l
+e-ci-o-nada, como seu fun-ci-o-na-mento
+ []
+
+
+Overfull \hbox (1.75513pt too wide) in paragraph at lines 309--310
 []\T1/lmr/m/n/12 Registra um plano para trei-na-mento, teste e ava-li-a-ção do 
 mo-delo a ser de-sen-vol-vido. 
  []
 
 [12 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
 DM-Modelagem.png>]
-Overfull \hbox (7.04344pt too wide) in paragraph at lines 316--317
+Overfull \hbox (7.04344pt too wide) in paragraph at lines 317--317
 []\T1/lmr/m/n/12 Registra os pa-râ-me-tros uti-li-za-dos pe-los mo-de-los de-se
 n-vol-vi-dos, bem como os mo-ti-vos
  []
 
-[13] <img/CRISP-DM-Avaliacao.png, id=186, 502.9992pt x 280.4076pt>
+[13] <img/CRISP-DM-Avaliacao.png, id=188, 502.9992pt x 280.4076pt>
 File: img/CRISP-DM-Avaliacao.png Graphic file (type png)
 
 <use img/CRISP-DM-Avaliacao.png>
-Package pdftex.def Info: img/CRISP-DM-Avaliacao.png used on input line 345.
+Package pdftex.def Info: img/CRISP-DM-Avaliacao.png used on input line 346.
 (pdftex.def)             Requested size: 402.3999pt x 224.32637pt.
 
-Overfull \hbox (0.7394pt too wide) in paragraph at lines 366--367
+Overfull \hbox (0.7394pt too wide) in paragraph at lines 367--368
 []\T1/lmr/m/n/12 A par-tir deste ponto do pro-cesso os mo-de-los de-sen-vol-vi-
 dos já apre-sen-tam re-sul-ta-dos
  []
 
 
-Overfull \hbox (1.26698pt too wide) in paragraph at lines 374--375
+Overfull \hbox (1.26698pt too wide) in paragraph at lines 375--376
 []\T1/lmr/m/n/12 O ob-je-tivo desta ta-refa é de-fi-nir quais as pró-xi-mas ati
 -vi-da-des a se-rem de-sen-vol-vi-das,
  []
 
 
-Overfull \hbox (30.32813pt too wide) in paragraph at lines 374--375
+Overfull \hbox (30.32813pt too wide) in paragraph at lines 375--376
 \T1/lmr/m/n/12 re-cur-sos dis-po-ní-veis para o pro-jeto. Pode-se de-ci-dir pel
 a im-plan-ta-ção dos mo-de-los de-sen-vol-vi-dos,
  []
 
 [14 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
 DM-Avaliacao.png>] [15]
-<img/CRISP-DM-Implantacao.png, id=206, 510.2262pt x 352.6776pt>
+<img/CRISP-DM-Implantacao.png, id=208, 510.2262pt x 352.6776pt>
 File: img/CRISP-DM-Implantacao.png Graphic file (type png)
 
 <use img/CRISP-DM-Implantacao.png>
-Package pdftex.def Info: img/CRISP-DM-Implantacao.png used on input line 391.
+Package pdftex.def Info: img/CRISP-DM-Implantacao.png used on input line 392.
 (pdftex.def)             Requested size: 408.1815pt x 282.14246pt.
  [16 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP
 -DM-Implantacao.png>])
@@ -1911,10 +1983,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
- 24693 strings out of 493921
- 432887 string characters out of 3144864
- 530983 words of memory out of 3000000
- 27349 multiletter control sequences out of 15000+200000
+ 24701 strings out of 493921
+ 433077 string characters out of 3144864
+ 531089 words of memory out of 3000000
+ 27355 multiletter control sequences out of 15000+200000
  48688 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,12n,96p,1183b,707s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1930,9 +2002,9 @@ eX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss
 bx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (19 pages, 687906 bytes).
+Output written on main.pdf (19 pages, 688982 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
