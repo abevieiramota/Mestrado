@@ -15,40 +15,39 @@ Sob a perspectiva de que o processo de aprendizado é um investimento e que o re
 
 O estudo da evasão de discentes é motivado não apenas pelos problemas que dela podem decorrer mas também por diretrizes dos diversos níveis administrativos envolvidos com o processo.
 
-No nível federal, redução da ocorrência desse fenômeno faz parte de uma das diretrizes do Programa de Apoio a Planos de Reestruturação e Expansão das Universidades Federais(REUNI), instituído pelo Decreto nº 6.096, de 24 de abril de 2007\cite{reuni}:
-\begin{quote}
+No nível federal, a redução da ocorrência desse fenômeno faz parte de uma das diretrizes do Programa de Apoio a Planos de Reestruturação e Expansão das Universidades Federais(REUNI), instituído pelo Decreto nº 6.096, de 24 de abril de 2007\cite{reuni}:
+
+\begin{citacao}
 I - redução das taxas de evasão, ocupação de vagas ociosas e aumento de vagas de ingresso, especialmente no período noturno;
-\end{quote}
+\end{citacao}
 
 Na UFC, o instrumento de planejamento Plano de Desenvolvimento Institucional\cite{pdi_ufc}, para o período de 2013 a 2017, apresenta como um dos objetivos da política de assistência estudantil a redução da evasão; o programa de gestão da chapa eleita para reitoria no período de 2015 a 2019\cite{henry} apresenta um conjunto de propostas que possuem como um dos objetivos a redução dos índices de evasão; o planejamento estratégico do Centro de Tecnologia da UFC para o período de 2015 a 2025 propõe a criação de uma equipe de apoio pedagógico para atuar no combate a problemas relacionados à evasão de discentes.
 
-
 % Soluções
 
-Em \cite{evasao_panorama2} são apresentadas sete ações que ajudam a diminuir a ocorrência de evasão de discentes:
+Para alcançar o objetivo de reduzir a evasão de discentes, \cite{evasao_panorama2} propõe um conjunto de sete ações:
 
 \begin{enumerate}
 
 \item Estabelecer um grupo de trabalho encarregado de reduzir a evasão
 \item Avaliar as estatísticas da evasão
 \item Determinar as causas da evasão
-\item Estimular a visão da IES centrada no aluno
-\item Criar condições que atendam aos objetivos que atraíram os alunos
-\item Tornar o ambiente e o trânsito na IES agradáveis aos alunos
-\item Criar programa de aconselhamento e orientação dos aluno
+\item Estimular a visão da IES centrada no discente
+\item Criar condições que atendam aos objetivos que atraíram os discentes
+\item Tornar o ambiente e o trânsito na IES agradáveis aos discentes
+\item Criar programa de aconselhamento e orientação dos discentes
 
 \end{enumerate}
 
-Estas ações podem ser beneficiadas pela utilização de ferramentas de Aprendizado de Máquina, subárea de Inteligência Artificial, que estuda o desenvolvimento de programas cujas performances melhorem a partir de dados. 
+Para o desenvolvimento de ações de aconselhamento e orientação dos discentes, faz-se necessário identificar aqueles discentes que delas poderão se beneficiar: discentes com tendência de abandonarem a graduação ou de serem jubilados. Uma das formas de identificá-los é através da observação e avaliação de outros atores do processo, como os professores e a coordenação do curso. Essa forma é limitada pelo conjunto de dados acessíveis ao observador, como é o caso, por exemplo, da quantidade limitada, em relação ao total, de discentes aos quais um professor tem acesso; e pela capacidade limitada de processamento de informações que um observador humano tem. A utilização de processamento computacional permite superar essas limitações ao permitir a análise de grandes quantidades de dados.
 
-% argumentar que é um problema complexo
-% tese de Tinto de que normalmente é a combinação de pequenas causas
+A área Aprendizado de Máquina estuda o desenvolvimento de algoritmos e técnicas que permitam que um programa melhore sua performance a partir do uso de dados. Aplicações dessa área englobam sistemas de identificação de spams, de reconhecimento de voz, de reconhecimento de caracteres, de diagnóstico médico, dentre outros. 
 
-% Predição
-Para diminuir as taxas de evasão, uma das estratégias adotadas é a identificação precoce de discentes com grande tendência para abandonarem seus cursos e a execução de ações que minimizem tal tendência. A identificação pode ser conduzida por observação do comportamento e resultados dos discentes, de forma subjetiva, pelos docentes e coordenadores de cursos, por exemplo. Em estudo realizado no departamento de engenharia elétrica da Eindhoven University of Technology\cite{Predicting_Students}, é relatado que em dezembro os discentes desse departamente recebem um aviso informando se são ou não aconselhados a continuarem no curso. Esse aviso é baseado na performance do discente no curso e em informações obtidas de professores do primeiro semestre e de discentes monitores. É relatado que o aviso parece ter bastante acurácia: geralmente discentes aconselhados a continuarem têm sucesso no próximo ano do curso, enquanto aqueles desaconselhados geralmente não continuam no curso.
-Dois problemas decorrem dessa forma de identificação: sendo conduzida por pessoas, essa forma de identificação é limitada pelo conjunto de observações as quais o observador tem acesso; sendo subjetiva, seus resultados podem sofrer resistência para serem aceitos. A utilização de técnicas de aprendizado de máquina como forma de identificação pode contornar esses problemas, por, primeiro, fazer uso de dados registrados por sistemas de informação, provavelmente contendo informações mais amplas que as que uma pessoa pode observar; segundo, por fazer maior uso de dados registrados, sendo aceita mais facilmente como identificação objetiva. Nesse estudo foram utilizados diversos algoritmos de aprendizado de máquina com o objetivo de tentar detectar que um estudante irá abandonar seu curso. Foram utilizadas informações de discente referentes tanto ao período anterior ao seu ingresso na universidade, quanto ao posterior.
+ 
+
+\todo[inline]{falar de aprendizado de máquina}
 
 
 % Objetivo
 
-O presente trabalho objetiva avaliar a aplicabilidade de técnicas de aprendizado de máquina ao problema de evasão de discentes na UFC.
+O presente trabalho objetiva avaliar a aplicabilidade de técnicas de Aprendizado de Máquina ao problema de evasão de discentes da UFC.

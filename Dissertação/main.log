@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.26)  22 SEP 2015 06:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.26)  22 SEP 2015 22:50
 entering extended mode
 **main.tex
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.tex
@@ -1548,30 +1548,26 @@ l.16
 
 ] [3] [4
 
-] [5
-
-] [6
-
-] [7] [8
+] [5] [6
 
 ]
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\abstract.tex)
-[9] [10
+[7] [8
 
 ]
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.lof)
-[11] [12
+[9] [10
 
 ]
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.lot)
-[13] [14
+[11] [12
 
 ]
 No file main.nls.
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.toc)
-[15
+[13
 
-] [16
+] [14
 
 ])
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\todo
@@ -1579,12 +1575,12 @@ No file main.nls.
 
 Underfull \vbox (badness 3895) has occurred while \output is active []
 
- [17
+ [15
 
 
 ])
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\intr
-oducao.tex [18]
+oducao.tex [16]
 Overfull \hbox (12.55873pt too wide) in paragraph at lines 6--7
 []\T1/lmr/m/n/12 O fenô-meno eva-são de dis-cente con-siste na in-ter-rup-ção d
 e um pro-cesso de apren-di-zado
@@ -1671,28 +1667,22 @@ Overfull \hbox (1.07773pt too wide) in paragraph at lines 18--19
  []
 
 
-Overfull \hbox (20.50029pt too wide) in paragraph at lines 23--24
+Overfull \hbox (20.50029pt too wide) in paragraph at lines 24--25
 []\T1/lmr/m/n/12 Na UFC, o ins-tru-mento de pla-ne-ja-mento Plano de De-sen-vol
 -vi-mento Ins-ti-tu-ci-o-nal([][]UFC[][],
  []
 
 
-Overfull \hbox (4.35999pt too wide) in paragraph at lines 23--24
+Overfull \hbox (4.35999pt too wide) in paragraph at lines 24--25
 \T1/lmr/m/n/12 cri-a-ção de uma equipe de apoio pe-da-gó-gico para atuar no com
 -bate a pro-ble-mas re-la-ci-o-na-dos
  []
 
-[19
+[17
 
-]
-Overfull \hbox (15.78186pt too wide) in paragraph at lines 48--50
-\T1/lmr/m/n/12 com-por-ta-mento e re-sul-ta-dos dos dis-cen-tes, de forma sub-j
-e-tiva, pe-los do-cen-tes e co-or-de-na-do-res
- []
-
-)
+])
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\apre
-ndizado.tex [20]
+ndizado.tex [18]
 Overfull \hbox (10.37416pt too wide) in paragraph at lines 17--18
 []\T1/lmr/m/n/12 Para exem-pli-fi-car a mo-de-la-gem de um pro-grama com uma ab
 or-da-gem de apren-di-zado
@@ -1764,7 +1754,7 @@ Overfull \hbox (5.70396pt too wide) in paragraph at lines 26--27
 -ção for-ne-cida pela ex-pe-ri-ên-cia
  []
 
-[21
+[19
 
 ]
 Overfull \hbox (4.42624pt too wide) in paragraph at lines 30--31
@@ -1790,7 +1780,7 @@ Overfull \hbox (0.90283pt too wide) in paragraph at lines 37--37
 -mento in-flu-en-cia no re-sul-tado
  []
 
-[22]
+[20]
 Overfull \hbox (19.6018pt too wide) in paragraph at lines 49--50
 []\T1/lmr/m/n/12 Os co-e-fi-ci-en-tes $\OML/lmm/m/it/12 w[]$ \T1/lmr/m/n/12 a $
 \OML/lmm/m/it/12 w[]$ \T1/lmr/m/n/12 são pa-râ-me-tros do pro-grama, a se-rem a
@@ -1809,15 +1799,15 @@ Overfull \hbox (2.07372pt too wide) in paragraph at lines 86--86
 ndo trei-nada, sob cer-tas con-di-ções,
  []
 
-[23]
+[21]
 Overfull \hbox (5.89818pt too wide) in paragraph at lines 99--100
 []\T1/lmr/m/n/12 Nessa sequên-cia de pas-sos po-dem ser iden-ti-fi-ca-dos qua-t
 ro ele-men-tos de um pro-grama
  []
 
-[24]
+[22]
 
-LaTeX Warning: Citation `Mitchell_discipline' on page 25 undefined on input lin
+LaTeX Warning: Citation `Mitchell_discipline' on page 23 undefined on input lin
 e 119.
 
 )
@@ -1828,7 +1818,7 @@ Overfull \hbox (17.7855pt too wide) in paragraph at lines 119--1
 -mento de voz; a vi-são com-pu-ta-ci-o-nal,
  []
 
-[25] [26
+[23] [24
 
 ]
 Overfull \hbox (12.55873pt too wide) in paragraph at lines 5--6
@@ -1844,14 +1834,14 @@ LaTeX Warning: Command \textordmasculine invalid in math mode on input line 29.
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 29.
 
 
-[27]
+[25]
 Overfull \hbox (2.07352pt too wide) in paragraph at lines 32--33
 \T1/lmr/m/n/12 dis-cen-tes que o es-pe-rado, con-sequên-cia, por exem-plo, de d
 is-cen-tes atra-sa-dos ou de dis-cen-tes
  []
 
 
-LaTeX Warning: Citation `anuario_estatistico' on page 28 undefined on input lin
+LaTeX Warning: Citation `anuario_estatistico' on page 26 undefined on input lin
 e 34.
 
 
@@ -1860,7 +1850,7 @@ Overfull \hbox (16.3106pt too wide) in paragraph at lines 72--74
 -ções e res-pec-ti-vos sig-ni-fi-ca-dos: 
  []
 
-[28]
+[26]
 Overfull \hbox (3.8449pt too wide) in paragraph at lines 86--87
 []\T1/lmr/m/n/12 Fazendo as de-vi-das ma-ni-pu-la-ções nas equa-ções, che-ga-mo
 s na equa-ção de quan-ti-dade
@@ -2098,9 +2088,9 @@ Overfull \hbox (7.47168pt too wide) in paragraph at lines 118--119
 n-sino, caso te-nha re-a-li-zado in-ves-ti-men-tos
  []
 
-[29]
+[27]
 
-LaTeX Warning: Marginpar on page 30 moved by 111.03317pt.
+LaTeX Warning: Marginpar on page 28 moved by 111.03317pt.
 
 
 Package hyperref Warning: Suppressing empty link on input line 120.
@@ -2165,7 +2155,7 @@ Overfull \hbox (19.23608pt too wide) in paragraph at lines 131--131
 \T1/lmr/m/n/12 econô-mico 
  []
 
-[30]
+[28]
 Overfull \hbox (13.75668pt too wide) in paragraph at lines 208--209
 []\T1/lmr/m/n/12 Em ([][]DEK-KER; PE-CHE-NIZ-KIY; VLE-ESHOUWERS[][], [][]2009[]
 []) são apli-ca-dos al-go-rit-mos
@@ -2189,7 +2179,7 @@ Overfull \hbox (41.43466pt too wide) in paragraph at lines 208--209
 o do que ofe-re-cer, des-ne-ces-sa-ri-a-mente,
  []
 
-[31]
+[29]
 
 Package hyperref Warning: Suppressing empty link on input line 212.
 
@@ -2198,8 +2188,8 @@ Package hyperref Warning: Suppressing empty link on input line 212.
 do.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33] [34
+ [30]
+[31] [32
 
 ]
 Overfull \hbox (12.10811pt too wide) in paragraph at lines 9--10
@@ -2319,7 +2309,7 @@ Overfull \hbox (2.82776pt too wide) in paragraph at lines 28--29
  com-posto por uma sequên-cia
  []
 
-[35]
+[33]
 Overfull \hbox (15.87651pt too wide) in paragraph at lines 44--45
 []\T1/lmr/m/n/12 Especializar(ou ins-tan-ciar) ele-men-tos ge-né-ri-cos do mo-d
 elo de acordo com ca-rac-te-rís-ti-cas
@@ -2331,15 +2321,15 @@ Overfull \hbox (0.79953pt too wide) in paragraph at lines 46--47
  fim de tor-nar mais ex-plí-cito
  []
 
-<img/CRISP-DM-main.png, id=478, 502.5174pt x 39.5076pt>
+<img/CRISP-DM-main.png, id=464, 502.5174pt x 39.5076pt>
 File: img/CRISP-DM-main.png Graphic file (type png)
 
 <use img/CRISP-DM-main.png>
 Package pdftex.def Info: img/CRISP-DM-main.png used on input line 51.
 (pdftex.def)             Requested size: 402.01445pt x 31.60611pt.
- [36 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP
--DM-main.png>] [37]
-<img/CRISP-DM-Analise-de-negocio.png, id=499, 538.6524pt x 348.3414pt>
+ [34 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP
+-DM-main.png>] [35]
+<img/CRISP-DM-Analise-de-negocio.png, id=486, 538.6524pt x 348.3414pt>
 File: img/CRISP-DM-Analise-de-negocio.png Graphic file (type png)
 
 <use img/CRISP-DM-Analise-de-negocio.png>
@@ -2406,7 +2396,7 @@ Overfull \hbox (37.3495pt too wide) in paragraph at lines 103--103
 \T1/lmr/m/n/12 Back-ground...  
  []
 
-[38 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+[36 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
 DM-Analise-de-negocio.png>]
 Overfull \hbox (5.21364pt too wide) in paragraph at lines 121--122
 []\T1/lmr/m/n/12 Registra os re-cur-sos dis-po-ní-veis para o pro-jeto, como re
@@ -2425,13 +2415,13 @@ Overfull \hbox (2.53212pt too wide) in paragraph at lines 141--142
 i-ne-ra-ção de Da-dos os ob-je-ti-vos
  []
 
-[39]
+[37]
 Overfull \hbox (9.97961pt too wide) in paragraph at lines 157--159
 []\T1/lmr/m/n/12 Registra as ati-vi-da-des a se-rem de-sen-vol-vi-das, in-cluin
 do du-ra-ção, re-cur-sos ne-ces-sá-rios,
  []
 
-[40] <img/CRISP-DM-Analise-dos-dados.png, id=531, 502.9992pt x 352.1958pt>
+[38] <img/CRISP-DM-Analise-dos-dados.png, id=518, 502.9992pt x 352.1958pt>
 File: img/CRISP-DM-Analise-dos-dados.png Graphic file (type png)
 
 <use img/CRISP-DM-Analise-dos-dados.png>
@@ -2484,9 +2474,9 @@ Overfull \hbox (29.74619pt too wide) in paragraph at lines 196--196
 \T1/lmr/m/n/12 te-ch-ni-ques...  
  []
 
-[41 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
-DM-Analise-dos-dados.png>] [42]
-<img/CRISP-DM-Preparacao-dos-dados.png, id=551, 502.9992pt x 482.7636pt>
+[39 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+DM-Analise-dos-dados.png>] [40]
+<img/CRISP-DM-Preparacao-dos-dados.png, id=537, 502.9992pt x 482.7636pt>
 File: img/CRISP-DM-Preparacao-dos-dados.png Graphic file (type png)
 
 <use img/CRISP-DM-Preparacao-dos-dados.png>
@@ -2505,7 +2495,7 @@ Overfull \hbox (3.64702pt too wide) in paragraph at lines 238--239
 e-a-li-za-das na ta-refa Se-le-ci-o-nar
  []
 
-[43 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+[41 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
 DM-Preparacao-dos-dados.png>]
 
 LaTeX Warning: Command \' invalid in math mode on input line 254.
@@ -2576,7 +2566,7 @@ Overfull \hbox (9.51994pt too wide) in paragraph at lines 266--267
 ndo quais fon-tes fo-ram uti-li-za-das
  []
 
-[44] [45] <img/CRISP-DM-Modelagem.png, id=579, 502.9992pt x 352.1958pt>
+[42] [43] <img/CRISP-DM-Modelagem.png, id=566, 502.9992pt x 352.1958pt>
 File: img/CRISP-DM-Modelagem.png Graphic file (type png)
 
 <use img/CRISP-DM-Modelagem.png>
@@ -2594,14 +2584,14 @@ Overfull \hbox (1.75513pt too wide) in paragraph at lines 309--310
 mo-delo a ser de-sen-vol-vido. 
  []
 
-[46 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+[44 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
 DM-Modelagem.png>]
 Overfull \hbox (7.04344pt too wide) in paragraph at lines 317--317
 []\T1/lmr/m/n/12 Registra os pa-râ-me-tros uti-li-za-dos pe-los mo-de-los de-se
 n-vol-vi-dos, bem como os mo-ti-vos
  []
 
-[47] <img/CRISP-DM-Avaliacao.png, id=603, 502.9992pt x 280.4076pt>
+[45] <img/CRISP-DM-Avaliacao.png, id=589, 502.9992pt x 280.4076pt>
 File: img/CRISP-DM-Avaliacao.png Graphic file (type png)
 
 <use img/CRISP-DM-Avaliacao.png>
@@ -2625,9 +2615,9 @@ Overfull \hbox (30.32813pt too wide) in paragraph at lines 375--376
 a im-plan-ta-ção dos mo-de-los de-sen-vol-vi-dos,
  []
 
-[48 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
-DM-Avaliacao.png>] [49]
-<img/CRISP-DM-Implantacao.png, id=622, 515.0442pt x 353.1594pt>
+[46 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+DM-Avaliacao.png>] [47]
+<img/CRISP-DM-Implantacao.png, id=609, 515.0442pt x 353.1594pt>
 File: img/CRISP-DM-Implantacao.png Graphic file (type png)
 
 <use img/CRISP-DM-Implantacao.png>
@@ -2639,10 +2629,10 @@ Overfull \hbox (22.24646pt too wide) in paragraph at lines 409--410
 an-ta-dos e evi-tar, atra-vés de mo-ni-to-ra-mento
  []
 
-[50 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
+[48 <C:/Users/abevieira/Documents/GitHub/mestrado-core/DissertaÃ§Ã£o/img/CRISP-
 DM-Implantacao.png>])
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\part
-ida.tex [51] [52
+ida.tex [49] [50
 
 ]
 Overfull \hbox (10.09766pt too wide) in paragraph at lines 16--16
@@ -2880,7 +2870,7 @@ Overfull \hbox (6.9698pt too wide) in paragraph at lines 45--46
 s de cada se-mes-tre, dis-tri-bui-ção
  []
 
-[53]
+[51]
 Overfull \hbox (4.42067pt too wide) in paragraph at lines 79--80
 []\T1/lmr/m/n/12 Modelo de pre-di-ção de eva-são por um dis-cente no pri-meiro 
 ano a par-tir de in-for-ma-ções
@@ -2908,15 +2898,15 @@ Overfull \hbox (7.48643pt too wide) in paragraph at lines 81--81
 
 )
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\resu
-ltados.tex [54])
+ltados.tex [52])
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\capitulos\conc
-lusao.tex [55
+lusao.tex [53
 
-] [56
+] [54
 
 ])
 (C:\Users\abevieira\Documents\GitHub\mestrado-core\DissertaÃ§Ã£o\main.bbl
-[57] [58
+[55] [56
 
 ]
 
@@ -2924,9 +2914,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[59]) 
+[57]) 
 AED: lastpage setting LastPage
-[60]
+[58]
 \tf@lof=\write6
 \tf@lot=\write7
 \tf@toc=\write8
@@ -2948,10 +2938,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
- 25168 strings out of 493921
- 442424 string characters out of 3144864
- 544993 words of memory out of 3000000
- 27592 multiletter control sequences out of 15000+200000
+ 25162 strings out of 493921
+ 442369 string characters out of 3144864
+ 544994 words of memory out of 3000000
+ 27591 multiletter control sequences out of 15000+200000
  64917 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,13n,96p,1677b,1034s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2975,9 +2965,9 @@ ype1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (62 pages, 1031276 bytes).
+Output written on main.pdf (60 pages, 1028660 bytes).
 PDF statistics:
- 932 PDF objects out of 1000 (max. 8388607)
- 306 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 301 named destinations out of 1000 (max. 500000)
+ 297 words of extra memory for PDF output out of 10000 (max. 10000000)
 
